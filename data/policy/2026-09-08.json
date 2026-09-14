@@ -1,0 +1,2284 @@
+{
+  "asOf": "2026-09-08",
+  "stalenessDays": 90,
+  "roundingUnit": 1,
+  "_doc": "모든 값의 근거는 docs/superpowers/specs/2026-09-08-ruleset-values.md 에 조문 번호·공포일·시행일과 함께 있다. verifiability: auto=fetch로 수치 추출됨 / manual=1차 자료는 있으나 사람이 확인 / guidance=법령·고시에 조문 없고 행정지도 소관 / estimate=대표값",
+  "regions": {
+    "성남시 분당구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "adjustmentTargetAreaSource": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?lcmspage=1&id=95092167 (국토교통부 보도참고자료 2026-06-30, 참고2 규제지역 현황표에 \"성남분당(25.10.16)\" 명시)",
+      "adjustmentTargetAreaNote": "**양도세 1세대1주택 비과세의 거주 2년 요건이 붙는 근거다**(소득세법 시행령 제154조①). 2026-07-01 이후 2026-09-08 까지 국토부 보도자료(주택토지 174건)·참고해명자료(108건) 제목 전수 확인 결과 해제·변경 발표가 없어 현재 유효로 판단한다.",
+      "adjustmentTargetAreaVerifiability": "manual"
+    },
+    "용인시 수지구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual"
+    },
+    "성남시 중원구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual"
+    },
+    "수원시 영통구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual"
+    },
+    "수원시 권선구": {
+      "designation": [],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "note": "비규제이나 수도권. LTV 70%로 유리하지만 여신한도 6억·DTI 60%·스트레스금리 3.0%는 걸린다. 2026-01 루머 명단에 있었고 같은 명단의 기흥이 2026-07-01 실제 지정됐으므로 지정 리스크가 살아 있다.",
+      "source": "국토교통부 공고 제2026-882호 (미포함) / 은행업감독규정 별표6",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual"
+    },
+    "경기 광주시": {
+      "designation": [],
+      "isMetro": true,
+      "priorityRepaymentTier": "metropolitanEtc",
+      "note": "비규제. 경강선으로 수내역 18분이나 5년 -14.5%(부동산원 지수), 읍면동 전수 하락. 통근 편한데 떨어지는 곳의 실례.",
+      "source": "국토교통부 공고 제2026-882호 (미포함)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual"
+    },
+    "성남시 수정구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf",
+      "sourceName": "국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" (2026-06-30, 주택정책과)",
+      "verifiedAt": "2026-09-14",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "note": "참고2 표를 직접 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳의 투기과열지구·조정대상지역 양쪽에 \"성남수정\"이 있고 지정일이 ('25.10.16) 으로 표기된다. \"추가지정 후(7월 1일 이후)\" 경기 15곳 표에도 성남수정이 그대로 남고 화성동탄·용인기흥·구리 3곳만 굵게 추가된다. 분당구·중원구와 같은 표의 같은 행이다. 과밀억제권역 구분은 성남시 단위라 분당구·중원구와 같은 tier 를 쓴다.",
+      "openIssue": "성남시가 2025-10-16 통계 산정기간을 근거로 수정구·중원구 해제를 국토교통부에 요청했다는 언론 보도가 있으나 국토교통부의 회신 문서를 찾지 못했다. 위 2026-06-30 국토부 1차 자료에서는 두 구 모두 지정 상태이므로 그 시점까지 반영되지 않았다. 2026-07-01 이후 해제 발표는 확인되지 않았다.",
+      "sourceNote": "첨부 PDF 직링크다. **이 URL 로 실제로 내려받아 5쪽 참고2 표를 읽었다.** 게시판 페이지 경로(USR/NEWS/m_71 인지 m_72 인지)는 확인하지 못했다 — 두 경로 모두 307 로 응답하고 본문을 주지 않는다. 분당구 항목은 같은 id 를 m_72 로 인용하고 있는데 어느 쪽이 맞는지 미확인이므로 게시판 경로 대신 검증된 파일 URL 을 정본으로 둔다."
+    }
+  },
+  "priorityRepayment": {
+    "_doc": "최우선변제 소액임차보증금(방공제). 좌측 자격범위와 우측 변제금액을 혼동하면 안 된다. 방공제에 쓰는 값은 amount.",
+    "source": "주택임대차보호법 제8조③·제8조의2, 시행령 제10조·제11조 (대통령령 제33254호, 2023-02-21)",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "manual",
+    "tiers": {
+      "seoul": {
+        "eligibilityCap": 165000000,
+        "amount": 55000000
+      },
+      "overconcentration": {
+        "eligibilityCap": 145000000,
+        "amount": 48000000
+      },
+      "metropolitanEtc": {
+        "eligibilityCap": 85000000,
+        "amount": 28000000
+      },
+      "other": {
+        "eligibilityCap": 75000000,
+        "amount": 25000000
+      }
+    },
+    "exemption": {
+      "_doc": "면제 통로는 HF 구입자금보증이다. 2024-12-02부터 수도권 아파트는 HF 보증 가입이 제한되어 방공제 의무 적용. 단 신생아 특례는 맞춤형 관리방안 미적용 상품이라 이 제한에서 빠진다.",
+      "firstTimePriceCap": 600000000,
+      "generalPriceCap": 300000000,
+      "blockedWhenMetroApartment": true,
+      "source": "주택도시기금 2024-11-06 공지 + FAQ / hf.go.kr/ko/sub02/sub02_02_06.do",
+      "verifiability": "manual"
+    }
+  },
+  "dsr": {
+    "cap": 0.4,
+    "thresholdTotalDebt": 100000000,
+    "_doc": "총대출액 1억원 초과 차주에게 가계대출 취급 시 DSR 40% 이내. 한도대출은 한도금액 기준.",
+    "source": "은행업감독규정 별표6 제4장 제4호 가목",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "manual"
+  },
+  "stressDsr": {
+    "floorRateAdd": 0.03,
+    "appliesTo": [
+      "metro",
+      "regulated"
+    ],
+    "_doc": "차주별 대출금리에 가산되는 스트레스 금리. 하한 1.5% → 수도권·규제지역 주담대에 한해 3.0%. 실제 대출금리에는 미반영, DSR 산정용. 지방만 제외되므로 수도권 비규제(광주·이천·수원 권선)도 3.0%가 걸린다.",
+    "source": "금융위 2025-10-15 「주택시장 안정화 대책」 FAQ 4-1. 법령·고시에 조문 없음",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "guidance",
+    "applicationRatio": {
+      "_doc": "스트레스 금리를 **전액 가산하는 것은 변동형뿐**이다. 금리 유형별로 적용비율이 다르고, 이 차이가 대출 한도를 20% 이상 바꾼다.",
+      "variable": 1,
+      "mixed": {
+        "min": 0.4,
+        "max": 1
+      },
+      "periodic": {
+        "min": 0.2,
+        "max": 0.4
+      },
+      "conservativeChoice": "max",
+      "note": "혼합형·주기형은 범위로 규정돼 있어 단일값이 없다. 은행별·상품별로 다르므로 보수적으로 상단을 쓰고, 사용자가 실제 적용비율을 알면 직접 넣게 한다.",
+      "verifiability": "guidance",
+      "verifiedAt": "2026-09-08",
+      "source": "금융위원회 가계부채 관리방안 (스트레스 DSR 3단계)"
+    }
+  },
+  "dti": {
+    "byDesignation": {
+      "투기지역": 0.4,
+      "투기과열지구": 0.4,
+      "조정대상지역": 0.5,
+      "수도권비규제": 0.6
+    },
+    "firstTimeOrRealDemand": 0.6,
+    "_doc": "해당 지역 소재 아파트 담보대출에 적용. 이중해당(투기과열+조정대상) 시 조문에 우선순위 규정이 없어 엄격한 쪽(40%)을 적용한다 — 해석이며 조문 근거 없음.",
+    "source": "은행업감독규정 별표6 제3장 제3호 가목·다목1",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "manual"
+  },
+  "bankLtv": {
+    "regulated": {
+      "notice": 0.5,
+      "effective": 0.4
+    },
+    "nonRegulated": 0.7,
+    "firstTimeMetroOrRegulated": 0.7,
+    "firstTimeOther": 0.8,
+    "_doc": "별표6은 '70%(규제지역 50%) 이내'라는 상한 규정이므로 감독원장 행정지도 40%는 위반이 아니다(제29조의2② ±10%p). 계산에는 effective 를 쓰고 notice 를 함께 표시한다.",
+    "source": "은행업감독규정 별표6 제2호 가목·바목 / 금융위 2025-10-15 행정지도 / FSC 87517 FAQ",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "guidance"
+  },
+  "creditLimitTiers": {
+    "_doc": "여신한도 차등화. 주택 시가 기준. 수도권·규제지역에 적용. 행정지도로 먼저 시행되고 감독규정 개정은 후속이라 별표6 전문 검색에서는 찾을 수 없다.",
+    "tiers": [
+      {
+        "priceUpTo": 1500000000,
+        "cap": 600000000
+      },
+      {
+        "priceUpTo": 2500000000,
+        "cap": 400000000
+      },
+      {
+        "priceUpTo": null,
+        "cap": 200000000
+      }
+    ],
+    "source": "금융위 2025-10-15 (조치사항 '행정지도 → 감독규정 개정', 시행 10.16)",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "guidance"
+  },
+  "dsrConversion": {
+    "_doc": "시행세칙 별표18 표3 (개정 2024-03-07). 원금 산정 방식. 마이너스통장은 주1)에 따라 한도금액 전액을 대출총액으로 본다.",
+    "mortgage": {
+      "mode": "actual"
+    },
+    "mortgageLumpSum": {
+      "amortizeYears": 10
+    },
+    "credit": {
+      "amortizeYears": 5,
+      "amortizingMin": 5,
+      "amortizingMax": 10
+    },
+    "negativeAccount": {
+      "useLimitNotBalance": true,
+      "amortizeYears": 5
+    },
+    "jeonseLoan": {
+      "excluded": true
+    },
+    "jeonseDepositCollateral": {
+      "amortizeYears": 4
+    },
+    "nonHousingCollateral": {
+      "amortizeYears": 8
+    },
+    "otherCollateral": {
+      "amortizeYears": 10
+    },
+    "studentLoan": {
+      "mode": "actual"
+    },
+    "auto": {
+      "mode": "actual"
+    },
+    "other": {
+      "mode": "actual"
+    },
+    "maxMaturityYears": 40,
+    "gracePeriodBranchNote": "<표3> '원금 일부 분할상환(거치기간 있음)' 행은 원금 = 실제상환액 + 만기상환액/(대출기간-거치기간) 으로 별도 산정하도록 규정하나, ExistingLoan 타입(src/domain/types.ts)에 거치기간·만기상환액 필드가 없어 이 분기를 구현할 수 없다. src/domain/dsr.ts 의 'actual' 모드는 잔여기간 전체를 균등분할상환으로 근사한다 — 거치기간 중인 대출을 입력하면 원금이 과대 산정될 수 있다.",
+    "source": "은행업감독업무시행세칙 별표18 <표3>",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "manual"
+  },
+  "products": {
+    "didimdol_firstTime": {
+      "label": "디딤돌 생애최초 (부양세대원 있음)",
+      "kind": "policy",
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "auto",
+      "eligibility": {
+        "incomeCap": 70000000,
+        "incomeBasis": "household",
+        "appraisedValueCap": 500000000,
+        "areaSqmCap": 85,
+        "netWorthCap": 511000000,
+        "requiresNoHouseHouseholder": true,
+        "requiresFirstTime": true,
+        "requiresDependentCohabitation": true,
+        "note": "만 30세 이상 미혼 단독세대주는 별도 제한(didimdol_firstTime_sole). 직계존속 또는 미성년 형제·자매 1인과 합가 부양기간 6개월 이상이면 이 일반 규정이 적용된다."
+      },
+      "productCap": 240000000,
+      "ltvMetroOrRegulated": 0.7,
+      "ltvOther": 0.8,
+      "dti": 0.6,
+      "rate": {
+        "min": 0.0285,
+        "max": 0.0415
+      },
+      "termYearsOptions": [
+        10,
+        15,
+        20,
+        30
+      ],
+      "residencyMonths": 24,
+      "moveInDeadlineMonths": 1
+    },
+    "didimdol_firstTime_sole": {
+      "label": "디딤돌 생애최초 (만30세↑ 미혼 단독세대주)",
+      "kind": "policy",
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp 「대상주택」절 ※ 단서",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "auto",
+      "eligibility": {
+        "incomeCap": 70000000,
+        "incomeBasis": "individual",
+        "appraisedValueCap": 300000000,
+        "areaSqmCap": 60,
+        "netWorthCap": 511000000,
+        "requiresNoHouseHouseholder": true,
+        "requiresFirstTime": true,
+        "note": "부양기간 6개월 미만인 진짜 단독세대주. 면적·평가액·한도가 모두 축소된다. 만 30세 미만 단독세대주는 대출 제외."
+      },
+      "productCap": 200000000,
+      "ltvMetroOrRegulated": 0.7,
+      "ltvOther": 0.8,
+      "dti": 0.6,
+      "rate": {
+        "min": 0.0285,
+        "max": 0.0415
+      },
+      "termYearsOptions": [
+        10,
+        15,
+        20,
+        30
+      ],
+      "residencyMonths": 24,
+      "moveInDeadlineMonths": 1
+    },
+    "bogeumjari_firstTime": {
+      "label": "생애최초 보금자리론",
+      "kind": "policy",
+      "source": "https://www.hf.go.kr/ko/sub01/sub01_01_02.do / 금리 sub01_01_04.do",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "manual",
+      "eligibility": {
+        "incomeCap": 70000000,
+        "incomeBasis": "coupleOrSelfIfUnmarried",
+        "appraisedValueCap": 900000000,
+        "areaSqmCap": null,
+        "requiresNoHouseHouseholder": false,
+        "requiresFirstTime": true,
+        "note": "세대주 요건이 문서 전체에 없다. 단독세대주 제한도 없다. 소득은 '부부(미혼인 경우 본인) 기준'이라 미혼 단독 심사가 가능하다."
+      },
+      "productCap": 420000000,
+      "ltvMetroOrRegulated": 0.7,
+      "ltvOther": 0.8,
+      "dti": 0.6,
+      "rate": {
+        "min": 0.05,
+        "max": 0.052,
+        "fixed": true
+      },
+      "termYearsOptions": [
+        10,
+        15,
+        20,
+        30,
+        40
+      ],
+      "residencyMonths": 0,
+      "moveInDeadlineMonths": 0
+    },
+    "newborn_special": {
+      "label": "신생아 특례 디딤돌",
+      "kind": "policy",
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "auto",
+      "eligibility": {
+        "incomeCap": 130000000,
+        "incomeCapDualEarner": 200000000,
+        "incomeBasis": "household",
+        "appraisedValueCap": 900000000,
+        "areaSqmCap": 85,
+        "netWorthCap": 511000000,
+        "requiresNoHouseHouseholder": true,
+        "requiresChildWithinYears": 2,
+        "note": "대출접수일 기준 2년 내 출산(입양). 2023-01-01 이후 출생아부터. 임신 중인 태아는 미포함. 혼인신고 여부와 무관하게 신청 가능. 단독세대주 제한 없음."
+      },
+      "productCap": 400000000,
+      "ltvMetroOrRegulated": 0.7,
+      "ltvOther": 0.8,
+      "dti": 0.6,
+      "rate": {
+        "min": 0.018,
+        "max": 0.045
+      },
+      "termYearsOptions": [
+        10,
+        15,
+        20,
+        30
+      ],
+      "residencyMonths": 24,
+      "moveInDeadlineMonths": 1,
+      "priorityRepaymentExempt": true,
+      "fundingAvailability": "conditional"
+    },
+    "bank_firstTime": {
+      "label": "시중은행 생애최초 주담대",
+      "kind": "bank",
+      "source": "은행업감독규정 별표6 제2호 바목(2) / FSC 87517 FAQ",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "guidance",
+      "eligibility": {
+        "requiresFirstTime": true,
+        "note": "생애최초주택구매자 = 세대 구성원 모두가 과거 주택 소유 사실 없음(별표6 로목). 지방세특례제한법의 '본인 및 배우자'보다 넓다. 규제지역에서 전입의무 6개월."
+      },
+      "productCap": null,
+      "absoluteCap": 600000000,
+      "absoluteCapNote": "생애최초 LTV 80% 적용 시 대출금액 6억 초과 불가 (별표6 제2호 바목(2) 단서). 이것이 6억의 유일한 조문 근거다.",
+      "ltvMetroOrRegulated": 0.7,
+      "ltvOther": 0.8,
+      "dti": 0.6,
+      "rate": {
+        "min": 0.04,
+        "max": 0.055
+      },
+      "termYearsOptions": [
+        30,
+        40
+      ],
+      "moveInDeadlineMonths": 6
+    },
+    "bank_general": {
+      "label": "시중은행 일반 주담대",
+      "kind": "bank",
+      "source": "은행업감독규정 별표6 제2호 가목 / 금융위 2025-10-15 행정지도",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "guidance",
+      "eligibility": {
+        "note": "무주택(처분조건부 1주택 포함). 유주택 추가구입은 규제지역 30%."
+      },
+      "productCap": null,
+      "ltvRegulatedEffective": 0.4,
+      "ltvRegulatedNotice": 0.5,
+      "ltvOther": 0.7,
+      "dti": null,
+      "rate": {
+        "min": 0.04,
+        "max": 0.055
+      },
+      "termYearsOptions": [
+        30,
+        40
+      ]
+    }
+  },
+  "tax": {
+    "acquisition": {
+      "_doc": "주택 유상취득. 누진공제가 없다 — 과세표준 전액에 구간 세율을 곱한다. 6~9억은 조문의 보간식.",
+      "source": "지방세법 제11조①8호 (공포 2025-12-31, 시행 2026-01-01)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "auto",
+      "brackets": [
+        {
+          "upTo": 600000000,
+          "rate": 0.01,
+          "upToInclusive": true
+        },
+        {
+          "upTo": 900000000,
+          "formula": "interpolated",
+          "upToInclusive": true
+        },
+        {
+          "upTo": null,
+          "rate": 0.03,
+          "upToInclusive": true
+        }
+      ],
+      "_upToInclusiveDoc": "지방세법 제11조①8호: '6억원 이하'·'9억원 이하'·'9억원 초과' — 두 유한 경계 모두 이하(포함)이다.",
+      "interpolation": {
+        "_formula": "rate = round((amount / 300000000 * 2 - 3) / 100, 4)",
+        "divisor": 300000000,
+        "multiplier": 2,
+        "offset": 3,
+        "decimals": 4
+      },
+      "localEducationRatioOfAcquisition": 0.1,
+      "localEducationFollowsRelief": true,
+      "ruralSpecialRate": 0.002,
+      "ruralSpecialAreaThreshold": 85,
+      "firstTimeRelief": {
+        "capApartment": 2000000,
+        "capSmallNonApartment": 3000000,
+        "pricecap": 1200000000,
+        "sunsetDate": "2028-12-31",
+        "clawbackYears": 3,
+        "clawbackExcludesSpouseTransfer": true,
+        "source": "지방세특례제한법 제36조의3 (공포 2026-06-02, 시행 2026-06-02)"
+      }
+    },
+    "brokerage": {
+      "_doc": "경기도 조례. 요율이 전액에 적용되므로 9억·12억·15억에서 금액이 위로 점프한다. 상한이며 협의 대상.",
+      "source": "경기도 주택 중개보수 등에 관한 조례 [별표1] (조례 제8643호, 시행 2025-09-26)",
+      "verifiedAt": "2026-09-08",
+      "verifiability": "auto",
+      "vatRate": 0.1,
+      "salePurchase": [
+        {
+          "upTo": 50000000,
+          "rate": 0.006,
+          "cap": 250000,
+          "upToInclusive": false
+        },
+        {
+          "upTo": 200000000,
+          "rate": 0.005,
+          "cap": 800000,
+          "upToInclusive": false
+        },
+        {
+          "upTo": 900000000,
+          "rate": 0.004,
+          "cap": null,
+          "upToInclusive": false
+        },
+        {
+          "upTo": 1200000000,
+          "rate": 0.005,
+          "cap": null,
+          "upToInclusive": false
+        },
+        {
+          "upTo": 1500000000,
+          "rate": 0.006,
+          "cap": null,
+          "upToInclusive": false
+        },
+        {
+          "upTo": null,
+          "rate": 0.007,
+          "cap": null,
+          "upToInclusive": false
+        }
+      ],
+      "_upToInclusiveDoc": "경기도 조례 [별표1] 구간은 '~이상 ~미만'(예: 2억 이상 9억 미만) — 상한이 배타적이다. 경계값 자체는 다음(상위) 구간의 요율을 쓴다."
+    },
+    "incidentalDefaults": {
+      "_doc": "사용자 조정 가능. 이사비는 양도세 필요경비가 아니므로 취득부대비용과 양도차익 계산에서 분리해야 한다.",
+      "legalAndRegistration": 1100000,
+      "movingCost": 2000000,
+      "verifiability": "estimate"
+    }
+  },
+  "rateTables": {
+    "_doc": "소득구간 × 만기별 확정 금리. 상품 페이지 HTML 에는 셀이 비어 있고 인라인 스크립트가 AJAX 로 채운다. 텍스트 추출로는 절대 안 나온다. 금리가 구간이 아니라 확정값이므로 L1 불확실 구간 전파가 불필요하다.",
+    "_endpoint": "POST https://nhuf.molit.go.kr/init/include/NewBabyGetInform.jsp — Referer: .../FP05030801.jsp + User-Agent 필수 (없으면 http 000). 응답 {arrJson:[{...}]} 은 유효 JSON 이 아니므로 배열만 정규식으로 떼어낸다. 셀 매핑: 소득구간 i(0~8) × 만기 j(0~3) → LOANRATE{i*4+j}, 만기 순서 10/15/20/30년",
+    "verifiedAt": "2026-09-08",
+    "verifiability": "auto",
+    "termYears": [
+      10,
+      15,
+      20,
+      30
+    ],
+    "newborn_special": {
+      "_query": "newBabyGetBuySelect=newMearryHouse&productgb=S",
+      "brackets": [
+        {
+          "incomeUpTo": 20000000,
+          "rates": [
+            0.018,
+            0.019,
+            0.02,
+            0.0205
+          ]
+        },
+        {
+          "incomeUpTo": 40000000,
+          "rates": [
+            0.0215,
+            0.0225,
+            0.0235,
+            0.024
+          ]
+        },
+        {
+          "incomeUpTo": 60000000,
+          "rates": [
+            0.024,
+            0.025,
+            0.026,
+            0.0265
+          ]
+        },
+        {
+          "incomeUpTo": 85000000,
+          "rates": [
+            0.0265,
+            0.0275,
+            0.0285,
+            0.029
+          ]
+        },
+        {
+          "incomeUpTo": 100000000,
+          "rates": [
+            0.029,
+            0.03,
+            0.031,
+            0.032
+          ]
+        },
+        {
+          "incomeUpTo": 130000000,
+          "rates": [
+            0.032,
+            0.033,
+            0.034,
+            0.035
+          ]
+        },
+        {
+          "incomeUpTo": 150000000,
+          "rates": [
+            0.035,
+            0.036,
+            0.037,
+            0.038
+          ]
+        },
+        {
+          "incomeUpTo": 170000000,
+          "rates": [
+            0.0385,
+            0.0395,
+            0.0405,
+            0.0415
+          ]
+        },
+        {
+          "incomeUpTo": 200000000,
+          "rates": [
+            0.042,
+            0.043,
+            0.044,
+            0.045
+          ]
+        }
+      ],
+      "_note": "1.3억 초과 구간은 맞벌이 전용(부부 각 1인의 소득이 1.3억 이하). 최저 1.80% / 최고 4.50% 로 페이지 표기 '1.8% ~ 4.5%' 와 일치 검산됨"
+    },
+    "didimdol": {
+      "_query": "newBabyGetBuySelect=newMearryHouse&productgb=F",
+      "brackets": [
+        {
+          "incomeUpTo": 20000000,
+          "rates": [
+            0.0285,
+            0.0295,
+            0.0305,
+            0.031
+          ]
+        },
+        {
+          "incomeUpTo": 40000000,
+          "rates": [
+            0.032,
+            0.033,
+            0.034,
+            0.0345
+          ]
+        },
+        {
+          "incomeUpTo": 70000000,
+          "rates": [
+            0.0355,
+            0.0365,
+            0.0375,
+            0.038
+          ]
+        },
+        {
+          "incomeUpTo": 85000000,
+          "rates": [
+            0.039,
+            0.04,
+            0.041,
+            0.0415
+          ]
+        }
+      ],
+      "_note": "8.5천만 초과 구간은 없다 — 디딤돌 소득요건 상한이다. 2.85%~4.15% 로 페이지 표기와 일치 검산됨",
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp",
+      "verifiability": "guidance",
+      "verifiedAt": "2026-09-08",
+      "verifiedBy": "브라우저 렌더로 AJAX 채워진 표를 직접 추출. caption: 부부합산 연소득 수준별 10년, 15년, 20년, 30년 대출 금리"
+    },
+    "specialRateEnd": {
+      "_doc": "신생아 특례 특례금리(기본 5년, 추가출산 시 최장 15년) 종료 후 적용 금리. 접수년월별로 갱신되므로 접수월의 표를 쓴다.",
+      "_query": "StdGb=B",
+      "asOfApplication": "2026-08",
+      "baseRate": 0.0426,
+      "brackets": [
+        {
+          "incomeUpTo": 100000000,
+          "rates": [
+            0.0426,
+            0.0426,
+            0.0426,
+            0.0426
+          ]
+        },
+        {
+          "incomeUpTo": 130000000,
+          "rates": [
+            0.0426,
+            0.0426,
+            0.0426,
+            0.0426
+          ]
+        },
+        {
+          "incomeUpTo": 150000000,
+          "rates": [
+            0.0426,
+            0.0426,
+            0.0426,
+            0.0426
+          ]
+        },
+        {
+          "incomeUpTo": 170000000,
+          "rates": [
+            0.0426,
+            0.0426,
+            0.0426,
+            0.0435
+          ]
+        },
+        {
+          "incomeUpTo": 200000000,
+          "rates": [
+            0.044,
+            0.045,
+            0.046,
+            0.047
+          ]
+        }
+      ],
+      "_rule": "8.5천만 이하는 신혼부부 디딤돌 최저기본금리와의 차이만큼 가산. 8.5천만 초과는 한국은행 예금은행 주담대 금리와 은행연합회 수탁은행 분할상환 주담대 최저금리 중 작은 값. 단 1.3억 이하는 8.5천만 이하 종료후금리의 최고금리를, 1.3억 초과는 특례금리 + 0.2%p 를 하한으로 함",
+      "_verification": "1.5~1.7억 30년: 특례 4.15% + 0.2%p = 4.35% = 표의 값 / 1.7~2억 30년: 특례 4.50% + 0.2%p = 4.70% = 표의 값. 규칙과 표가 내부 정합",
+      "_unverifiedNote": "NEW_ 계열과 JB_ 계열의 구분(접수시기별로 보이나 라벨 미렌더링)은 미확인. 보수적으로 NEW_(더 높음)를 채택했다"
+    },
+    "adjustments": {
+      "provincialDiscount": -0.002,
+      "_provincialDiscount": "대출대상주택이 지방 소재인 경우 0.2%p 인하",
+      "landLeaseSurcharge": 0.003,
+      "_landLeaseSurcharge": "토지임대부 분양주택 신청자 소득이 최고 구간 초과 시 0.3%p 가산"
+    }
+  },
+  "appraisalRatio": {
+    "value": 0.95,
+    "_doc": "평가액 미입력 시 매매가에 곱하는 비율. 1.0은 낙관 편향이다 — 상승장에서는 정확히 그때 은행 감정가가 계약가에 못 미친다.",
+    "verifiability": "estimate"
+  },
+  "unverified": [
+    "dsrConversion.gracePeriodBranchNote",
+    "stressDsr.floorRateAdd",
+    "creditLimitTiers",
+    "bankLtv.regulated.effective",
+    "dti.byDesignation.투기과열지구",
+    "products.bank_firstTime.rate",
+    "products.bank_general.rate",
+    "products.newborn_special.rate",
+    "products.didimdol_firstTime.rate",
+    "products.bogeumjari_firstTime.rate",
+    "tax.incidentalDefaults",
+    "appraisalRatio",
+    "regions.성남시 분당구.designation",
+    "regions.용인시 수지구.designation",
+    "rateAdjustments.didimdol",
+    "rateAdjustments.newborn_special",
+    "incomeCaps",
+    "transferRestriction.cashSettlement",
+    "landTransactionPermit.areas.용인시 수지구",
+    "capitalGainsTax.jointOwnershipMethod",
+    "stressDsr.applicationRatio",
+    "publicPriceRatio",
+    "rejectedIndicators",
+    "infrastructure.gtxA.pendingSegments",
+    "infrastructure.noGovernmentBasis",
+    "infrastructure.notFound",
+    "capitalGainsTax.deductionExclusions",
+    "holdingTax.propertyTax.localOrdinanceReduction",
+    "infrastructure.yonginSeongnamExpresswayRisk.route",
+    "infrastructure.gyeongbuUndergroundMidwayInterchange",
+    "prepaymentFee.rateSchedule"
+  ],
+  "openQuestions": [
+    {
+      "id": "policyDsrExempt",
+      "label": "정책모기지(디딤돌·보금자리론)가 DSR 산정 대상인지",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "은행업감독규정 제외 목록에 명시 없음. 주택도시기금법·HF 규정 소관이라 이 고시만으로 결론 불가."
+    },
+    {
+      "id": "prospectiveSpouseIncomeIncluded",
+      "label": "3개월 내 결혼 예정 시 예비배우자 소득이 부부합산에 산입되는지",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": true,
+      "note": "확정 불가 — 은행 유권해석 필요. 중복대출 확인 대상에는 '결혼예정 배우자'가 명시적으로 포함된다."
+    },
+    {
+      "id": "policyFundingAvailable",
+      "label": "정책대출 재원이 접수 시점에 가용한지",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "비중 30%→20% 축소가 기관별 총량 배정 방식이고 시행시기가 '수시'다. 요건 충족이 확보를 뜻하지 않는다."
+    },
+    {
+      "id": "propertyTaxSpecialExtended",
+      "label": "재산세 1세대1주택 특례세율·공정시장가액비율이 2027년에도 유지되는가",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "특례세율 일몰이 2026-12-28 이고 공정시장가액비율 43~45% 는 2026년도 한정이다. 사용자는 2027년에 매수한다. 일몰되면 공시가 6.3억 기준 보유세가 861,300원 → 1,587,600원 으로 약 1.8배가 된다. 연장 여부는 세법 개정 사항이고 아직 미공포라 지금 확정할 수 없다. 2027년 표준세율 회귀가 근거가 확정된 유일한 시나리오이며 그것이 보수적 추정이다."
+    },
+    {
+      "id": "dsrShortTenureDiscountExempt",
+      "label": "DSR 연환산 시 10% 차감을 면제받는지 (신혼부부·청년층 예외)",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "시행세칙 별표18 제3장 단서가 '신규입사, 복직, 휴직 등 불가피한 사유로 1년치 증빙소득이 없거나, 차주가 증빙소득이 지속될 것임을 입증하거나 청년층, 신혼부부인 경우에는 차감하지 않는다' 고 정한다. 이 가구는 신혼부부라 예외 해당 가능성이 높지만 '신혼부부' 의 정의(혼인 기간 등)와 은행의 실제 적용이 확인되지 않는다. 차감하는 쪽이 소득이 줄어 한도가 작아지므로 보수적이다."
+    },
+    {
+      "id": "provesSustainedIncomeIncrease",
+      "label": "2개년 증빙소득 차이가 20% 초과일 때 증가분의 지속성을 입증하는지",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "입증하면 최근 1개년(높은 쪽), 못 하면 2개년 평균(낮은 쪽)을 쓴다. 한도 축에서는 낮은 쪽이 보수적이라 false 가 보수적 세계다. 요건 축에서는 방향이 반대여서(높은 소득이 탈락 쪽) 요건 판정에는 항상 최근 1개년을 쓴다 — src/domain/income.ts 참고."
+    }
+  ],
+  "giftTax": {
+    "_doc": "증여세. 부모 지원금(gift)과 무이자·저리 차입의 이자 이익(loan)에 쓴다. 공제는 증여자별이 아니라 관계 카테고리별 10년 합산이다.",
+    "deductions": {
+      "spouse": {
+        "amount": 600000000,
+        "statute": "상속세 및 증여세법 제53조 제1호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "text": "1. 배우자로부터 증여를 받은 경우: 6억원"
+      },
+      "linealAscendant": {
+        "amount": 50000000,
+        "minorAmount": 20000000,
+        "statute": "상속세 및 증여세법 제53조 제2호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "note": "조부모도 직계존속이다. 부모와 합산해 이 한도를 쓴다.",
+        "text": "2. 직계존속[수증자의 직계존속과 혼인(사실혼은 제외한다) 중인 배우자를 포함한다]으로부터 증여를 받은 경우: 5천만원. 다만, 미성년자가 직계존속으로부터 증여를 받은 경우에는 2천만원으로 한다."
+      },
+      "linealDescendant": {
+        "amount": 50000000,
+        "statute": "상속세 및 증여세법 제53조 제3호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "text": "3. 직계비속으로부터 증여를 받은 경우: 5천만원"
+      },
+      "otherRelative": {
+        "amount": 10000000,
+        "statute": "상속세 및 증여세법 제53조 제4호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "text": "4. 제2호 및 제3호의 경우 외에 4촌 이내의 혈족, 3촌 이내의 인척으로부터 증여를 받은 경우: 1천만원",
+        "trap": "배우자의 부모(시부모·장인장모)는 직계존속이 아니라 인척 1촌으로 이 호에 해당한다 — 1천만원 한도뿐이다."
+      },
+      "marriageChildbirth": {
+        "amount": 100000000,
+        "windowYears": 2,
+        "combinedCap": true,
+        "stacksWithArticle53": true,
+        "statute": "상속세 및 증여세법 제53조의2 제1항~제3항·제6항",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "note": "혼인공제와 출산공제를 합하여 1억원 한도. 제53조 공제와는 중복 적용된다.",
+        "text": "① 거주자가 직계존속으로부터 혼인일 전후 2년 이내에 증여를 받는 경우에는 제2항 및 제53조제2호에 따른 공제와 별개로 1억원을 증여세 과세가액에서 공제한다. ③ 제1항 및 제2항에 따라 공제받았거나 받을 금액을 합한 금액이 1억원을 초과하는 경우에는 그 초과하는 부분은 공제하지 아니한다.",
+        "marriageWindow": "혼인일 전후 2년 이내 — 혼인 전 증여도 대상이다",
+        "childbirthWindow": "출생일·입양일부터 2년 이내 — **출산 전 증여는 대상이 아니다** (혼인공제와 달리 전후가 아니라 부터만)",
+        "clawback": "혼인 전 공제받고 증여일부터 2년 내 혼인하지 않으면 2년이 되는 날이 속하는 달의 말일부터 3개월 이내 수정신고. 가산세는 면제되나 이자상당액이 가산된다(제53조의2 제6항)."
+      }
+    },
+    "aggregationYears": 10,
+    "aggregationRule": "관계 카테고리별. 증여자별이 아니다.",
+    "brackets": [
+      {
+        "upTo": 100000000,
+        "rate": 0.1,
+        "progressiveDeduction": 0
+      },
+      {
+        "upTo": 500000000,
+        "rate": 0.2,
+        "progressiveDeduction": 10000000
+      },
+      {
+        "upTo": 1000000000,
+        "rate": 0.3,
+        "progressiveDeduction": 60000000
+      },
+      {
+        "upTo": 3000000000,
+        "rate": 0.4,
+        "progressiveDeduction": 160000000
+      },
+      {
+        "upTo": null,
+        "rate": 0.5,
+        "progressiveDeduction": 460000000
+      }
+    ],
+    "bracketsStatute": "상속세 및 증여세법 제56조",
+    "filingCredit": {
+      "rate": 0.03,
+      "statute": "상속세 및 증여세법 제69조 제2항",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08",
+      "text": "제68조에 따라 증여세 과세표준을 신고한 경우에는 증여세산출세액에서 ... 공제한 금액의 100분의 3에 상당하는 금액을 공제한다."
+    },
+    "loanPresumption": {
+      "adequateRate": 0.046,
+      "interestBenefitExclusionThreshold": 10000000,
+      "statute": "상속세 및 증여세법 제41조의4 / 시행령 제31조의4 제2항 / 시행규칙 제10조의5 → 법인세법 시행규칙 제43조 제2항",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08",
+      "note": "증여이익 = 원금 × 적정이자율 − 실제지급이자. 이익 1천만원 미만이면 과세 제외.",
+      "text": "무상대출은 대출금액×적정이자율, 저리대출은 대출금액×적정이자율−실제지급이자를 증여재산가액으로 한다. 기준금액(시행령 1천만원) 미달이면 제외. 적정이자율은 연 1,000분의 46.",
+      "annualRecalc": "대출기간이 1년 이상이면 1년 되는 날 다음날마다 새로 대출받은 것으로 보아 매년 재계산한다(제41조의4 제2항)."
+    },
+    "brackets_verifiedNote": "법 제56조가 제26조를 준용한다. 법 원문은 \"구간 시작 기초세액 + 초과분 × 한계세율\" 형식이고, 우리 표는 그것을 \"과세표준 × 세율 − 누진공제\" 로 변환한 값이다. 검증 에이전트가 90,000,000/240,000,000/1,040,000,000 을 누진공제로 보고했으나 그 값은 법 원문의 **기초세액**(9천만/2억4천만/10억4천만)이며 누진공제가 아니다. 경계 연속성으로 검산해 우리 값(0/1천만/6천만/1.6억/4.6억)이 맞음을 확인했다.",
+    "brackets_statute": "상속세 및 증여세법 제56조 → 제26조",
+    "brackets_source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+    "brackets_verifiability": "manual",
+    "brackets_verifiedAt": "2026-09-08",
+    "fundSourcePresumption": {
+      "statute": "상속세 및 증여세법 제45조 / 시행령 제34조 제1항",
+      "text": "재산 취득자금의 출처를 자력으로 입증하지 못하면 증여로 추정한다. 다만 입증되지 않는 금액이 취득가액의 20%와 2억원 중 적은 금액에 미달하면 추정하지 아니한다.",
+      "exclusionRatio": 0.2,
+      "exclusionCap": 200000000,
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=276123&type=HTML",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    }
+  },
+  "rateAdjustments": {
+    "_doc": "우대금리. exclusiveGroup 은 서로 중복 불가(택1), stackableGroup 은 중복 가능. 합산 상한과 금리 하한이 둘 다 걸린다.",
+    "didimdol": {
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp",
+      "exclusiveGroup": [
+        {
+          "id": "firstTime",
+          "label": "생애최초 주택구입",
+          "delta": -0.002,
+          "note": "대출실행일로부터 최대 5년",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "newlywed",
+          "label": "신혼가구",
+          "delta": -0.002,
+          "note": "신혼가구 정의(혼인기간)는 미확인",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "singleParent",
+          "label": "한부모가구",
+          "delta": -0.005,
+          "note": "연소득 6천만원 이하",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "disabled",
+          "label": "장애인가구",
+          "delta": -0.002,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "multicultural",
+          "label": "다문화가구",
+          "delta": -0.002,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "oneChild",
+          "label": "1자녀",
+          "delta": -0.003,
+          "note": "2025-03-24 신규접수분부터, 자녀 1명당 5년·최대 15년",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "twoChildren",
+          "label": "2자녀",
+          "delta": -0.005,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "multiChildren",
+          "label": "다자녀",
+          "delta": -0.007,
+          "note": "자녀수 기준 문구 미확인",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "stackableGroup": [
+        {
+          "id": "subscriptionSaving5y",
+          "label": "청약저축 5년·60회차",
+          "delta": -0.003,
+          "note": "본인 또는 배우자 명의",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "subscriptionSaving10y",
+          "label": "청약저축 10년·120회차",
+          "delta": -0.004,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "subscriptionSaving15y",
+          "label": "청약저축 15년·180회차",
+          "delta": -0.005,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "eContract",
+          "label": "부동산 전자계약",
+          "delta": -0.001,
+          "note": "2026-12-31 신규접수분까지 한시 — 2027년 신청이면 종료 가능성",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "lowLoanAmount",
+          "label": "저차입(심사액 30% 이하)",
+          "delta": -0.001,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "earlyRepay40",
+          "label": "중도상환 40% 이상",
+          "delta": -0.002,
+          "note": "실행 1년 경과 후",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "unsoldLocal",
+          "label": "지방 준공후 미분양",
+          "delta": -0.002,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "totalCap": 0.005,
+      "totalCapMultiChild": 0.007,
+      "floorRate": 0.015
+    },
+    "newborn_special": {
+      "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp",
+      "exclusiveGroup": [],
+      "stackableGroup": [
+        {
+          "id": "subscriptionSaving5y",
+          "label": "청약저축 5년·60회차",
+          "delta": -0.003,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "subscriptionSaving10y",
+          "label": "청약저축 10년·120회차",
+          "delta": -0.004,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "subscriptionSaving15y",
+          "label": "청약저축 15년·180회차",
+          "delta": -0.005,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08",
+          "tierGroup": "subscriptionSaving"
+        },
+        {
+          "id": "eContract",
+          "label": "부동산 전자계약",
+          "delta": -0.001,
+          "note": "2026-12-31 한시",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "additionalBirth",
+          "label": "추가 출산 자녀",
+          "delta": -0.002,
+          "note": "자녀 1명당, 특례기간도 5년씩 연장",
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "minorChildOverTwo",
+          "label": "만 2세 초과 미성년 자녀",
+          "delta": -0.001,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "lowLoanAmount",
+          "label": "저차입(심사액 30% 이하)",
+          "delta": -0.001,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "earlyRepay40",
+          "label": "중도상환 40% 이상",
+          "delta": -0.002,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "id": "unsoldLocal",
+          "label": "지방 준공후 미분양",
+          "delta": -0.002,
+          "note": null,
+          "verifiability": "guidance",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "totalCap": 0.005,
+      "floorRate": 0.012,
+      "note": "신생아 특례는 기본금리표 자체에 혜택이 반영돼 있어 디딤돌의 생애최초·신혼·자녀수 항목이 없다."
+    }
+  },
+  "incomeCaps": {
+    "_doc": "디딤돌 소득 상한 티어. 미혼 단독신청이면 본인 소득만, 혼인 후면 부부합산이 기준이다.",
+    "didimdol": {
+      "general": 60000000,
+      "firstTimeOrTwoChild": 70000000,
+      "newlywed": 85000000
+    },
+    "newborn_special": {
+      "dualIncome": 200000000
+    },
+    "source": "https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp",
+    "verifiability": "guidance",
+    "verifiedAt": "2026-09-08"
+  },
+  "conflicts": [
+    {
+      "id": "didimdol-rate-brackets",
+      "path": "rateTables.didimdol.brackets",
+      "note": "소득구간 경계와 30년 금리가 두 출처에서 다르다. 해소 전까지 우리 값을 쓰되 화면에 충돌을 표시한다.",
+      "ours": {
+        "boundaries": [
+          20000000,
+          40000000,
+          60000000,
+          85000000
+        ],
+        "thirtyYearFor43_5M": 0.038
+      },
+      "other": {
+        "boundaries": [
+          40000000,
+          70000000,
+          85000000
+        ],
+        "thirtyYearFor43_5M": 0.0385,
+        "detail": "4천~7천: 3.25/3.45/3.65/3.85, 7천~8.5천: 3.45/3.65/3.85/4.15"
+      },
+      "impact": "B 단독 소득 43,500,000 에서 3.80% vs 3.85%. 0.05%p 차이지만 구간 경계(6천 vs 7천) 자체가 달라 다른 소득에서는 차이가 커진다.",
+      "resolution": "브라우저로 실제 렌더해 확인. 경계는 4천~7천이 맞고(우리 값 6천이 틀렸다), 금리 값은 우리 값 3.55/3.65/3.75/3.80 이 맞다(상대 값 3.25/3.45/3.65/3.85 가 틀렸다). 양쪽이 서로 다른 절반씩 맞았다.",
+      "status": "resolved",
+      "resolvedAt": "2026-09-08",
+      "correctedPath": "rateTables.didimdol.brackets[2].incomeUpTo: 60000000 → 70000000"
+    },
+    {
+      "id": "bundang-leading-district-planned-units",
+      "path": "(후보 데이터) 분당 선도지구 계획 세대수",
+      "note": "**기존 세대수는 고시 원문으로 확정**(합계 12,055 / 샛별 2,843 · 양지 4,392 · 시범 3,713 · 목련 1,107, 성남시 고시 제2025-435호 2025-12-17). 그러나 **계획 세대수는 출처마다 다르다.**",
+      "ours": {
+        "existingUnits": 12055,
+        "source": "성남시 고시 제2025-435호",
+        "verifiability": "manual"
+      },
+      "other": [
+        {
+          "plannedTotal": 10374,
+          "existingImplied": 4463,
+          "source": "언론 A (2025-12-19 지정 6개 구역)"
+        },
+        {
+          "plannedTotal": 13574,
+          "detail": "시범 6,049 + 샛별 5,050 + 목련 2,475",
+          "source": "언론 B (구역별)"
+        }
+      ],
+      "impact": "순증률이 +56~124% 인지 다른 값인지가 사업성 판정을 바꾼다. 기존 세대수만 고시 원문을 쓰고 계획 세대수는 미확정으로 둔다.",
+      "resolution": "배포용 HWP DRM 복호화로 고시 원문 확보. **정답은 양쪽 다 아니었다** — 4개 구역 합계 계획 20,180세대(기존 12,055, 순증 +8,125, +67.4%). 양지 6,839 / 시범 6,049 / 목련 2,475 는 언론 수치가 정확했고 **샛별만 5,050 → 실제 4,817 로 틀렸다.** \"6개 구역 10,374호\"는 어느 조합으로도 재현되지 않아 집계 기준이 다른 별개 수치로 판단한다(미확인).",
+      "status": "resolved",
+      "resolvedAt": "2026-09-08",
+      "confirmed": {
+        "total": 20180,
+        "byRegion": {
+          "양지마을": 6839,
+          "시범단지": 6049,
+          "샛별마을": 4817,
+          "목련마을": 2475
+        }
+      },
+      "additionalNote": "별도로 \"10,948가구(2024-11-27 국토부 발표 기준)\" 라는 값을 받았다. **이건 우리 12,055 와 충돌하는 것이 아니라 서로 다른 측정이다** — 12,055 는 성남시 고시 제2025-435호(2025-12-17) 의 **선도지구 지정 고시** 기준 기존 세대수이고 구역별 내역(2,843 + 4,392 + 3,713 + 1,107)이 정확히 합산된다. 10,948 은 2024-11-27 **선정 발표** 시점 값이고 언론 인용이다. 발표(2024-11) 와 지정 고시(2025-12) 사이에 범위가 조정됐을 가능성이 크다. **고시 원문 값을 쓰고, 다른 시점의 값과 비교할 때 기준 시점을 밝힌다.**"
+    },
+    {
+      "id": "suji-remodeling-contribution",
+      "path": "(후보 데이터) 수지구 리모델링 분담금",
+      "note": "초입마을 분담금이 두 출처에서 다르다.",
+      "ours": {
+        "amount": 273370000,
+        "source": "용인시 2026-08-14 보도자료 (평균, 전용 59㎡ → 77㎡)",
+        "verifiability": "guidance"
+      },
+      "other": [
+        {
+          "amount": 350000000,
+          "source": "2차 전달값 (출처 불명확)"
+        }
+      ],
+      "impact": "7,700만원 차이. 예산 판정을 뒤집을 수 있는 크기다.",
+      "resolution": "용인시 보도자료 기반 값(2.73억)을 쓴다. **다만 상향 이력이 실재한다** — 현대성우8단지 1.7억→2.75억, 수지현대 1.6억→3.22억으로 당초 추산의 1.6~2배가 된 사례가 있어 반대추진위까지 설립됐다. 예산 판정은 상단으로 한다.",
+      "status": "resolvedWithCaveat"
+    },
+    {
+      "id": "purchase-timing-opposing-forces",
+      "path": "(시점 축) 2026년 매수 vs 2027년 매수",
+      "note": "**두 힘이 반대 방향으로 작용한다.** 지역 선택이 아니라 시점 선택에 걸리는 값이다.",
+      "forEarlier": "재산세 1세대1주택 특례세율 일몰 2026-12-28 + 공정시장가액비율 43~45% 도 2026년도 한정. 2027년 취득이면 보유세가 1.84배(861,300 → 1,587,600원), 30년 누계 2,179만원 차이. **2026년 매수가 세제상 유리하다.**",
+      "forLater": "2027년 상반기에 서울 강남3구 재건축 이주 물량이 1만344가구 집중되고(강남 7,004, 송파 3,340) 서울 전체 2026~2028년 8만3,546가구다. 경기 전세 압박이 매수 압력으로 전이되면 **2027년이 불리**하지만, 매물 출회가 늘면 유리할 수도 있어 방향이 확정되지 않는다.",
+      "impact": "세제는 방향이 확정(2026 유리)이고 시장은 미확정이다. 확정된 것만 반영하면 2026년 매수가 낫지만, 사용자 회사 이전이 2027년이라 실거주 요건과 충돌할 수 있다.",
+      "resolution": "확정된 세제 차이(2,179만원)를 시점 축의 비용으로 명시하고, 시장 방향은 예측하지 않는다.",
+      "status": "documented"
+    }
+  ],
+  "transferRestriction": {
+    "_doc": "도정법 제39조 조합원 지위 양도 제한. 금지 대상은 \"거래\"가 아니라 \"조합원이 되는 것\"이다. 매수는 되지만 조합원이 못 되면 현금청산이다.",
+    "appliesTo": {
+      "reconstruction": {
+        "trigger": "조합설립인가 후",
+        "note": "신탁업자·토지주택공사등을 사업시행자로 지정한 경우 그 지정을 조합설립인가로 의제한다(제39조①3호 괄호, \"이하 이 조에서 같다\"로 제2항에도 적용)"
+      },
+      "redevelopment": {
+        "trigger": "제74조 관리처분계획 인가 후",
+        "note": "재건축보다 트리거가 늦다 — 사업시행자 지정만으로는 아직 제한이 걸리지 않는다"
+      },
+      "remodeling": {
+        "trigger": null,
+        "note": "**적용 대상이 아니다.** 리모델링은 주택법 사업이고 도정법 제39조②의 대상이 아니다. 별개로 토지거래허가구역 규제는 받는다"
+      }
+    },
+    "areaCondition": "주택법 제63조 제1항에 따른 투기과열지구",
+    "scopeCarveOut": "상속·이혼으로 인한 양도·양수는 본문의 \"양수\" 정의에서 제외된다 — 각 호 예외가 아니라 애초에 적용 대상이 아니다",
+    "statute": "도시 및 주거환경정비법 제39조 제1항 제3호·제2항",
+    "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+    "verifiability": "manual",
+    "verifiedAt": "2026-09-08",
+    "exceptions": [
+      {
+        "id": "relocationForWorkIllnessSchoolMarriage",
+        "label": "세대원 전원 타 시·군 이전",
+        "requirement": "근무·생업·질병치료(의료기관장이 1년 이상 치료·요양 필요 인정)·취학·결혼으로 세대원이 모두 사업구역이 없는 다른 특별시·광역시·시·군으로 이전",
+        "statute": "제39조②1호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "세대원 전원이 근무·생업·질병치료·취학·결혼을 이유로 사업구역 밖 다른 시·군으로 이전했습니까?",
+        "evidence": "재직증명서·사업자등록증, 1년 이상 요양 필요 진단서, 재학증명서, 혼인관계증명서, 세대원 전원 주민등록초본"
+      },
+      {
+        "id": "inheritedHousingRelocation",
+        "label": "상속 주택으로 세대원 전원 이전",
+        "requirement": "상속으로 취득한 주택으로 세대원 모두 이전",
+        "statute": "제39조②2호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "세대원 전원이 상속으로 취득한 다른 주택으로 이주했습니까?",
+        "evidence": "가족관계증명서, 상속받은 주택 등기부, 세대원 전원 주민등록초본"
+      },
+      {
+        "id": "overseasEmigration",
+        "label": "해외이주 또는 2년 이상 해외체류",
+        "requirement": "세대원 모두 해외 이주 또는 세대원 모두 2년 이상 해외 체류 예정",
+        "statute": "제39조②3호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "세대원 전원이 해외로 이주했거나 2년 이상 해외 체류 예정입니까?",
+        "evidence": "해외이주신고확인서, 출입국사실증명서, 비자"
+      },
+      {
+        "id": "longHeldSingleHome",
+        "label": "1세대1주택 장기보유·장기거주",
+        "holdingYears": 10,
+        "residenceYears": 5,
+        "requirement": "1세대 1주택자로서 양도 주택의 소유기간 10년 이상 및 거주기간 5년 이상(주민등록표 기준, 배우자·직계존비속 거주기간 합산 가능, 상속의 경우 피상속인 기간 합산)",
+        "statute": "제39조②4호, 시행령 제37조①",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287285&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "이 주택 외에 다른 주택이 없습니까? 소유 몇 년, 실제 거주(전입) 몇 년입니까?",
+        "evidence": "등기부등본(소유기간), 주민등록초본(전입일), 가족관계증명서"
+      },
+      {
+        "id": "delayNoSitePlanApplication",
+        "label": "조합설립인가 후 3년 이상 사업시행인가 신청 없음",
+        "delayYears": 3,
+        "holdingYears": 3,
+        "delayFrom": "deemedApprovalDate",
+        "requirement": "조합설립인가일부터 3년 이상 사업시행인가 신청이 없는 재건축사업의 건축물을 3년 이상 계속 소유한 자가 사업시행인가 신청 전에 양도",
+        "statute": "제39조②7호, 시행령 제37조③1호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287285&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "조합설립인가(사업시행자 지정)로부터 3년이 지났는데 아직 사업시행계획인가를 신청하지 못했습니까? 이 물건을 3년 이상 계속 보유하셨습니까?",
+        "evidence": "조합·신탁업자 발급 사업진행현황확인서, 등기부등본"
+      },
+      {
+        "id": "delayNoConstructionStart",
+        "label": "사업시행계획인가 후 3년 이내 미착공",
+        "delayYears": 3,
+        "holdingYears": 3,
+        "requirement": "사업시행계획인가일부터 3년 이내 착공하지 못한 재건축사업의 토지·건축물을 3년 이상 계속 소유한 자가 착공 전에 양도",
+        "statute": "제39조②7호, 시행령 제37조③2호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287285&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "사업시행계획인가 후 3년이 지났는데 아직 착공 전입니까?",
+        "evidence": "사업시행계획인가서, 착공신고필증 부재 확인, 등기부등본",
+        "delayFrom": "laterMilestone",
+        "milestoneLabel": "사업시행계획인가"
+      },
+      {
+        "id": "auctionDueToDebtDefault",
+        "label": "국가·지자체·금융기관 채무불이행 경매·공매",
+        "requirement": "국가·지방자치단체 및 금융기관 채무를 이행하지 못해 경매 또는 공매",
+        "statute": "제39조②7호, 시행령 제37조③5호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287285&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "이 물건이 채무 문제로 경매·공매되는 것입니까?",
+        "evidence": "법원 매각허가결정문, 공매공고문"
+      },
+      {
+        "id": "preDesignationContract",
+        "label": "투기과열지구 지정 전 계약 + 60일 내 신고",
+        "requirement": "투기과열지구 지정 전 계약(계약금 지급 내역 등으로 계약일 확인 가능) 체결 + 지정일부터 60일 이내 부동산 거래신고",
+        "statute": "제39조②7호, 시행령 제37조③6호",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287285&type=HTML&efYd=20260701",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "sellerQuestion": "투기과열지구 지정 전에 계약금을 주고 계약했고, 지정일부터 60일 내에 거래신고를 했습니까?",
+        "evidence": "계약서(계약금 지급 증빙), 부동산거래신고필증"
+      }
+    ],
+    "cashSettlement": {
+      "basis": "협의 → 불성립 시 수용재결 신청 또는 매도청구소송(제73조 준용). **정비계획 고시상 추정권리가액이 법적 청산기준이 아니다** — 그건 계속 조합원으로 남는 분양대상자의 분양가 산정용이다. 재건축은 원칙적으로 수용이 아니라 매도청구가 기본 수단이고, 그 경우 법원이 정하는 시가 감정평가로 정해진다.",
+      "statute": "제39조③(제73조 준용), 제73조, 제64조(재건축 매도청구), 제65조",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08",
+      "caveat": "매도청구소송의 시가에 개발이익이 어느 정도 포함되는지는 판례 영역이라 법령 API 로 확인 불가. 따라서 청산액이 권리가액 수준일지 시장가에 근접할지는 **미확정**이다. 손실 규모를 단정하지 말 것."
+    }
+  },
+  "landTransactionPermit": {
+    "_doc": "토지거래허가구역. 정비사업 전매제한과 **별개 축**이다. 재건축·리모델링·미추진 모두 동일하게 적용된다.",
+    "effect": "관할 구청장 사전 허가 + 실거주 의무. 규제지역이면 금액과 무관하게 자금조달계획서 제출.",
+    "areas": {
+      "용인시 수지구": {
+        "scope": "아파트",
+        "period": "미확인",
+        "verifiability": "estimate",
+        "verifiedAt": "2026-09-08",
+        "note": "국토부가 2025년 10월 수지구를 토지거래허가구역으로 지정하고 용인시가 실거주 의무 포함 매뉴얼을 운영한다는 것까지만 확인됐다. **기간은 미확인** — 분당 기준 기간을 그대로 적용한 전달값이 있었으나 근거가 없어 하향했다."
+      },
+      "용인시 기흥구": {
+        "scope": "아파트(주거지역 대지지분 6㎡ 초과)",
+        "period": "2026-07-05~2027-12-31",
+        "verifiability": "guidance",
+        "verifiedAt": "2026-09-08",
+        "note": "2026-06-30 규제지역 지정. 죽전역·보정역 통근 대안이 기흥구에 걸치므로 함께 봐야 한다."
+      }
+    },
+    "source": "국토교통부 공고",
+    "verifiability": "guidance",
+    "verifiedAt": "2026-09-08"
+  },
+  "holdingTax": {
+    "_doc": "보유세. **재산세는 물건 단위라 명의와 무관하다**(지방세법 제113조③: 공유주택은 합산 과세표준에 세율을 1회 적용하고, 제107조①1호는 그 총세액을 지분대로 나눠 누가 낼지만 정한다). 종부세는 인별 과세라 공시가 12~18억 구간에서 명의에 반응한다.",
+    "propertyTax": {
+      "brackets": [
+        {
+          "upTo": 60000000,
+          "rate": 0.001,
+          "progressiveDeduction": 0
+        },
+        {
+          "upTo": 150000000,
+          "rate": 0.0015,
+          "progressiveDeduction": 30000
+        },
+        {
+          "upTo": 300000000,
+          "rate": 0.0025,
+          "progressiveDeduction": 180000
+        },
+        {
+          "upTo": null,
+          "rate": 0.004,
+          "progressiveDeduction": 630000
+        }
+      ],
+      "singleHomeSpecialBrackets": [
+        {
+          "upTo": 60000000,
+          "rate": 0.0005,
+          "progressiveDeduction": 0
+        },
+        {
+          "upTo": 150000000,
+          "rate": 0.001,
+          "progressiveDeduction": 30000
+        },
+        {
+          "upTo": 300000000,
+          "rate": 0.002,
+          "progressiveDeduction": 180000
+        },
+        {
+          "upTo": null,
+          "rate": 0.0035,
+          "progressiveDeduction": 630000
+        }
+      ],
+      "singleHomeSpecialPriceCap": 900000000,
+      "singleHomeSpecialSunset": "2026-12-28",
+      "fairMarketRatio": {
+        "general": 0.6,
+        "singleHome2026Only": [
+          {
+            "upTo": 300000000,
+            "ratio": 0.43
+          },
+          {
+            "upTo": 600000000,
+            "ratio": 0.44
+          },
+          {
+            "upTo": null,
+            "ratio": 0.45
+          }
+        ]
+      },
+      "urbanAreaRate": 0.0014,
+      "urbanAreaRateOrdinanceCeiling": 0.0023,
+      "urbanAreaRateNote": "**법정 기본율 0.14% 가 확정됐다.** 성남시 시세 조례 제13조가 법 제112조제1항제2호의 세율을 그대로 적용한다고 규정한다 — 조례로 최대 0.23% 까지 올릴 수 있으나 쓰지 않았다.",
+      "localEducationRatio": 0.2,
+      "jointOwnershipTitleNeutral": true,
+      "statute": "지방세법 제111조·제111조의2·제112조·제113조③·제151조, 시행령 제109조",
+      "source": "https://www.law.go.kr/법령/지방세법",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08",
+      "urbanAreaRateVerified": {
+        "value": 0.0014,
+        "statute": "성남시 시세 조례 제13조 (자치법규ID 2140827, 시행 2022-10-31)",
+        "text": "제13조(재산세 도시지역분 세율) 법 제112조제2항에 따른 재산세의 세율은 같은 조 제1항제2호의 세율을 적용한다.",
+        "interpretation": "**성남시는 조례로 도시지역분 세율을 올리지 않고 법 제112조제1항제2호의 법정 세율(1천분의 1.4)을 그대로 적용한다.** 제112조제2항이 조례로 1천분의 2.3 까지 올릴 수 있게 허용하는데 성남시는 그 재량을 쓰지 않았다. 0.14% 로 계산한 것이 맞다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&type=XML&ID=2140827",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      },
+      "localOrdinanceReduction": {
+        "found": true,
+        "applied": false,
+        "statute": "성남시 시세 조례 제13조의2 (자치법규ID 2140827)",
+        "text": "제13조의2(재산세 세율) ① 법 제111조제1항제3호나목에 해당하는 재산세 세율은 표준세율의 100분의 50으로 한다. 다만, 법 제4조에 따른 시가표준액 9억원 이하의 1가구1주택을 소유한 개인에 한정한다.",
+        "potentialEffect": "**이 가구가 정확히 대상이다**(공시 6.3억, 1가구1주택). 사실이면 재산세가 절반이 되고, 이는 내가 모델링한 1세대1주택 특례세율 효과보다 크다.",
+        "whyNotApplied": "**적용 여부를 확정할 수 없다.** 지방세법 제111조③ 의 탄력세율은 \"가감한 세율은 해당 연도에만 적용한다\" 고 규정하는데 이 조례의 시행일이 2022-10-31 이다. 매년 갱신이 필요한 조항인지 상시 조례인지가 갈리고, 2026·2027년에 유효한지 확인하지 못했다. **세액을 절반으로 만드는 값을 근거 없이 넣으면 낙관 쪽 편향을 스스로 만드는 것이다.** 적용하면 보유세가 낮아져 총비용이 과소 산정된다.",
+        "resolution": "성남시 2026년·2027년 시세 조례 개정 이력과 재산세 부과 고시를 확인해야 한다. 조례 제14조가 \"시장은 도시지역을 의회 의결을 받아 고시하여야 한다\" 고 하므로 연도별 고시가 존재할 가능성이 있다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&type=XML&ID=2140827",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08",
+        "noStackingWithSpecialRate": {
+          "statute": "지방세법 제111조의2③ (공포 2025-12-31 법률 제21308호, 조문시행 2026-01-01)",
+          "text": "③ 제1항에도 불구하고 **제111조제3항에 따라** 지방자치단체의 장이 조례로 정하는 바에 따라 가감한 세율을 적용한 세액이 제1항의 세율을 적용한 세액보다 **적은 경우에는 제1항을 적용하지 아니한다.**",
+          "implication1": "**조례 탄력세율의 근거가 제111조제3항임을 법이 전제한다.** 이 조문이 \"제111조제3항에 따라 … 가감한 세율\" 이라고 명시적으로 지칭하므로, 그 조항의 \"가감한 세율은 해당 연도에만 적용한다\" 제약을 받는다 — **매년 갱신이 필요한 쪽이 맞다.** 상시 조례라는 해석은 배제된다.",
+          "implication2": "**1세대1주택 특례세율과 중복 적용되지 않는다.** 세액이 낮은 쪽 하나만 적용되고, 조례가 더 낮으면 특례세율(제1항)이 배제된다. 우리는 이미 특례세율을 모델링하고 있으므로 **실제 추가 효과는 둘의 차액뿐이다.**",
+          "measured": {
+            "assumption": "공시 6.5억, 2026년 1세대1주택 공정시장가액비율 45% → 과세표준 2.925억",
+            "standardRate": 551250,
+            "ordinanceHalf": 275625,
+            "singleHomeSpecial": 405000,
+            "appliedByLaw": "ordinanceHalf (275,625 < 405,000)",
+            "incrementalOverModeled": 155250,
+            "incrementalNote": "본세 129,375 + 지방교육세 25,875(재산세액의 20% 라 연동). **연 155,250원, 10년 155만원, 30년 466만원.** 도시지역분 0.14% 는 조례 감액 대상이 아니라 그대로 붙는다."
+          },
+          "correctionOfEarlierClaim": "⚠️ **처음에 \"재산세가 절반\" 이라고 기록했는데 틀렸다.** 중복 적용 배제를 몰랐고, 이미 모델링한 특례세율을 기준선으로 두지 않았다. 표준세율 대비로는 절반이 맞지만 **우리 계산의 기준선은 특례세율**이므로 그 대비 차액이 실제 영향이다. 세션 15 가 제111조의2③ 을 읽어 정정했고 우리 룰셋 구간표로 검산해 확인했다.",
+          "source": "세션 15 (지방세법 제111조의2 전문 확인) + 우리 룰셋 구간표 검산",
+          "verifiability": "manual",
+          "verifiedAt": "2026-09-09"
+        },
+        "priority": "medium",
+        "priorityNote": "**우선순위 하향을 되돌렸다.** 앞서 \"10년 155만원이므로 낮음\" 으로 적었는데 그 계산이 **2026년 기준선**이었다. 사용자 보유는 **2027년부터**이고, 그 해에는 특례세율과 특례 공정시장가액비율이 동시에 실효되어 기준선이 표준세율로 올라간다 — 조례 감액은 표준세율의 절반이므로 증분이 **3.6배** 커진다. 2027년 기준 연 558,000원 · 10년 558만원 · 30년 1,674만원(공시 상승 미반영 하한).",
+        "measured2027": {
+          "assumption": "공시 6.5억, 2027년 이후 (특례세율 실효 + 공정시장가액비율 60%)",
+          "standardRate": 930000,
+          "ordinanceHalf": 465000,
+          "singleHomeSpecial": null,
+          "singleHomeSpecialNote": "**특례세율이 실효되어 존재하지 않는다.** 부칙 제2조가 제111조의2 를 2026-12-28 까지 성립분에 한정하고, 과세기준일이 6월 1일이므로 2027년분부터 적용되지 않는다. **중복배제 조항(제111조의2③)도 함께 실효**되므로 비교 없이 제111조제3항 탄력세율로 조례 감액이 그냥 적용된다.",
+          "incrementalPerYear": 558000,
+          "incrementalNote": "본세 465,000 + 지방교육세 93,000. 도시지역분(2027년 과표 3.9억 × 0.14% = 546,000)은 조례 감액 대상이 아니라 그대로 붙는다.",
+          "byPublicPrice": {
+            "600000000": {
+              "y2026": 135000,
+              "y2027": 486000,
+              "multiple": 3.6
+            },
+            "650000000": {
+              "y2026": 155250,
+              "y2027": 558000,
+              "multiple": 3.6
+            },
+            "700000000": {
+              "y2026": 189000,
+              "y2027": 630000,
+              "multiple": 3.3
+            }
+          },
+          "source": "세션 15 (부칙 제2조 · 시행령 제109조①2호 단서) + 우리 룰셋 구간표 검산",
+          "verifiability": "manual",
+          "verifiedAt": "2026-09-09"
+        },
+        "status2026": "**2026년분조차 아직 확정되지 않았다 (2026-09-14 조사).** 성남시 시세 조례 일부개정안이 2026-07-23~08-12 입법예고를 마치고 2026년 10월 시의회 상정 예정이며, 오늘 기준 의결 전이다. 통과되면 11월 안내, 12월까지 기납부분 환급 계획이라고 보도된다. 즉 '2026년 재산세에 실제로 적용되었는가' 의 답은 현재 '아직 아니다' 쪽이다. applied: false 를 유지할 이유가 줄어든 것이 아니라 늘었다. 개정안 원문(신구조문대비표)은 sncouncil.go.kr 접근 실패로 열지 못했다. 근거: docs/research/2026-09-14-seongnam-gosi.md"
+      },
+      "sunsetJumpScopeNote": "**\"1.84배\" 와 \"2.2~2.3배\" 는 충돌이 아니다 — 범위가 다르다.** 도시지역분은 세율이 그대로(0.14%)이고 과세표준만 60/45 = 1.33배 오르므로 총액에 합산하면 배수를 끌어내린다. 공시 6.5억: 재산세계(본세+지방교육세) 486,000 → 1,116,000 = **2.30배**, 도시지역분 409,500 → 546,000 = 1.33배, **총액 895,500 → 1,662,000 = 1.86배**. `conflicts` 의 \"1.84배\" 는 총액 기준이다. **범위를 명시하지 않은 배수는 다음 사람에게 충돌로 읽혀 한쪽을 지우게 만든다.**"
+    },
+    "comprehensiveTax": {
+      "basicDeduction": {
+        "general": 900000000,
+        "singleHouseHolder": 1200000000
+      },
+      "fairMarketRatio": 0.6,
+      "rates2HouseOrFewer": [
+        {
+          "upTo": 300000000,
+          "rate": 0.005,
+          "progressiveDeduction": 0
+        },
+        {
+          "upTo": 600000000,
+          "rate": 0.007,
+          "progressiveDeduction": 600000
+        },
+        {
+          "upTo": 1200000000,
+          "rate": 0.01,
+          "progressiveDeduction": 2400000
+        },
+        {
+          "upTo": 2500000000,
+          "rate": 0.013,
+          "progressiveDeduction": 6000000
+        },
+        {
+          "upTo": 5000000000,
+          "rate": 0.015,
+          "progressiveDeduction": 11000000
+        },
+        {
+          "upTo": 9400000000,
+          "rate": 0.02,
+          "progressiveDeduction": 36000000
+        },
+        {
+          "upTo": null,
+          "rate": 0.027,
+          "progressiveDeduction": 101800000
+        }
+      ],
+      "jointElection": {
+        "statute": "종합부동산세법 제10조의2, 시행령 제5조의2",
+        "requirements": "세대원 1인 + 배우자만 1주택 공동소유, 다른 주택 없음, 둘 다 거주자",
+        "applicationWindow": "매년 9.16~9.30 관할세무서장 신청 (최초 1회)",
+        "effect": "선택된 1인을 1세대1주택자로 보아 12억 공제 + 연령·보유기간 세액공제 적용",
+        "note": "**신청하지 않는 것이 유리한 구간이 있다.** 미신청 시 각자 9억씩 합쳐 18억이 공제되므로, 공시가 12~18억 구간에서는 미신청이 낫다."
+      },
+      "statute": "종합부동산세법 제8조·제9조·제10조의2, 시행령 제2조의3·제5조의2",
+      "source": "https://www.law.go.kr/법령/종합부동산세법",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    }
+  },
+  "capitalGainsTax": {
+    "_doc": "양도소득세. 1세대1주택 비과세 한도(12억)를 넘는 부분에만 과세되고, **그 초과분이 생기면 항상 명의 구조에 반응한다** — 기본공제 250만원이 인별이고 과세표준이 지분별로 쪼개져 누진세율이 분산된다.",
+    "singleHomeNonTaxThreshold": 1200000000,
+    "holdingRequirementYears": 2,
+    "residenceRequirement": "취득 당시 조정대상지역이었던 주택만 보유기간 중 거주기간 2년 이상을 추가로 요구한다 (시행령 제154조①).",
+    "highValueGainFormula": "과세대상 양도차익 = 전체 양도차익 × (양도가액 − 12억) ÷ 양도가액 (시행령 제160조①). 장기보유특별공제도 같은 비율로 안분한다.",
+    "longTermDeductionSingleHome": {
+      "holding": [
+        {
+          "y": 3,
+          "r": 0.12
+        },
+        {
+          "y": 4,
+          "r": 0.16
+        },
+        {
+          "y": 5,
+          "r": 0.2
+        },
+        {
+          "y": 6,
+          "r": 0.24
+        },
+        {
+          "y": 7,
+          "r": 0.28
+        },
+        {
+          "y": 8,
+          "r": 0.32
+        },
+        {
+          "y": 9,
+          "r": 0.36
+        },
+        {
+          "y": 10,
+          "r": 0.4
+        }
+      ],
+      "residence": [
+        {
+          "y": 2,
+          "r": 0.08
+        },
+        {
+          "y": 3,
+          "r": 0.12
+        },
+        {
+          "y": 4,
+          "r": 0.16
+        },
+        {
+          "y": 5,
+          "r": 0.2
+        },
+        {
+          "y": 6,
+          "r": 0.24
+        },
+        {
+          "y": 7,
+          "r": 0.28
+        },
+        {
+          "y": 8,
+          "r": 0.32
+        },
+        {
+          "y": 9,
+          "r": 0.36
+        },
+        {
+          "y": 10,
+          "r": 0.4
+        }
+      ],
+      "note": "보유분과 거주분을 합산한다. 거주 2년은 보유 3년 이상일 때만 적용된다."
+    },
+    "longTermDeductionGeneral": [
+      {
+        "y": 3,
+        "r": 0.06
+      },
+      {
+        "y": 4,
+        "r": 0.08
+      },
+      {
+        "y": 5,
+        "r": 0.1
+      },
+      {
+        "y": 6,
+        "r": 0.12
+      },
+      {
+        "y": 7,
+        "r": 0.14
+      },
+      {
+        "y": 8,
+        "r": 0.16
+      },
+      {
+        "y": 9,
+        "r": 0.18
+      },
+      {
+        "y": 10,
+        "r": 0.2
+      },
+      {
+        "y": 11,
+        "r": 0.22
+      },
+      {
+        "y": 12,
+        "r": 0.24
+      },
+      {
+        "y": 13,
+        "r": 0.26
+      },
+      {
+        "y": 14,
+        "r": 0.28
+      },
+      {
+        "y": 15,
+        "r": 0.3
+      }
+    ],
+    "basicDeduction": 2500000,
+    "basicDeductionBasis": "인별 × 연간 (제103조①). **공동명의면 두 배가 된다.**",
+    "brackets": [
+      {
+        "upTo": 14000000,
+        "rate": 0.06,
+        "progressiveDeduction": 0
+      },
+      {
+        "upTo": 50000000,
+        "rate": 0.15,
+        "progressiveDeduction": 1260000
+      },
+      {
+        "upTo": 88000000,
+        "rate": 0.24,
+        "progressiveDeduction": 5760000
+      },
+      {
+        "upTo": 150000000,
+        "rate": 0.35,
+        "progressiveDeduction": 15440000
+      },
+      {
+        "upTo": 300000000,
+        "rate": 0.38,
+        "progressiveDeduction": 19940000
+      },
+      {
+        "upTo": 500000000,
+        "rate": 0.4,
+        "progressiveDeduction": 25940000
+      },
+      {
+        "upTo": 1000000000,
+        "rate": 0.42,
+        "progressiveDeduction": 35940000
+      },
+      {
+        "upTo": null,
+        "rate": 0.45,
+        "progressiveDeduction": 65940000
+      }
+    ],
+    "shortTermSurtax": {
+      "under1Year": 0.7,
+      "oneToTwoYears": 0.6,
+      "statute": "제104조①2·3호"
+    },
+    "jointOwnershipMethod": "지분별로 각자 양도가액·필요경비·기본공제·세율을 적용한다. 소득세법의 인별 과세 원칙에서 도출한 것이고 **이를 직접 규정한 단독 조문은 확인되지 않았다.**",
+    "jointOwnershipMethodVerifiability": "estimate",
+    "statute": "소득세법 제89조①3호·제95조·제103조·제104조, 시행령 제154조·제160조",
+    "source": "https://www.law.go.kr/법령/소득세법",
+    "verifiability": "manual",
+    "verifiedAt": "2026-09-08",
+    "longTermDeductionGeneralStatute": "소득세법 제95조 제2항 표 1",
+    "longTermDeductionGeneralText": "3년 이상 4년 미만 100분의 6 / 4년 이상 5년 미만 100분의 8 / … / 15년 이상 100분의 30",
+    "longTermDeductionGeneralSource": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&LM=소득세법",
+    "longTermDeductionGeneralVerifiability": "manual",
+    "longTermDeductionGeneralVerifiedAt": "2026-09-08",
+    "gates": {
+      "_doc": "비과세 요건과 표2 적용 요건이 **서로 다르다.** 하나의 플래그로 표현하면 비조정대상지역의 \"표1 + 안분\" 조합을 표현할 수 없다.",
+      "exemption": {
+        "statute": "소득세법 제89조 제1항 제3호, 시행령 제154조 제1항",
+        "rule": "보유 2년 이상 + **취득 당시 조정대상지역이었던 주택만** 거주 2년 이상 추가",
+        "holdingYears": 2,
+        "residenceYearsIfAdjustmentArea": 2,
+        "residenceYearsOtherwise": 0
+      },
+      "table2": {
+        "statute": "소득세법 제95조 제2항 단서, 시행령 제159조의4",
+        "rule": "1세대 1주택 + **보유기간 중 거주기간 2년 이상** (조정대상지역 여부 불문)",
+        "residenceYears": 2,
+        "note": "거주 2년 미만이면 표2 를 쓸 수 없고 **표1 로 떨어진다.**"
+      },
+      "divergence": "**비조정대상지역**에서 보유 2년·거주 0년이면 비과세는 되고(제154조는 거주요건 없음) 표2 는 안 된다(제159조의4는 거주 2년 요구). 그 경우 **표1 + 고가주택 안분**이 동시에 적용된다. 조정대상지역에서는 두 요건이 실질적으로 같은 선에 있어 이 조합이 생기지 않는다.",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&LM=소득세법",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    },
+    "apportionmentPrecondition": {
+      "rule": "시행령 제160조① 의 안분은 **제89조 제1항 제3호에 따라 비과세 대상에서 제외되는 고가주택**에만 적용된다(제95조③). 즉 비과세 요건 자체를 충족하되 **가격만 12억을 초과**하는 경우다. 요건을 못 갖추면 안분의 전제가 성립하지 않아 **안분 없이 전액 과세**된다.",
+      "statute": "소득세법 제95조 제3항, 제89조 제1항 제3호, 시행령 제160조 제1항",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&type=XML&LM=소득세법",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    },
+    "deductionExclusions": [
+      {
+        "id": "unregisteredTransfer",
+        "label": "미등기양도자산",
+        "statute": "소득세법 제95조 제2항 본문(제104조 제3항 인용)",
+        "effect": "장기보유특별공제 0",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      },
+      {
+        "id": "multiHouseSurtaxArea",
+        "label": "조정대상지역 다주택자 중과대상 주택",
+        "statute": "소득세법 제95조 제2항 본문(제104조 제7항 각 호 인용)",
+        "effect": "장기보유특별공제 0",
+        "temporaryExclusion": "시행령 제167조의3①12의2 등이 \"2026년 5월 9일까지 양도하는 주택\" 에 대해 중과를 한시 배제했다 (=정상적으로 공제 가능). **오늘(2026-09-08)은 그 유예 종료 이후**이고, 이후 연장 개정이 있었는지는 확인하지 못했다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      }
+    ]
+  },
+  "publicPriceRatio": {
+    "value": 0.65,
+    "_doc": "매매가 대비 공시가격 비율. 보유세 과세표준의 기준을 파생할 때만 쓴다.",
+    "note": "단지·연도마다 다르고 정부 현실화율 정책에 따라 바뀐다. **추정치이므로 실제 공시가격을 입력하는 것이 맞다** — 부동산공시가격알리미(realtyprice.kr)에서 조회할 수 있다.",
+    "verifiability": "estimate",
+    "verifiedAt": null,
+    "source": "국토교통부 부동산 공시가격 현실화 계획 (구체 값은 미확인)"
+  },
+  "specialActFar": {
+    "_doc": "노후계획도시 특별법의 용적률 완화 상한. **언론의 \"300~500%\" 는 폐기한다** — 제25조 제1항 단서가 \"용적률 최대한도의 100분의 150을 초과할 수 없다\" 로 규정한다.",
+    "statute": "노후계획도시 정비 및 지원에 관한 특별법 제25조 제1항 단서 (법률 제21322호, 시행 2026-08-04)",
+    "text": "제3호의 경우 「국토의 계획 및 이용에 관한 법률」 제78조 및 관계 법령에 따른 용적률 최대한도의 100분의 150을 초과할 수 없다",
+    "formula": "특별정비구역 용적률 상한 = min(완화 적용 상한, 용도지역 법정 최대한도 × 1.5)",
+    "byZone": {
+      "제3종일반주거지역": {
+        "statutoryMax": 2.5,
+        "specialActMax": 3.75
+      },
+      "제2종일반주거지역": {
+        "statutoryMax": 2,
+        "specialActMax": 3
+      }
+    },
+    "note": "\"500%\" 는 기저 상한 333% 이상인 용도지역에서만 나오는 값이라 **분당 주거지역에는 해당하지 않는다.** 노후계획도시 기준은 조성 후 **20년**이다(30년 아님, 제2조 제1호).",
+    "crossValidation": "성남시 고시 원문의 실제 용적률과 이 규칙이 정합한다: 샛별마을 365%(3종 상한 375% 이내), 양지마을 333.09~383.79%(3종 87.9% + 준주거 8.1% 혼재라 3종 상한을 약간 넘는 획지가 설명된다), 목련마을 280%(제2종일반주거 98.9% → 2종 상한 300% 이내). **법조문과 고시 실측이 독립 경로로 일치한다.**",
+    "buyerRelevantClauses": {
+      "제16조 제7항": "기본계획 공람 중 예정구역에 대해 3년 이내(1년 1회 연장) 건축·토지분할·건축물대장 전환·전유부분 분할 제한",
+      "제39조": "주민공람 공고일 후 지정·고시 전, 시·도지사가 정하는 기준일 다음 날 기준으로 분양받을 권리를 산정"
+    },
+    "source": "https://www.law.go.kr/법령/노후계획도시정비및지원에관한특별법",
+    "verifiability": "manual",
+    "verifiedAt": "2026-09-08",
+    "gosi": {
+      "_doc": "분당 선도지구 특별정비구역 지정 고시. **정본은 `data/market/bundang-special-districts.json` 이다.** 여기는 포인터만 둔다. 두 곳에 같은 사실을 적었다가 한쪽만 갱신되어 정면으로 모순된 적이 있다 (이 필드가 '첨부 PDF 를 못 받았다, 4건만 확보했다' 로 남아 있는 동안 market 파일은 첨부에서 뽑은 수치와 11건 전량 확인을 기록하고 있었다).",
+      "canonical": "data/market/bundang-special-districts.json",
+      "summary": "고시 11건 전량 소재 확인, 7개 구역의 고시번호·추정비례율·권리자 분양가 확보 (2026-09-14).",
+      "verifiedAt": "2026-09-14",
+      "verifiability": "manual",
+      "researchDoc": "docs/research/2026-09-14-seongnam-gosi.md"
+    }
+  },
+  "rejectedIndicators": {
+    "_doc": "검증 결과 **상승 예측에 쓰지 않기로 한** 지표들. 목록으로 남기는 이유는 나중에 누군가 \"왜 이 좋은 지표가 없나\" 하고 다시 넣는 것을 막기 위해서다.",
+    "items": [
+      {
+        "id": "jeonseRatio",
+        "label": "전세가율",
+        "why": "국내 실증이 반대 방향이다 — 전세가율↑ 은 기대상승률과 음(-)·변동성과 양(+). 실증된 예측 대상은 보증사고·깡통전세다. 그리고 매매가가 오르면 분모가 커지는 항등식 오염이 있다.",
+        "grade": "conventional"
+      },
+      {
+        "id": "demandFormula",
+        "label": "적정수요 = 인구 × 0.5%",
+        "why": "학술 검색 0건. 출처 불명 업계 관행이다.",
+        "grade": "conventional"
+      },
+      {
+        "id": "unsoldUnits",
+        "label": "미분양",
+        "why": "인과가 반대다 — 가격이 먼저 떨어지고 미분양이 쌓인다. 후행지표다. 그리고 성남은 13개월 55호 상수로 정보량이 0이다.",
+        "grade": "lagging"
+      },
+      {
+        "id": "permitsStarts",
+        "label": "인허가·착공 감소",
+        "why": "국내 VAR 은 부호가 반대로 나온다 — 인허가·착공 증가가 초기에 매매가격에 정(+)이다.",
+        "grade": "conventional"
+      },
+      {
+        "id": "pirKhai",
+        "label": "PIR·주거부담지수",
+        "why": "분자에 가격이 들어가 가격의 재표현이고, 부담이 악화될 때 가격이 오른 것으로 나온다. 공표 시차도 11개월이다.",
+        "grade": "restatement"
+      },
+      {
+        "id": "schoolDistrict",
+        "label": "학군(매매 상승여력)",
+        "why": "**분당구를 대상으로 한 연구가 교육환경이 매매가보다 전월세가에 더 유의하다고 보고한다.** 매매 상승여력 가점 근거가 약하다. 그리고 특목고 진학률은 학교알리미 공시항목이 아니라 재현 불가다.",
+        "grade": "wrongTarget"
+      },
+      {
+        "id": "academyAccess",
+        "label": "학원가 접근성",
+        "why": "국내 학술 실증을 찾지 못했다. 통설 등급조차 부여하지 않았다 — 근거문헌 탐색 자체가 실패했다.",
+        "grade": "noEvidence"
+      },
+      {
+        "id": "remodelingStage",
+        "label": "리모델링 단계별 가격 반영",
+        "why": "실증이 없다. 재건축 단계 가중치를 유추 적용하면 임의값이 된다.",
+        "grade": "noEvidence"
+      },
+      {
+        "id": "upperTierGap",
+        "label": "상급지 갭 (서울 동남권 → 분당)",
+        "why": "방향이 상충한다. 2008~2022 표본은 서울→분당(그레인저)이고 2019~2023 표본은 경기→서울로 **역전**한다. 부호를 고정하면 위험하다.",
+        "grade": "unstableDirection"
+      },
+      {
+        "id": "latentFar",
+        "label": "잠재용적률 계수",
+        "why": "부호와 상호작용의 존재는 확인되나 **크기는 표본 외 외삽 불가**다. 원 표본 평균 용적률이 340.72% 로 잠재용적률이 대체로 음수인 구간의 국지적 기울기이고, 분당(184%)에 선형 적용하면 +93.7~271.2% 가 나와 귀류법적으로 깨진다.",
+        "grade": "noExtrapolation"
+      },
+      {
+        "id": "landSharePrice",
+        "label": "대지지분당 가격",
+        "why": "잠재용적률의 재포장이다. 용적률이 높을수록 대지지분이 작고 대지지분당 가격이 높아지므로 같은 것을 두 번 센다.",
+        "grade": "doubleCount"
+      },
+      {
+        "id": "decayFunction",
+        "label": "개통 효과 감쇠함수 w(t)",
+        "why": "어떤 단일 연구도 추정한 바 없는 복합물이다 — t≤3 은 광교(도보거리·수도권), t=4~5 와 t>5 는 대전(반경거리·지방 단일노선)에서 가져와 이어 붙인 것이다.",
+        "grade": "frankenstein"
+      }
+    ],
+    "measurementRules": [
+      "**도보거리 계수와 직선거리 계수를 섞지 말 것.** 주요 계수 공급원 3편이 전부 직선(반경)거리 기반이고 도보거리 계수는 다른 연구군에만 있다. 섞으면 모든 계수가 자격을 상실한다.",
+      "보행 최단경로는 카카오·네이버로 산출할 수 없다 — 둘 다 자동차 전용이다. TMAP 보행자 경로안내 또는 OSM 자체 라우팅만 가능하다.",
+      "개통 직후 1년은 \"효과 없음\"이 아니라 **중간 대역(200~400m)에서 음(-)이 나오는 불안정 구간**이다."
+    ],
+    "verifiability": "manual",
+    "verifiedAt": "2026-09-08"
+  },
+  "infrastructure": {
+    "_doc": "교통 인프라 잔여 단계. **점수화하지 않는다** — 사실은 1차 자료로 확정되지만 그것이 가격을 올리는지는 실증이 갈린다. `context` 로만 낸다.",
+    "evidenceConflict": "\"발표·착공에 선반영된다\" 를 3편이 지지하고 1편이 반박한다. 그런데 **반박하는 1편이 유일한 GTX 단계분해 연구**다 — 예타 +11.6% → 착공 +17.5% → **개통 +33.4%** 로 \"개통 시점의 실제 접근성 개선 효과가 초기 기대 반영분보다 유의하게 컸다\". 따라서 단일 계수로 고정하지 않고 0~33% 범위로만 인식한다.",
+    "gtxA": {
+      "openedSegments": [
+        {
+          "segment": "수서~동탄 (성남역 포함)",
+          "date": "2024-03-30",
+          "source": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95089613",
+          "sourceName": "국토교통부 동정자료 [장관동정] \"GTX 첫 열차와 함께 출퇴근 30분 시대 출발\"",
+          "verifiability": "manual",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "segment": "운정중앙~서울역",
+          "date": "2024-12-28",
+          "source": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95090469",
+          "sourceName": "국토교통부 보도자료 \"GTX-A '운정중앙~서울역'구간, 12월 28일 개통\"",
+          "verifiability": "manual",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "pendingSegments": [
+        {
+          "segment": "서울역~수서 (삼성역 무정차 통과, 13.7km)",
+          "plannedDate": null,
+          "plannedDateNote": "**확정 일정이 없다.** 2026-04-27 국토부 발표 시점에는 \"올해(2026년) 내\" 목표였으나, 2026-05 삼성역 구간 **철근누락 부실시공**이 발각되어 지연됐다(국회 국토위 질의, 국토부·서울시 감사 진행 중). 2026-05-22 이후 2026-09-08 까지 국토부 보도자료에 후속 공식 발표가 없다.",
+          "source": [
+            "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95091949",
+            "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95092037"
+          ],
+          "sourceName": "국토교통부 동정자료 (2026-04-27 GTX 추진상황 점검, 2026-05-22 삼성역 구간 철근누락 현장점검)",
+          "verifiability": "manual",
+          "verifiedAt": "2026-09-08"
+        },
+        {
+          "segment": "삼성역 정식 정차",
+          "plannedDate": null,
+          "plannedDateNote": "**미확인.** 2차 자료가 2027년 하반기~2028년 10월로 제각각이고 정부 원문에서 특정 시점을 확인하지 못했다. 시점을 넣지 않는다.",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "seongnamStation": {
+        "location": "경기도 성남시 분당구 백현동",
+        "lines": [
+          "GTX-A",
+          "경강선(판교~여주)"
+        ],
+        "operational": true,
+        "reachableNow": "GTX-A 로 수서(약 7분)·구성·동탄 직결. 경강선으로 판교~여주 방향. **서울역·삼성역(강남)은 GTX-A 로 직결되지 않는다** — 수서에서 3호선·수인분당선 등으로 환승해야 한다.",
+        "pendingImprovement": "서울역~수서 개통 시 성남역→서울역이 환승 없이 10분대로 연결될 계획이다. 삼성역 정식 정차 시 강남 접근성이 추가 개선된다. **두 단계 모두 확정 일정이 없다.**",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      },
+      "correctedRelay": "전달받은 \"서울역~수서 2027년, 삼성역 2028년\" 은 위키백과 기반이었고 **양방향으로 틀렸다** — 정부 목표는 오히려 2026년 내였고, 지금은 철근누락으로 그보다 더 늦어질 상황이다. 2027 이라는 숫자를 그대로 넣었다면 없는 확실성을 만들면서 동시에 방향도 틀렸을 것이다.",
+      "howToUse": "**잔여 단계가 존재한다는 사실은 1차 자료로 확정이고, 시점은 미확정이다.** 그래서 `context`(측정된 사실이지만 점수화하지 않음)로 낸다. 점수를 주면 두 가지를 동시에 틀린다 — 시점을 모르는데 현재가치를 계산하게 되고, 선반영 여부에 대한 실증이 갈리는데 한쪽을 고른 것이 된다. **\"접근성 개선이 온다\"는 방향은 신뢰하고 \"몇 년에 온다\"는 신뢰하지 않는다.**"
+    },
+    "unresolvedForCommute": "수내역 통근권에 예정된 신규 철도·도로 사업의 **전체 목록과 각 단계가 조사되지 않았다.** GTX-A 하나만 확인한 상태다.",
+    "source": "molit.go.kr 보도자료·동정자료 원문 (WebFetch 는 리다이렉트 루프로 실패 — curl + 쿠키 세션 또는 브라우저 필요)",
+    "verifiability": "manual",
+    "verifiedAt": "2026-09-08",
+    "headline": "**2027~2030년 사이에 정부 문서가 목표 시점을 명시한 접근성 개선 사업이 없다.** 정부 1차 문서로 목표 시점이 확인된 것은 둘뿐이고 둘 다 범위 밖이다 — 위례선 트램(목표 2026년 말, 절차 리스크) / 성남-서초 고속도로(착공 목표 2029, 개통 목표 2034). 따라서 교통 축은 **감점도 가점도 없다.**",
+    "rootCause": "**제5차 국가철도망구축계획 자체가 미발표다.** 경기남부광역철도·GTX-D·용인 각종 연장선의 반영 여부가 모두 이 계획에서 결정되는데, 지자체 제안 폭증과 정치 일정으로 발표가 연기됐다. 이것이 이 지역 다수 사업이 미확정으로 남는 근본 원인이다.",
+    "withGovernmentTarget": [
+      {
+        "name": "위례선(트램)",
+        "status": "planned",
+        "targetDate": "2026년 말",
+        "source": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95091747",
+        "sourceName": "국토교통부 대도시권광역교통위원회 동정자료(2026-02-26)",
+        "risk": "2026-08-28 문서(id 95092355)에서 교통안전심의 관련 기관 간 이견을 대광위가 갈등조정했다. 남은 안전진단이 통상 6개월~1년이라 목표 달성이 불확실하다.",
+        "relevanceToSunae": "성남 수정구 위례동 생활권. **수내역과는 다른 노선축**이라 직접 영향은 낮다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      },
+      {
+        "name": "성남-서초 고속도로",
+        "status": "planned",
+        "targetDate": "착공 2029 / 개통 2034",
+        "source": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?lcmspage=1&id=95092143",
+        "sourceName": "국토교통부 보도자료(2026-06-22)",
+        "relevanceToSunae": "판교 인근~우면산터널 10.7km 신설로 분당·판교에서 서초·양재 방향 단축. **개통이 2034년이라 2027년 매수 판단에는 반영할 수 없다.**",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-08"
+      }
+    ],
+    "noGovernmentBasis": {
+      "_doc": "흔히 \"호재\" 로 인용되지만 **정부 1차 자료로 존재 자체를 확인하지 못한** 사업들. 목록으로 남기는 이유는 누군가 이걸 상승 요인으로 다시 넣는 것을 막기 위해서다.",
+      "items": [
+        {
+          "name": "8호선 판교 연장",
+          "evidence": "비정부 온라인 커뮤니티 게시물 1건(2026-01-14)뿐. 국토부·경기도 1차 자료로 **존재 자체를 확인 못함**. 판정 유지.",
+          "newSignal": "2026-09-14 재조사: 국토교통부 대광위 「제4차 환승센터 및 복합환승센터 구축 기본계획(2026~2030)」 2026-08-31 고시에 성남역 복합환승센터가 신규 반영됐고(2027~2032년, 856억원), 이를 다룬 복수 언론이 같은 기사에서 \"2036년 8호선 연장\"을 언급한다. **그 문구가 국토부 고시 원문의 표현인지 성남시 측 설명인지 확인하지 못해 판정을 올리지 않았다.** 2차 자료가 늘어난 것은 근거가 생긴 것이 아니다. 확인하려면 대광위 고시 원문 (제4차 환승센터 기본계획)에서 성남역 항목의 연계노선 기술을 직접 읽어야 한다. 근거: docs/research/2026-09-14-government-development-plans.md"
+        },
+        {
+          "name": "성남 트램 1·2호선",
+          "evidence": "같은 출처. 존재 불확실"
+        },
+        {
+          "name": "판교오포선",
+          "evidence": "같은 출처. 존재 불확실"
+        },
+        {
+          "name": "동백~신봉선",
+          "evidence": "용인시가 경기도에 반영 **건의**한 단계(2021 최초, 2024-06-06 재확인). \"2026년 최종승인\" 주장은 커뮤니티 출처이고 검증 불가"
+        },
+        {
+          "name": "용인선(에버라인) 광교중앙역 연장",
+          "evidence": "용인시 **건의** 단계(2024-06-06). 진행 상황 확인 못함"
+        }
+      ],
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    },
+    "confirmedNotApplicable": [
+      "GTX-B — 인천 송도~부천~서울~청량리~마석 축. **성남·용인 미경유 확인**",
+      "GTX-C — 덕정~창동~삼성~양재~과천~금정~수원. **성남·용인 정차역 없음** (모란역 추가 정차 요구는 확정 근거 없음)",
+      "8호선 연장(별내선) — 구리·남양주 방향(2024년 개통). 성남과 무관",
+      "제2경인연결고속도로 — 인천·시흥·광명 축. **성남·용인 미경유 확인**",
+      "신분당선 광교~호매실 연장 — 수원 방향이라 용인 수지구청역·성복역 서비스에 직접 변화 없음",
+      "경강선 처인구 연장·국도45호선·반도체고속도로 — 용인 **처인구** 대상. 후보지(수지·기흥)와 무관"
+    ],
+    "notFound": [
+      "**수인분당선(수내역 포함 구간) 급행화·증차 계획 — 관련 정부 계획을 찾지 못했다.** 수내역 자체를 개선하는 사업이 없다는 뜻이다.",
+      "신분당선 성복역·수지구청역 관련 추가 사업(급행 정차 확대·환승센터) — 확인된 계획 없음",
+      "용인 트램·BRT 노선안 — 확인된 계획 없음"
+    ],
+    "researchLimitation": "molit.go.kr 보도자료 게시판은 **최근 1년(2025-09-09~2026-09-08, 850건)만 검색 가능**하다. 그보다 오래된 정부 발표는 이 경로로 못 찾고 뉴스가 인용한 발표문으로 교차검증해야 한다 (그 경우 verifiability=guidance). 그리고 DRF API 는 법률·시행령만 대상이고 **개별 고시** (실시계획고시 등)는 검색되지 않는다.",
+    "yonginSeongnamExpresswayRisk": {
+      "kind": "risk",
+      "label": "용인-성남 민자고속도로 — 샛별마을 하부 대심도 터널 관통",
+      "route": "용인 동백동 ~ 성남 사송동, 15.4km, 1조1,518억, BTO-a",
+      "segment": "영동고속도로 마성IC 부근 ~ 수도권제1순환고속도로 성남IC 부근",
+      "stage": "민자적격성조사 통과(2026-02-13) + 전략환경영향평가 진행중(2026-07~)",
+      "timing": "국토부 원문이 \"**이르면** '30년 착공을 추진할 계획\" — \"이르면\" 이 원문 표현이고 개통 시점은 없다.",
+      "finding": "성남시 2026-08-04 보도자료 「성남시, 용인-성남 민자고속도로 **샛별마을 통과 노선 반대** 입장 밝혀」 원문: \"현재 검토 중인 노선은 분당 노후계획도시 **선도지구인 샛별마을 하부를 대심도 터널로 통과**하는 계획을 포함\".",
+      "seongnamObjectionGrounds": [
+        "공사 중 소음·진동·분진",
+        "공사차량 통행",
+        "운영 후 환기구 설치",
+        "**재개발·재건축 사업의 사업성과 추진 일정**에 미칠 영향"
+      ],
+      "affectedArea": "분당구 샛별마을 (노후계획도시 선도지구, 실측 용적률 365%)",
+      "applied": false,
+      "whyNotScored": "**노선이 확정되지 않았다.** 성남시가 우회노선을 요구하고 전략환경영향평가가 진행 중이며 국토부 원문에도 변경 여지가 열려 있다 — 확정 리스크가 아니라 **미해소 리스크**다. 그리고 **현재 후보 16곳 중 샛별마을 소재가 없다**(분당구 후보는 수내동 양지마을 2곳, 야탑동 목련마을 2곳, 서현동 시범우성). 샛별마을 단지를 후보에 넣으면 이 항목이 `unknownFactors` 로 발동해야 한다 — 방향은 명확하고 크기만 미확인이다.",
+      "source": "https://www.seongnam.go.kr/bbs010501 (성남시 2026-08-04 보도자료) / 국토교통부 민자사업 공고",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    },
+    "sunaeBridgeReconstruction": {
+      "kind": "risk",
+      "label": "수내교 전면 개축",
+      "cost": 36900000000,
+      "timeline": "2023년 긴급 정밀안전진단 **E등급(불량)** → 2023-08-14 전면 통제 → 임시보강(2024-01-18) → 전면 개축 (성남시 도로과)",
+      "whyItMatters": "**수내역에서 가장 가까운, 실제로 진행 중인 도로사업이고 통근 경로에 직접 걸린다.** 1차 조사에서 완전히 누락됐다 — 큰 사업만 찾다가 실제로 매일 지나는 구조물을 놓친 것이다.",
+      "applied": false,
+      "whyNotScored": "완공 시점이 정부 원문에 없어 2027년 입주 시점의 상태를 판정할 수 없다. 개축이 끝나면 개선이고 진행 중이면 우회다 — 방향이 시점에 달려 있다.",
+      "source": "https://www.seongnam.go.kr/bbs010501 (성남시 도로과)",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08"
+    },
+    "commuteConclusion": "**교통사업 84건을 단계별로 전수 분류한 결과, 수내역 통근을 확정적으로 바꾼 것은 GTX-A 성남역(수서 방면) 하나뿐이다.** 나머지는 전부 목표만 있거나 시점이 없다. 그리고 구조적 패턴이 있다 — **단계가 앞선 사업일수록 수내역 관련성이 낮고, 관련성이 높은 사업일수록 단계가 뒤처져 있다.** 관련성이 가장 높은 후보들(판교오포선·성남도시철도 2호선·성남 BRT 3단계)은 예타 前 단계라 정부 원문에 시점이 아예 없다. 경부 지하고속도로만 예외적으로 둘 다 충족하는데(예타 통과 2024-08-22), **중간 진출입(판교IC) 설치 여부가 정부 원문에 없어** 체감 효과가 갈린다. 그래서 이 축 전체를 `context`(측정하되 점수화하지 않음)로 둔다.",
+    "corrections": [
+      {
+        "item": "GTX-A 성남역 소재지",
+        "wrong": "분당구 백현동",
+        "correct": "분당구 **이매동**",
+        "source": "성남시 2026-09-01 보도자료 원문 \"분당구 이매동에 있는 수도권광역급행철도(GTX)-A 성남역\"",
+        "note": "백현동은 **판교역** 소재지다. 이 정정이 논거를 바꾼다 — 이매동이라는 사실이 곧 \"수인분당선 **이매역** 인접\"(수내에서 북쪽 2정거장)의 근거다. 백현동이면 그 경로 논거가 성립하지 않는다."
+      },
+      {
+        "item": "GTX-A 성남역에서 수서까지 소요시간 \"약 7분\"",
+        "wrong": "인용 가능한 값으로 취급",
+        "correct": "**정부 원문 근거를 찾지 못했다** — 쓰지 않는다",
+        "note": "그리고 **성남역에서 서울역·삼성역 방면은 갈 수 없다** — 서울역~수서 미개통, 삼성역 미개통 이므로 북쪽 종점이 수서역이다. 게다가 국토부 2026-05-22 원문에 따르면 삼성역 구간(1km) 철근누락으로 정부합동점검단이 확대·개편됐다 — 이 방면 불확실성이 **커졌다.**"
+      }
+    ],
+    "gyeongbuUndergroundMidwayInterchange": {
+      "label": "경부 지하고속도로 중간 진출입(판교IC) 설치 여부",
+      "project": "경부(화성~서울) 지하고속도로 기흥IC~양재IC 26.1km, 3조7,879억",
+      "stage": "예타 통과 2024-08-22, 후속 타당성조사 진행 중 (성남시 의견회신 2026-01-15)",
+      "timing": "착공 목표가 **'27년 → '28년으로 후퇴**했다(2025-07-10 국토부 원문 대비). 개통 시점 없음.",
+      "whyItMatters": "**이 축에서 수내역 관련성이 가장 높으면서 단계도 가장 앞선 유일한 사업이다.** 수내·서현에서 승용차로 강남 갈 때 쓰는 판교IC~양재IC 용량이 늘어난다. 그런데 **중간 진출입 설치 여부가 정부 원문에 없다** — 양단(기흥IC·양재IC)만 접속하면 수내역 체감 효과는 \"지상 경부선 혼잡 완화\" 로 제한된다. 즉 같은 사업이 **직접 효과냐 간접 효과냐가 이 한 항목에 달려 있다.**",
+      "value": null,
+      "source": "국토교통부 예비타당성조사 통과 보도자료(2024-08-22) / 성남시 의견회신(2026-01-15)",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-08",
+      "valueIsAbsence": true,
+      "absenceNote": "**`value: null` 은 \"확인하지 못했다\" 가 아니라 \"원문에 없다\" 다.** 2026-09-08 에 국토교통부 예타 통과 보도자료와 성남시 의견회신을 읽고 중간 진출입에 관한 언급이 없음을 확인했다. 부재 자체가 확인된 사실이므로 `verifiability: manual` 이고 `verifiedAt` 이 있다 — 게이트 검사 8 이 막는 것은 \"원문을 읽었다고 주장하면서 확인일이 없는\" 모순이고, 이 경우는 그게 아니다."
+    }
+  },
+  "prepaymentFee": {
+    "feeFreeAfterYears": 3,
+    "feeFreeAfterYearsNote": "주택담보대출 중도상환수수료는 통상 **대출일로부터 3년 경과 후 면제**된다. 3년 이내에는 잔존기간에 비례해 감소하는 슬라이딩 방식이 일반적이다.",
+    "rateSchedule": null,
+    "rateScheduleNote": "**수수료율을 확정하지 못했다.** 은행·상품마다 다르고(통상 1.2~1.4% 수준으로 알려져 있으나 1차 자료로 확인하지 않았다) 정책대출과 시중은행이 또 다르다. **추정 요율을 넣지 않는다** — 이 가구는 10년 보유 계획이라 값이 0 이고, 근거 없는 요율을 넣으면 3년 미만 경로에서 그럴듯한 오답을 낸다.",
+    "appliesToThisHousehold": false,
+    "appliesToThisHouseholdWhy": "보유 예정 기간이 10년이라 3년 면제 기간을 넘는다 → **수수료 0원.** 다만 보유 기간은 사용자가 바꿀 수 있는 입력이므로, 3년 미만으로 내리면 **수수료가 계산에 없다는 사실을 경고로 낸다.** 조용히 0 으로 두면 단기 보유 시나리오의 비용이 과소 산정된다.",
+    "source": "미확인 — 은행연합회 공시 또는 개별 상품설명서 확인 필요",
+    "verifiability": "estimate",
+    "verifiedAt": null
+  },
+  "geology": {
+    "_doc": "지질·지반 조건. **점수화하지 않는다** — infrastructure 와 같은 이유다. 이 도구는 상승을 예측하지 않는다(README '이 도구가 하지 않는 것'). 지질은 **제약과 비용 축**으로만 쓴다: 암반 심도가 굴착비를, 연약지반이 공법을, 단층이 내진 설계를 가른다. '좋은 지반이라 오른다' 는 금지다. 지금은 `context` 로만 두고 감점에도 넣지 않았다 — 단지 단위로 어느 지반 위에 있는지를 확인하지 못했기 때문이다. 광역 서술을 단지에 갖다 붙이면 이 저장소가 최악으로 꼽는 실패 모드가 된다.",
+    "nationalMapCompletion": {
+      "fact": "한국지질자원연구원(KIGAM)이 1:50,000 축척 국가기본지질도 357도엽(남한 전역) 완간을 선포했다. 1924년 최초 발간 이후 약 100년 만이다.",
+      "date": "2026-09-10",
+      "source": "https://www.kigam.re.kr/",
+      "sourceName": "한국지질자원연구원 공식 사이트 (발표 기관)",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-14",
+      "note": "공식 사이트 본문을 직접 받아 '국가기본지질도 ... 9월 10일(목) 대전 본' 과 '국가기본지질도 완간 미디어데이 ... 9월 2일(수)과 3일(목)' 이 실린 것을 확인했다. 언론 보도(파이낸셜뉴스 등)는 2차 자료라 guidance 다.",
+      "scopeLimit": "완간된 것은 1:50,000 축척이다. 1:25,000 급 도시정밀지질도가 별도로 있는지는 확인하지 못했다."
+    },
+    "portals": {
+      "geobigdata": {
+        "url": "https://data.kigam.re.kr/",
+        "api": "GET /openapi/wms (bbox 로 좌표 범위 조회, 인증키 필요) / GET /openapi/data (데이터셋 검색)",
+        "note": "단지 좌표를 bbox 에 넣어 지질도를 이미지로 받을 수 있다. 키 발급·호출은 아직 하지 않았다.",
+        "verifiability": "manual"
+      },
+      "geoinfo": {
+        "url": "https://www.geoinfo.or.kr/",
+        "what": "국토지반정보 통합DB센터. 전국 건설현장 시추공 지반조사 자료.",
+        "note": "로그인 없이 열람 가능한 범위와 좌표 검색 지원 여부는 확인하지 못했다.",
+        "verifiability": "guidance"
+      }
+    },
+    "regions": {
+      "성남시": {
+        "fact": "선캠브리아기 경기 변성암 복합체(주로 흑운모 호상편마암, 화강암질 편마암은 협재)와 하천 주변 제4기 충적층. 충적층은 점토·미사·사질에 쇄설물과 유기물이 미고결 상태로 섞여 있다.",
+        "constraintAxis": "탄천 등 하천 주변 충적층 구간은 연약지반 공법 제약 가능성이 있는 지반 유형이다. **어느 단지가 충적층 위인지는 확인하지 못했다.**",
+        "source": "https://seongnam.grandculture.net/seongnam/toc/GC00100116",
+        "sourceName": "디지털성남문화대전(한국학중앙연구원) 자연지리",
+        "verifiability": "manual"
+      },
+      "용인시": {
+        "fact": "경기육괴. 경기편마암콤플렉스·서산층군 변성암류에 더해 **쥬라기 대보화강암 관입이 명시**된다. 성남과 암종 구성이 다르다. 중심부와 서부에 남북 단층선이 지난다.",
+        "constraintAxis": "화강암은 편마암보다 풍화 심도가 크고 마사토가 두꺼워지는 경향이 일반적으로 알려져 있으나, 수지구 국지 풍화대 깊이를 정량화한 자료는 찾지 못했다. 단층선이 수지구를 지나는지도 확인하지 못했다.",
+        "source": "https://yongin.grandculture.net/yongin/toc/GC00900004",
+        "sourceName": "디지털용인문화대전(한국학중앙연구원) 자연지리",
+        "verifiability": "manual"
+      }
+    },
+    "singalFault": {
+      "fact": "연천에서 평택까지 130km 남북 주향이동단층. 성남시 수정구, 용인시 기흥구 신갈동·기흥저수지를 지난다. 기흥구 지점 ESR 연대 120±10 ka, 610±80 ka 로 제4기 활동을 시사한다.",
+      "source": "https://ko.wikipedia.org/wiki/신갈_단층",
+      "sourceName": "위키백과 (원 인용: KIGAM 활성단층지도 2012, 권순달 외 2012, 정동훈 외 2014)",
+      "verifiability": "guidance",
+      "verifiabilityNote": "**위키백과는 2차 자료다.** 인용된 원 논문·보고서를 직접 읽지 않았으므로 manual 이 아니다.",
+      "conflict": "같은 위키백과 문서에 대해 두 조사 경로가 상반된 결론을 냈다. 원문 직접 열람에서는 '성남시 수정구' 만 명시되고 분당구는 언급되지 않았는데, 검색 요약에서는 '분당구 등을 통과' 가 나왔다. **직접 읽은 쪽을 채택하고 분당구 통과 여부는 확인 못 함으로 남긴다.** 수지구 통과 여부도 원문에 직접 언급이 없다.",
+      "howToResolve": "KIGAM 활성단층지도 원 보고서, 또는 data.kigam.re.kr 지질도 뷰어의 단층 레이어를 해당 좌표로 조회."
+    },
+    "notConfirmed": [
+      "신갈단층의 분당구·수지구 실제 통과 여부",
+      "성남·용인 화강암 풍화대 깊이 (굴착비에 직결되는 정량값)",
+      "어느 단지 하부가 충적층인지 (단지 단위 오버레이 미실시)",
+      "액상화 위험지도의 성남·용인 조회 가능 여부",
+      "1:25,000 급 도시정밀지질도의 존재·진행",
+      "지반 조건이 재건축·리모델링 사업비에 미친 실증 사례 (없다고 단정하지 않는다. 못 찾았을 뿐이다)"
+    ],
+    "researchDoc": "docs/research/2026-09-14-korea-geology.md",
+    "verifiedAt": "2026-09-14"
+  }
+}

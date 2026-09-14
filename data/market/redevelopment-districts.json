@@ -1,0 +1,156 @@
+{
+  "asOf": "2026-09-08",
+  "_doc": "성남 수정·중원 재개발 5구역. 고시가 산식과 보정률을 공개해 분담금을 계산할 수 있다. memberPriceForMemberPricing 은 **조합원 분양가 산정용이고 청산액이 아니다.**",
+  "formula": {
+    "ratio": "추정비례율 = (총수입 − 총지출) ÷ 종전자산총액",
+    "contribution": "추정분담금 = 권리자분양가 추정액 − (종전자산 추정액 × 추정비례율)  (+ 부담 / − 환급)",
+    "priorAsset": "종전자산 추정액(공동주택) = 2025년 공동주택 공시가격 × 보정률",
+    "publicPriceLookup": "부동산공시가격알리미 realtyprice.kr"
+  },
+  "caveat": "고시 본문 유보: 관리처분계획인가 시 개별 물건에 대한 종전/종후자산 감정평가, 부동산 정책변화, 부동산 시장 변화, 분양가격 확정 결과 및 사업시행방식 등에 따라 변경될 수 있음.",
+  "source": "성남시 고시 (2026-08-31 정비계획 결정·정비구역 지정 5건 동시 고시)",
+  "verifiability": "manual",
+  "verifiedAt": "2026-09-08",
+  "districts": [
+    {
+      "id": "taepyeong-2-4",
+      "label": "태평2·4구역",
+      "sigungu": "성남시",
+      "dong": "태평동",
+      "baseLotNumber": "1180",
+      "gosiNumber": "성남시 고시 제2026-209호",
+      "gosiDate": "2026-08-31",
+      "estimatedRatio": 1.2127,
+      "totalRevenue": 3481100000000,
+      "totalCost": 2429200000000,
+      "priorAssetTotal": 867400000000,
+      "apartmentCorrectionFactor": [
+        1.8,
+        1.8
+      ],
+      "landCorrectionFactor": [
+        2.25,
+        2.6
+      ],
+      "memberPriceForMemberPricing": {
+        "39": 460000000,
+        "59": 630000000,
+        "74": 750000000,
+        "84": 800000000,
+        "104": 960000000
+      },
+      "note": "보정률이 1.80 단일이라 **5개 구역 중 유일하게 확정 계산이 가능하다.** 추정비례율도 121.27%로 최고."
+    },
+    {
+      "id": "sangdaewon-1-3",
+      "label": "상대원1·3구역",
+      "sigungu": "성남시",
+      "dong": "상대원동",
+      "baseLotNumber": "817",
+      "gosiNumber": "성남시 고시 제2026-212호",
+      "gosiDate": "2026-08-31",
+      "estimatedRatio": 1.1971,
+      "totalRevenue": 1820800000000,
+      "totalCost": 1263000000000,
+      "priorAssetTotal": 466000000000,
+      "apartmentCorrectionFactor": [
+        1.3,
+        2.25
+      ],
+      "landCorrectionFactor": [
+        1.75,
+        2.4
+      ],
+      "memberPriceForMemberPricing": {
+        "39": 470000000,
+        "59": 670000000,
+        "74": 800000000,
+        "84": 860000000,
+        "104": 1010000000
+      },
+      "note": "보정률 범위가 1.30~2.25 로 가장 넓어 분담금 폭이 크다."
+    },
+    {
+      "id": "sujin-2",
+      "label": "수진2구역",
+      "sigungu": "성남시",
+      "dong": "수진동",
+      "baseLotNumber": "3603",
+      "gosiNumber": "성남시 고시 제2026-208호",
+      "gosiDate": "2026-08-31",
+      "estimatedRatio": 1.0341,
+      "totalRevenue": 2897300000000,
+      "totalCost": 1822100000000,
+      "priorAssetTotal": 1039700000000,
+      "apartmentCorrectionFactor": [
+        1.35,
+        1.9
+      ],
+      "landCorrectionFactor": [
+        1.8,
+        2.4
+      ],
+      "memberPriceForMemberPricing": {
+        "39": 540000000,
+        "59": 770000000,
+        "74": 910000000,
+        "84": 970000000,
+        "104": 1160000000
+      },
+      "note": null
+    },
+    {
+      "id": "sanseong",
+      "label": "산성구역",
+      "sigungu": "성남시",
+      "dong": "산성동",
+      "baseLotNumber": "74",
+      "gosiNumber": "성남시 고시 제2026-210호",
+      "gosiDate": "2026-08-31",
+      "estimatedRatio": 0.9727,
+      "totalRevenue": 1278800000000,
+      "totalCost": 889100000000,
+      "priorAssetTotal": 400600000000,
+      "apartmentCorrectionFactor": [
+        1.55,
+        2
+      ],
+      "landCorrectionFactor": [
+        2.1,
+        2.2
+      ],
+      "memberPriceForMemberPricing": {
+        "39": 600000000,
+        "59": 860000000,
+        "74": 1000000000
+      },
+      "note": "도정법 제66조에 따라 법적상한용적률까지 완화를 적용했음에도 비례율이 100% 미달이다."
+    },
+    {
+      "id": "dandae",
+      "label": "단대구역",
+      "sigungu": "성남시",
+      "dong": "단대동",
+      "baseLotNumber": "48-2",
+      "gosiNumber": "성남시 고시 제2026-211호",
+      "gosiDate": "2026-08-31",
+      "estimatedRatio": 0.95,
+      "totalRevenue": 907100000000,
+      "totalCost": 717000000000,
+      "priorAssetTotal": 200100000000,
+      "apartmentCorrectionFactor": [
+        1.6,
+        1.65
+      ],
+      "landCorrectionFactor": [
+        2.05,
+        2.35
+      ],
+      "memberPriceForMemberPricing": {
+        "39": 600000000,
+        "59": 880000000
+      },
+      "note": "추정비례율 95.00%로 5곳 중 최저다. 보정률 범위는 1.60~1.65로 좁다. **아파트 소유자가 조합원이 될 여지가 있는 유일한 구역**이나 지형도면 경계가 미확인이다."
+    }
+  ]
+}

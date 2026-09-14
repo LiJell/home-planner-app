@@ -1,0 +1,889 @@
+{
+  "asOf": "2026-09-08",
+  "_doc": "후보 단지. 상승률로 정렬하지 말 것 — 예산·통근·실거주 필터를 먼저 적용한다. contributionForNewBuyer 가 null 인 것은 0원이 아니라 미측정이다. 정비사업 유형별로 전매제한이 다르다: 재건축=조합설립인가 후, 재개발=관리처분계획 인가 후, 리모델링=적용 없음. 토지거래허가구역은 별개 축이다. appreciationPattern 이 상승률 숫자보다 중요하다 — 같은 정체가 \"지역 약세\"인지 \"재고 내 양극화\"인지에 따라 함의가 정반대다.",
+  "commuteAnchor": "수내역",
+  "candidates": [
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "yangji-1-84",
+      "complex": "양지마을(금호1)",
+      "dong": "수내동",
+      "sigungu": "성남시 분당구",
+      "areaSqm": 84.9,
+      "medianPrice": 2290000000,
+      "sampleSize": 5,
+      "fiveYearChange": 0.52,
+      "fromPeak": 0.41,
+      "commuteMinutes": 5,
+      "redevelopment": {
+        "status": "costExposed",
+        "kind": "specialAct",
+        "contributionForNewBuyer": null,
+        "contributionSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다.",
+        "assessmentGap": null,
+        "estimatedRatio": null,
+        "note": "계획 4,392→6,839세대(+2,447). 순증이 커서 사업성은 수지보다 구조적으로 낫지만 수치 검증이 불가능하다",
+        "existingUnits": 4392,
+        "existingUnitsSource": "성남시 고시 제2025-435호 「분당 노후계획도시정비선도지구 지정 고시」(2025-12-17). 합계 12,055세대",
+        "existingUnitsVerifiability": "manual",
+        "plannedUnitsNote": "계획 세대수는 출처마다 달라 기록하지 않는다 (룰셋 conflicts: bundang-leading-district-planned-units). 순증률 +56~124% 는 언론 인용값 기준이라 미확정이다.",
+        "contributionEstimate": [
+          500000000,
+          700000000
+        ],
+        "contributionEstimateSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다. 2026-03 수내동 양지마을 주민이 \"분담금이 예상보다 훨씬 높다\"고 반발한 보도가 있다.",
+        "plannedUnits": 6839,
+        "unitGrowthRate": 0.557,
+        "unitMixByArea": {
+          "under60": 0.169,
+          "mid60to85": 0.262,
+          "over85": 0.569
+        },
+        "floorAreaRatio": "333.09~383.79%",
+        "plannedUnitsSource": "성남시 고시 (선도지구 특별정비계획, 배포용 HWP 복호화로 원문 확보)",
+        "plannedUnitsVerifiability": "manual",
+        "memberAreaUpgradeCap": 0.3,
+        "memberAreaUpgradeCapNote": "고시 명문: \"조합원에게 분양하는 주택의 주거전용면적의 합이 종전 주택의 주거전용면적의 합보다 작거나 **30퍼센트의 범위에서 클 것**\". 즉 59㎡ 소유자가 84㎡(+42%)를 받는 것은 이 제약에 걸릴 수 있다."
+      },
+      "transferRestriction": {
+        "status": "restricted",
+        "deemedApprovalDate": "2026-07-27",
+        "legalBasis": "도정법 제39조 제1항 제3호(사업시행자 지정을 조합설립인가로 의제), 제39조 제2항",
+        "transactionAllowed": true,
+        "membershipTransfers": "sellerDependent",
+        "ifNotTransferred": "cashSettlement"
+      },
+      "landTransactionPermit": false,
+      "appreciationPattern": "beneficiary",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준.",
+      "regionKey": "성남시 분당구",
+      "osm": {
+        "ids": [
+          "way/473595457"
+        ],
+        "areaM2": 63615,
+        "buildings": 16,
+        "startDate": "1992",
+        "confidence": "high",
+        "note": "⚠️ 중심점을 쓸 일이 있으면 **반드시 면적가중중심**을 쓸 것 — 19절점이 동측에 몰려 정점단순평균이 약 90m 동쪽으로 밀린다. 폴리곤 최단거리로 가면 무해하다."
+      },
+      "jibun": {
+        "value": "성남시 분당구 수내동 34",
+        "roadAddress": "수내로 74",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "도로명주소를 지번으로 바꾼 값. **고시 도면·조서가 지번 체계라 이것이 없으면 구역 매핑이 성립하지 않는다.** 도로명은 OSM 태그(Overpass 로 직접 확인)에서 왔고 변환은 주소정보누리집 공개 검색이다 — 인증키가 필요 없다."
+      },
+      "specialDistrict": {
+        "districtId": "bundang-32-yangji",
+        "lot": "특별정비32-3",
+        "basis": "고시문의 「가구 및 획지의 규모와 조성에 관한 도시관리계획 결정 조서」가 획지별 지번을 열거한다. 이 단지의 지번이 그 목록에 있다.",
+        "crosscheck": "고시 기정 획지 C18-14(수내동 34) 64,849.0㎡ 대 OSM 폴리곤 63,615㎡ (98.1%)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "yangji-6-59",
+      "complex": "양지마을6단지(금호·청구)",
+      "dong": "수내동",
+      "sigungu": "성남시 분당구",
+      "areaSqm": 59.9,
+      "medianPrice": 1490000000,
+      "sampleSize": 9,
+      "fiveYearChange": 0.52,
+      "fromPeak": 0.62,
+      "commuteMinutes": 5,
+      "redevelopment": {
+        "status": "costExposed",
+        "kind": "specialAct",
+        "contributionForNewBuyer": null,
+        "contributionSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다.",
+        "assessmentGap": null,
+        "existingUnits": 4392,
+        "existingUnitsSource": "성남시 고시 제2025-435호 「분당 노후계획도시정비선도지구 지정 고시」(2025-12-17). 합계 12,055세대",
+        "existingUnitsVerifiability": "manual",
+        "plannedUnitsNote": "계획 세대수는 출처마다 달라 기록하지 않는다 (룰셋 conflicts: bundang-leading-district-planned-units). 순증률 +56~124% 는 언론 인용값 기준이라 미확정이다.",
+        "contributionEstimate": [
+          500000000,
+          700000000
+        ],
+        "contributionEstimateSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다. 2026-03 수내동 양지마을 주민이 \"분담금이 예상보다 훨씬 높다\"고 반발한 보도가 있다.",
+        "plannedUnits": 6839,
+        "unitGrowthRate": 0.557,
+        "unitMixByArea": {
+          "under60": 0.169,
+          "mid60to85": 0.262,
+          "over85": 0.569
+        },
+        "floorAreaRatio": "333.09~383.79%",
+        "plannedUnitsSource": "성남시 고시 (선도지구 특별정비계획, 배포용 HWP 복호화로 원문 확보)",
+        "plannedUnitsVerifiability": "manual",
+        "memberAreaUpgradeCap": 0.3,
+        "memberAreaUpgradeCapNote": "고시 명문: \"조합원에게 분양하는 주택의 주거전용면적의 합이 종전 주택의 주거전용면적의 합보다 작거나 **30퍼센트의 범위에서 클 것**\". 즉 59㎡ 소유자가 84㎡(+42%)를 받는 것은 이 제약에 걸릴 수 있다."
+      },
+      "transferRestriction": {
+        "status": "restricted",
+        "deemedApprovalDate": "2026-07-27",
+        "legalBasis": "도정법 제39조 제1항 제3호(사업시행자 지정을 조합설립인가로 의제), 제39조 제2항",
+        "transactionAllowed": true,
+        "membershipTransfers": "sellerDependent",
+        "ifNotTransferred": "cashSettlement"
+      },
+      "landTransactionPermit": false,
+      "appreciationPattern": "beneficiary",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(59㎡) 기준.",
+      "regionKey": "성남시 분당구",
+      "osm": {
+        "ids": [
+          "way/476859539",
+          "way/476859540"
+        ],
+        "areaM2": 14348,
+        "buildings": 3,
+        "startDate": "1992·1993",
+        "confidence": "high~mediumHigh",
+        "note": "한양(way/476859541, 176세대)은 **제외**한다 — 외부 단지별 표가 「금호/청구 6단지 286세대」와 「한양 6단지 176세대」를 별개 행으로 등재하고 용적률도 다르다(236% vs 225%). 남은 불일치: 세대수 OSM 300 vs 외부 286(4.9%, 원인 미해명)."
+      },
+      "jibun": {
+        "value": "성남시 분당구 수내동 32",
+        "roadAddress": "내정로165번길 38",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "도로명주소를 지번으로 바꾼 값. **고시 도면·조서가 지번 체계라 이것이 없으면 구역 매핑이 성립하지 않는다.** 도로명은 OSM 태그(Overpass 로 직접 확인)에서 왔고 변환은 주소정보누리집 공개 검색이다 — 인증키가 필요 없다."
+      },
+      "specialDistrict": {
+        "districtId": "bundang-32-yangji",
+        "lot": "특별정비32-5 (주상복합용지)",
+        "basis": "고시문의 「가구 및 획지의 규모와 조성에 관한 도시관리계획 결정 조서」가 획지별 지번을 열거한다. 이 단지의 지번이 그 목록에 있다.",
+        "crosscheck": "고시 획지 특별정비32-5 14,824.6㎡ 대 OSM 폴리곤 14,348㎡ (96.8%)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "mongnyeon-hanil-84",
+      "complex": "목련마을 한일",
+      "dong": "야탑동",
+      "sigungu": "성남시 분당구",
+      "areaSqm": 84.9,
+      "medianPrice": 1077500000,
+      "sampleSize": 4,
+      "fiveYearChange": 0.18,
+      "fromPeak": null,
+      "commuteMinutes": 6,
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "note": "**분당 선도지구가 아니다 (2026-09-14 정정).** 목련마을 한일아파트는 성남시 분당구 야탑동 162이다(도로명 판교로 645, 주소정보누리집 조회). 분당 노후계획도시 6구역(목련마을1)의 편입 지번은 야탑동 173·176·177·178·179·180·181·182·183·185·197-3·197-4·197-5 이고 S3구역(목련마을5)은 야탑동 158번지다 — 이 단지의 번지는 어디에도 없다. 6구역 고시는 기정 상태를 **「유형: 연립」, 1,032세대, 용적률 97.4%** 로 적고 \"연립주택용지 폐지 및 아파트용지 신설\"이라고 한다. 즉 6구역은 목련마을 **빌라 지구**(두원빌라·성환빌라·미원빌라·두원빌리지 등)의 재건축이고, 고시 전문에 \"한일\"·\"SK\"·\"에스케이\"·\"영남\"은 한 번도 나오지 않는다. 선도지구 목련마을 몫 1,107세대(6구역 1,032 + S3 75)가 그 빌라 지구의 세대수이며, 저장소가 기록한 선도지구 합계 12,055세대도 샛별마을 2,843 + 양지마을 4,392 + 시범단지 3,713 + 목련마을 1,107 로 맞아떨어진다. **이 필드들에는 원래 그 빌라 지구의 지표(기존 1,107세대 → 계획 2,475세대, 순증률 +123.6%, 용적률 280%, 분담금 추산 5~7억)가 이 단지 것으로 붙어 있었고 그 수치가 \"세 축에서 동시에 1위\"라는 추천 근거로 쓰였다.** 전부 뗐다.",
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "고시문 획지 조서의 지번과 이 단지의 번지를 직접 대조해 **선도지구 특별정비구역 밖임을 확정**했다. 확정한 범위는 거기까지다 — 토지이음 고시정보에 이 단지를 대상으로 한 정비구역 지정 고시가 없는 것(2026-09-14 조회)도 함께 봤지만, **명단·고시에 없다는 것이 추진하지 않는다는 증거는 아니다** — 조합설립인가에 이르지 못한 초기 움직임은 고시에 안 나온다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": false,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준.",
+      "regionKey": "성남시 분당구",
+      "osm": {
+        "ids": [
+          "way/965046755"
+        ],
+        "areaM2": 14079,
+        "buildings": 4,
+        "startDate": "1995",
+        "confidence": "high"
+      },
+      "jibun": {
+        "value": "성남시 분당구 야탑동 162",
+        "roadAddress": "판교로 645",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "선도지구 구역 편입 여부를 가른 값. 고시 조서가 지번 체계라 이것 없이는 판정이 성립하지 않는다."
+      },
+      "specialDistrict": {
+        "districtId": null,
+        "basis": "6구역·S3구역 고시문의 획지 조서 지번 목록에 이 단지의 번지가 없다. 6구역 기정 유형은 「연립」이고 이 단지는 아파트다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "mongnyeon-sk-59",
+      "complex": "목련마을 SK",
+      "dong": "야탑동",
+      "sigungu": "성남시 분당구",
+      "areaSqm": 59.9,
+      "medianPrice": 787000000,
+      "sampleSize": 1,
+      "fiveYearChange": null,
+      "fromPeak": null,
+      "commuteMinutes": 6,
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "note": "**분당 선도지구가 아니다 (2026-09-14 정정).** 목련마을 에스케이아파트는 성남시 분당구 야탑동 14이다(도로명 판교로743번길 7, 주소정보누리집 조회). 분당 노후계획도시 6구역(목련마을1)의 편입 지번은 야탑동 173·176·177·178·179·180·181·182·183·185·197-3·197-4·197-5 이고 S3구역(목련마을5)은 야탑동 158번지다 — 이 단지의 번지는 어디에도 없다. 6구역 고시는 기정 상태를 **「유형: 연립」, 1,032세대, 용적률 97.4%** 로 적고 \"연립주택용지 폐지 및 아파트용지 신설\"이라고 한다. 즉 6구역은 목련마을 **빌라 지구**(두원빌라·성환빌라·미원빌라·두원빌리지 등)의 재건축이고, 고시 전문에 \"한일\"·\"SK\"·\"에스케이\"·\"영남\"은 한 번도 나오지 않는다. 선도지구 목련마을 몫 1,107세대(6구역 1,032 + S3 75)가 그 빌라 지구의 세대수이며, 저장소가 기록한 선도지구 합계 12,055세대도 샛별마을 2,843 + 양지마을 4,392 + 시범단지 3,713 + 목련마을 1,107 로 맞아떨어진다. **이 필드들에는 원래 그 빌라 지구의 지표(기존 1,107세대 → 계획 2,475세대, 순증률 +123.6%, 용적률 280%, 분담금 추산 5~7억)가 이 단지 것으로 붙어 있었고 그 수치가 \"세 축에서 동시에 1위\"라는 추천 근거로 쓰였다.** 전부 뗐다.",
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "고시문 획지 조서의 지번과 이 단지의 번지를 직접 대조해 **선도지구 특별정비구역 밖임을 확정**했다. 확정한 범위는 거기까지다 — 토지이음 고시정보에 이 단지를 대상으로 한 정비구역 지정 고시가 없는 것(2026-09-14 조회)도 함께 봤지만, **명단·고시에 없다는 것이 추진하지 않는다는 증거는 아니다** — 조합설립인가에 이르지 못한 초기 움직임은 고시에 안 나온다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": false,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "relayed",
+      "regionKey": "성남시 분당구",
+      "osm": {
+        "ids": [
+          "way/426637175",
+          "relation/20446795"
+        ],
+        "areaM2": 1865,
+        "buildings": 5,
+        "startDate": "1998",
+        "confidence": "medium",
+        "note": "**5동이다(4동이 아니다).** relation/20446795 를 빠뜨리면 세대수 224·풋프린트 1,589㎡ 로 과소 집계된다 — 정정 후 276세대·1,865㎡. OSM 에 이름 태깅이 없어 도로명주소(판교로743번길 7)·준공연도·층수 정합으로 특정했다."
+      },
+      "jibun": {
+        "value": "성남시 분당구 야탑동 14",
+        "roadAddress": "판교로743번길 7",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "선도지구 구역 편입 여부를 가른 값. 고시 조서가 지번 체계라 이것 없이는 판정이 성립하지 않는다."
+      },
+      "specialDistrict": {
+        "districtId": null,
+        "basis": "6구역·S3구역 고시문의 획지 조서 지번 목록에 이 단지의 번지가 없다. 6구역 기정 유형은 「연립」이고 이 단지는 아파트다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "sibeom-woosung-59",
+      "complex": "시범우성",
+      "dong": "서현동",
+      "sigungu": "성남시 분당구",
+      "areaSqm": 59.8,
+      "medianPrice": 1675000000,
+      "sampleSize": 12,
+      "fiveYearChange": 0.58,
+      "fromPeak": null,
+      "commuteMinutes": 7,
+      "redevelopment": {
+        "status": "costExposed",
+        "kind": "specialAct",
+        "contributionForNewBuyer": null,
+        "contributionSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다.",
+        "note": "블로그 단독 근거로 THE 시범(우성·현대·건영3) vs 시범1구역(삼성·한양) 분리 경쟁 + 용적률 365%로 분담금 0원 도전이라는 상충 정보가 있다. 미검증",
+        "existingUnits": 3713,
+        "existingUnitsSource": "성남시 고시 제2025-435호 「분당 노후계획도시정비선도지구 지정 고시」(2025-12-17). 합계 12,055세대",
+        "existingUnitsVerifiability": "manual",
+        "plannedUnitsNote": "계획 세대수는 출처마다 달라 기록하지 않는다 (룰셋 conflicts: bundang-leading-district-planned-units). 순증률 +56~124% 는 언론 인용값 기준이라 미확정이다.",
+        "contributionEstimate": [
+          500000000,
+          700000000
+        ],
+        "contributionEstimateSource": "준비위 추산 가구당 5~7억 (2025-04). **고시가 없어서 추산을 쓰는 것이 아니다** — 특별정비계획 결정 고시가 2026-01 에 났고 구역별 추정비례율·권리자 분양가는 `bundang-special-districts.json` 에 있다. 다만 분담금 산식의 개별 종전자산 추정액이 고시에 없고(고시는 산정 방법만 적는다), 있어도 조합원 기준이라 신규 매수자 환산이 또 필요하다. 2026-03 수내동 양지마을 주민이 \"분담금이 예상보다 훨씬 높다\"고 반발한 보도가 있다.",
+        "plannedUnits": 6049,
+        "unitGrowthRate": 0.629,
+        "unitMixByArea": {
+          "under60": 0.255,
+          "mid60to85": 0.36,
+          "over85": 0.385
+        },
+        "floorAreaRatio": "325% 이하(S6)",
+        "plannedUnitsSource": "성남시 고시 (선도지구 특별정비계획, 배포용 HWP 복호화로 원문 확보)",
+        "plannedUnitsVerifiability": "manual",
+        "memberAreaUpgradeCap": 0.3,
+        "memberAreaUpgradeCapNote": "고시 명문: \"조합원에게 분양하는 주택의 주거전용면적의 합이 종전 주택의 주거전용면적의 합보다 작거나 **30퍼센트의 범위에서 클 것**\". 즉 59㎡ 소유자가 84㎡(+42%)를 받는 것은 이 제약에 걸릴 수 있다."
+      },
+      "transferRestriction": {
+        "status": "restricted",
+        "deemedApprovalDate": "2026-06-29",
+        "legalBasis": "도정법 제39조 제1항 제3호(사업시행자 지정을 조합설립인가로 의제), 제39조 제2항",
+        "transactionAllowed": true,
+        "membershipTransfers": "sellerDependent",
+        "ifNotTransferred": "cashSettlement"
+      },
+      "landTransactionPermit": false,
+      "appreciationPattern": "beneficiary",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(59㎡) 기준.",
+      "regionKey": "성남시 분당구",
+      "osm": {
+        "ids": [
+          "way/469436302"
+        ],
+        "areaM2": 105766,
+        "buildings": 29,
+        "startDate": "1991",
+        "confidence": "high"
+      },
+      "jibun": {
+        "value": "성남시 분당구 서현동 96",
+        "roadAddress": "중앙공원로 54",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "도로명주소를 지번으로 바꾼 값. **고시 도면·조서가 지번 체계라 이것이 없으면 구역 매핑이 성립하지 않는다.** 도로명은 OSM 태그(Overpass 로 직접 확인)에서 왔고 변환은 주소정보누리집 공개 검색이다 — 인증키가 필요 없다."
+      },
+      "specialDistrict": {
+        "districtId": "bundang-23-sibeom2",
+        "lot": "특별정비23-1",
+        "basis": "고시문의 「가구 및 획지의 규모와 조성에 관한 도시관리계획 결정 조서」가 획지별 지번을 열거한다. 이 단지의 지번이 그 목록에 있다.",
+        "crosscheck": "고시 기정 획지 A3-1(서현동 96) 107,932.4㎡ 대 OSM 폴리곤 105,766㎡ (98.0%)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "suji-samsung4-59",
+      "complex": "수지삼성4차",
+      "dong": "풍덕천동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 59.8,
+      "medianPrice": 865000000,
+      "sampleSize": 8,
+      "fiveYearChange": 0.38,
+      "fromPeak": null,
+      "commuteMinutes": 18,
+      "redevelopment": {
+        "status": "costExposed",
+        "kind": "reconstruction",
+        "contributionForNewBuyer": [
+          295000000,
+          529000000
+        ],
+        "contributionSource": "용인시 수지1구역 정비계획 고시 (2025-04-02 지정). 59㎡ +2.95억 / 74㎡ +4.44억 / 84㎡ +5.29억 구역 귀속 확인(2026-09-14): 토지이음 고시 제목이 「수지1구역 수지삼성4차아파트 재건축 정비계획 수립 및 정비구역 지정」(경기도 용인시 고시 제2025-151호)이다. 수지1구역은 이 단지 단독이므로 구역 값을 단지에 쓰는 것이 맞다.",
+        "assessmentGap": 346000000,
+        "estimatedRatio": 0.7452,
+        "note": "1,137세대 1994-12 준공. 순증 +99세대뿐 — 기존이 전용 24~25평 소형 단일평형이라 늘어난 연면적이 조합원 평형 상향에 전부 흡수된다. 일반분양 수익으로 공사비를 덜 여력이 구조적으로 없다"
+      },
+      "transferRestriction": {
+        "status": "restricted",
+        "deemedApprovalDate": "2025-12-23",
+        "legalBasis": "도정법 제39조 제2항 (조합설립인가 2025-12-23)",
+        "transactionAllowed": true,
+        "membershipTransfers": "sellerDependent",
+        "ifNotTransferred": "cashSettlement"
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(59㎡) 기준.",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/363535332"
+        ],
+        "areaM2": 42893,
+        "buildings": 9,
+        "startDate": "1994",
+        "confidence": "high"
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "bowon-84",
+      "complex": "수지보원",
+      "dong": "풍덕천동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 795000000,
+      "sampleSize": 52,
+      "fiveYearChange": 0.25,
+      "fromPeak": null,
+      "commuteMinutes": 18,
+      "redevelopment": {
+        "status": "occupancyBlocked",
+        "kind": "remodeling",
+        "contributionForNewBuyer": [
+          258000000,
+          350000000
+        ],
+        "contributionSource": "용인시 보도자료 기준 보원 평균 2억 5,800만원(전용 59㎡ → 67~72㎡). **조합원 평균값이므로 신규 매수자 기준이 아니다** — 시장가로 사서 분담금을 더해야 한다. 상단은 상향 이력을 반영한 값이다.",
+        "moveOutFrom": "2026-01",
+        "note": "이주 완료, 2026-11 착공. 리모델링 공정 감안 시 입주 2029~2030년 실거래 중위 7.95억 + 분담금 2.58억 = **실질 10.53억으로 9억 예산을 초과한다.** 리모델링 추진이 곧 호재가 아니라는 것을 수치로 보여주는 사례다.",
+        "contributionForMemberOnly": 258000000
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes",
+        "note": "리모델링은 주택법 사업이고 도정법 제39조 제2항의 대상이 아니다. 조합원 지위 양도 제한이 없다."
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "relayed",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/363536470"
+        ],
+        "areaM2": 20048,
+        "buildings": 5,
+        "startDate": "1994",
+        "confidence": "high",
+        "note": "⚠️ **수지삼성2차와 폴리곤 최단거리 2m**(중심간 105m). 수풍로 번지(14 vs 38)로 구분을 고정해야 한다 — 오조인이 500m 판정에서 탐지되지 않는다."
+      }
+    },
+    {
+      "source": "용인시 2026-08-14 보도자료 — 리모델링 조합 13곳 진척 4단계",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "seongbok-riverpark-84",
+      "complex": "성복역리버파크",
+      "dong": "상현동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 900000000,
+      "sampleSize": 12,
+      "fiveYearChange": 0.26,
+      "fromPeak": null,
+      "commuteMinutes": 22,
+      "redevelopment": {
+        "status": "occupancyBlocked",
+        "kind": "remodeling",
+        "contributionForNewBuyer": [
+          300000000,
+          500000000
+        ],
+        "contributionSource": "수지구 리모델링 분담금 실적 3.5억(초입마을 확정) ~ 5억(후발 전망). 이 단지 확정값 미공개",
+        "note": "리모델링 진척 ②그룹이다. 사업계획승인이 완료되고 2026년 말부터 순차 이주가 시작되므로 **2027년 실거주가 불가능하다.** 리모델링 공정을 감안하면 입주는 2029~2030년이다.",
+        "moveOutFrom": "2026-12",
+        "statusConfidence": "confirmed",
+        "statusConfidenceNote": "용인시 2026-08-14 보도자료 — 리모델링 조합 13곳 진척 4단계 의 4단계 분류에서 ②그룹(사업계획승인 완료, 2026년 말부터 순차 이주)으로 확인됐다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes",
+        "note": "리모델링은 주택법 사업이고 도정법 제39조 제2항의 대상이 아니다. 조합원 지위 양도 제한이 없다."
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준.",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/404511162"
+        ],
+        "areaM2": 22885,
+        "buildings": 4,
+        "startDate": null,
+        "confidence": "medium",
+        "note": "동 값은 **상현동이 맞다**(성복역이 성복동에 있어 의심했으나 단지는 상현동). 다만 폴리곤 품질이 낮다 — 태그가 landuse+name 뿐이고 **정점이 10개**에 불과한데 대각 332m 단지다. 이름은 개명 전(만현마을 동보2차)."
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "byeoksan-blooming-84",
+      "complex": "벽산블루밍",
+      "dong": "상현동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 920000000,
+      "sampleSize": 7,
+      "fiveYearChange": 0.37,
+      "fromPeak": null,
+      "commuteMinutes": 22,
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "note": "재건축 정비예정구역 26곳·리모델링 조합 13곳 어디에도 없다. 1997~2003 준공이라 용인시 기준(1993년 이후 준공은 30년) 상 2027~2033년이 되어야 요건 충족",
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "시 정비사업 명단에 없다는 것을 근거로 한다. **명단에 없다는 것이 추진하지 않는다는 증거는 아니다** — 조합설립인가에 이르지 못한 초기 움직임은 명단에 안 나온다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준.",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/459706611"
+        ],
+        "areaM2": 24978,
+        "buildings": 8,
+        "startDate": "1998",
+        "confidence": "high",
+        "note": "**상현동으로 정확히 잡혔다.** 수도권에 같은 이름이 19곳 있어 광주시 산이리에 오조인했던 전례가 있다. 세대수 631=631 로 검증됐다."
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "jinsan-seongwon-84",
+      "complex": "진산마을 성원상떼빌",
+      "dong": "상현동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 870500000,
+      "sampleSize": 12,
+      "fiveYearChange": 0.23,
+      "fromPeak": null,
+      "commuteMinutes": 22,
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "시 정비사업 명단에 없다는 것을 근거로 한다. **명단에 없다는 것이 추진하지 않는다는 증거는 아니다** — 조합설립인가에 이르지 못한 초기 움직임은 명단에 안 나온다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "unknown",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준. **중위가의 귀속은 불확실하지 않다(2026-09-14 정정).** 원래 \"이 후보의 중위가가 어느 단지 것인지 불확실하다\" 고 적혀 있었으나, MOLIT 은 `진산마을성원상떼빌아파트 / 상현동 / 84㎡` 를 하나의 명확한 시리즈로 갖고 있고 이 값은 그 시리즈에서 측정됐다. 불확실한 것은 **그 단지에 대응하는 OSM 폴리곤**이고, 그것은 거리 판정에만 쓰인다. 두 문제를 하나로 묶어 적었던 것이 과장이었다.",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/183820922"
+        ],
+        "confidence": "high",
+        "resolvedAt": "2026-09-14",
+        "note": "**조인키 불일치가 해소됐다 (2026-09-14). 판정은 세대수가 아니라 도로명주소로 났다.** 주소정보누리집(juso.go.kr, 키 불필요)에서 「진산마을성원상떼빌아파트」의 도로명주소가 **경기도 용인시 수지구 진산로 24 (상현동)** 이고, OSM 의 `node/4575259378` 이 `addr:street=진산로`·`addr:housenumber=24`·`building=apartments` 로 **같은 주소**를 갖는다. 그 노드의 이름이 「수지성원1,2차아파트」이고, 좌표 (37.3131086, 127.092531) 가 way/183820922 폴리곤 안이며 후보 A(way/460141792) 밖이다. juso 에 「수지성원1차」·「수지성원2차」로 등록된 건물은 **없다** — 즉 OSM 이름 쪽이 별칭이고 정본 명칭은 성원상떼빌이다. 같은 도로명(진산로 28)에 「성원상떼빌아파트 상가1동」이 등록돼 있다.",
+        "whyPremiseFailed": "원래의 \"진산마을과 상현동은 양립하지 않는다\" 전제가 왜 틀렸는지도 나왔다. 이 단지의 관련지번이 **풍덕천동 220·220-5 와 상현동 30-2·30-3·30-4 에 걸쳐 있다.** OSM 태그주소 포락선은 풍덕천동 쪽만 보고 있었던 것이고, 두 동에 걸친 단지에서 포락선 논증은 성립하지 않는다.",
+        "thirdPossibilityClosed": "\"OSM 에 아예 없다\" 는 세 번째 가능성도 **양성으로** 닫혔다 — 소거법이 아니라 주소가 일치하는 폴리곤을 실제로 찾았다.",
+        "excludedCandidateA": "way/460141792 「만현마을3단지 성원상떼빌5차」는 이미 배제돼 있었다. MOLIT 이 `만현마을3단지성원쌍떼빌`(상현동, 2002)을 `진산마을성원상떼빌아파트`(상현동, 1998)와 별개 시리즈로 기록한다. 이번에 주소로도 확인됐다 — 만현로67번길 19 다.",
+        "note2": "OSM 의 준공 1997 과 MOLIT 의 1998 은 한 해 차이로 남아 있다(준공·사용승인 시점 차이로 흔한 폭). 이 차이가 조인을 흔들지 않는다 — 조인 근거는 주소 일치이지 연도가 아니다."
+      },
+      "jibun": {
+        "value": "용인시 수지구 상현동 30-2",
+        "relatedLots": "풍덕천동 220, 220-5, 상현동 30-2, 30-3, 30-4",
+        "roadAddress": "경기도 용인시 수지구 진산로 24",
+        "source": "주소정보누리집(juso.go.kr) 공개 검색, 2026-09-14",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-14",
+        "_doc": "**이 단지는 두 법정동에 걸쳐 있다.** value 는 MOLIT 신고 동(상현동) 쪽 지번이고 relatedLots 가 전체다."
+      }
+    },
+    {
+      "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "id": "jukjeon-hyeonam-dongseong2-84",
+      "complex": "현암마을 동성2차",
+      "dong": "죽전동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 932000000,
+      "sampleSize": 5,
+      "fiveYearChange": 0.14,
+      "fromPeak": null,
+      "commuteMinutes": 14,
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "note": "죽전동 15개 단지 전부 정비사업 0건. 2030 용인시 정비기본계획의 재건축 정비예정구역 26곳은 전부 풍덕천·구갈·김량장동이고 죽전동은 0곳. 죽전지구는 특별법 대상에서 빠졌으나 면적 340만㎡·1단계 준공 2006-10 이라 2026-10 이후 조성 20년 요건은 충족 → 향후 편입 여부에 달린 잠재 변수",
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "시 정비사업 명단에 없다는 것을 근거로 한다. **명단에 없다는 것이 추진하지 않는다는 증거는 아니다** — 조합설립인가에 이르지 못한 초기 움직임은 명단에 안 나온다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "appreciationPattern": "structural",
+      "medianPriceSource": "measuredFromRawTransactions",
+      "medianPriceNote": "원자료(MOLIT 실거래 CSV)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202607 이후 계약 제외(신고기한 30일로 과소집계). 동·단지·면적대(84㎡) 기준.",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/664765793"
+        ],
+        "areaM2": 35980,
+        "buildings": 12,
+        "startDate": "1999",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "sangdaewon-samik-84",
+      "complex": "상대원 삼익",
+      "dong": "상대원동",
+      "sigungu": "성남시 중원구",
+      "areaSqm": 84,
+      "medianPrice": 239000000,
+      "sampleSize": 8,
+      "fiveYearChange": null,
+      "fromPeak": null,
+      "commuteMinutes": 12,
+      "builtYear": 1991,
+      "appreciationPattern": "stockPolarized",
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "statusConfidence": "confirmed",
+        "statusConfidenceNote": "MOLIT 실거래의 번지를 구역 기준번지와 대조해 **구역 밖**으로 확정했다.",
+        "note": "구역 기준번지 817 vs 실거래 번지 19~279 → 구역 밖. **정비사업 이익 비수혜 물건이다.** 같은 동에서 재개발이 진행돼 12~15억 신축(산성역포레스티아 14.80억, 산성역자이푸르지오 12.88~13.00억)이 만들어졌는데도 구역 밖 구축은 5년간 하락했다. 분담금이 붙지 않는 대신 상방도 없다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "source": "세션 89 MOLIT 실거래 분석 + 성남시 고시 원문 (번지 대조로 구역 내외 판정)",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "medianPriceSource": "relayed",
+      "regionKey": "성남시 중원구",
+      "osm": {
+        "ids": [
+          "relation/21295264"
+        ],
+        "areaM2": 1001,
+        "buildings": 2,
+        "startDate": "1991",
+        "confidence": "low",
+        "note": "⚠️ **사용 전 별도 확인 권고.** 이름 근거였던 node/2475039696 이 2026-08-29 삭제됐다(HTTP 410) — 이름 근거가 편집 이력에만 있다. start_date=1991 도 무출처 수작업 태그(위성영상 트레이싱)다."
+      }
+    },
+    {
+      "id": "taepyeong-seongyeong-84",
+      "complex": "선경태평",
+      "dong": "태평동",
+      "sigungu": "성남시 수정구",
+      "areaSqm": 84,
+      "medianPrice": 246000000,
+      "sampleSize": 6,
+      "fiveYearChange": null,
+      "fromPeak": null,
+      "commuteMinutes": 9,
+      "builtYear": 1991,
+      "appreciationPattern": "stockPolarized",
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "statusConfidence": "confirmed",
+        "statusConfidenceNote": "MOLIT 실거래의 번지를 구역 기준번지와 대조해 **구역 밖**으로 확정했다.",
+        "note": "구역 기준번지 1180 vs 실거래 번지 6455~7346 → 구역 밖. **정비사업 이익 비수혜 물건이다.** 같은 동에서 재개발이 진행돼 12~15억 신축(산성역포레스티아 14.80억, 산성역자이푸르지오 12.88~13.00억)이 만들어졌는데도 구역 밖 구축은 5년간 하락했다. 분담금이 붙지 않는 대신 상방도 없다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "source": "세션 89 MOLIT 실거래 분석 + 성남시 고시 원문 (번지 대조로 구역 내외 판정)",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "medianPriceSource": "relayed",
+      "regionKey": "성남시 수정구",
+      "osm": {
+        "ids": [
+          "relation/7953310"
+        ],
+        "areaM2": 4617,
+        "buildings": 9,
+        "startDate": null,
+        "confidence": "medium",
+        "note": "start_date 가 없어 준공 1991 을 교차검증하지 못했다."
+      }
+    },
+    {
+      "id": "sangdaewon-seongyeong2-84",
+      "complex": "선경2차",
+      "dong": "상대원동",
+      "sigungu": "성남시 중원구",
+      "areaSqm": 84,
+      "medianPrice": 524000000,
+      "sampleSize": 63,
+      "fiveYearChange": null,
+      "fromPeak": null,
+      "commuteMinutes": 12,
+      "builtYear": 1994,
+      "appreciationPattern": "stockPolarized",
+      "redevelopment": {
+        "status": "none",
+        "contributionForNewBuyer": null,
+        "statusConfidence": "confirmed",
+        "statusConfidenceNote": "MOLIT 실거래의 번지를 구역 기준번지와 대조해 **구역 밖**으로 확정했다.",
+        "note": "표본 63건으로 신뢰도가 높다. 구역 밖. **정비사업 이익 비수혜 물건이다.** 같은 동에서 재개발이 진행돼 12~15억 신축(산성역포레스티아 14.80억, 산성역자이푸르지오 12.88~13.00억)이 만들어졌는데도 구역 밖 구축은 5년간 하락했다. 분담금이 붙지 않는 대신 상방도 없다."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes"
+      },
+      "landTransactionPermit": true,
+      "source": "세션 89 MOLIT 실거래 분석 + 성남시 고시 원문 (번지 대조로 구역 내외 판정)",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "medianPriceSource": "relayed",
+      "regionKey": "성남시 중원구",
+      "osm": {
+        "ids": [
+          "way/240972968"
+        ],
+        "areaM2": 79539,
+        "buildings": 19,
+        "startDate": "1994",
+        "confidence": "medium",
+        "note": "⚠️ **문자열 조인 최우선 위험.** 강남 대치동에 선경1·2·3차가 전부 매핑돼 있다(\"선경2차\" 로 조인하면 대치동을 잡는다). start_date 도 무출처 수작업 태그다."
+      }
+    },
+    {
+      "id": "dandae-jinro-84",
+      "complex": "단대 진로",
+      "dong": "단대동",
+      "sigungu": "성남시 수정구",
+      "areaSqm": 84,
+      "medianPrice": 685000000,
+      "sampleSize": 12,
+      "fiveYearChange": null,
+      "fromPeak": null,
+      "commuteMinutes": 14,
+      "builtYear": 1998,
+      "appreciationPattern": "unknown",
+      "redevelopment": {
+        "status": "pendingDesignation",
+        "kind": "reconstruction",
+        "contributionForNewBuyer": null,
+        "contributionSource": "단대구역 재개발 고시(성남시 고시 제2026-211호, 2026-08-31)의 권리자분양가 추정액 59형 8.8억. **다만 이 값은 조합원으로 남는 사람의 분양가 산정용이고 청산액이 아니다.**",
+        "estimatedRatio": 0.95,
+        "designationDecidesAt": "지형도면 경계 확인 필요",
+        "statusConfidence": "partial",
+        "statusConfidenceNote": "단대구역 기준번지 48-2 에 대해 이 단지 번지가 124 로 근접하나, **\"일원\"의 실제 경계는 고시 첨부 지형도면으로 확인해야 하고 그 이미지에서 좌표를 추출하지 못했다.** 구역 포함 여부 미확정.",
+        "note": "5개 재개발 구역 중 **아파트 소유자가 조합원이 될 여지가 있는 유일한 케이스**다. 다만 단대구역 추정비례율 95.00% 로 5곳 중 최저다(태평2·4 121.27%, 상대원1·3 119.71%, 수진2 103.41%, 산성 97.27%)."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes",
+        "legalBasis": "도정법 제39조②(재개발은 제74조 관리처분계획 인가 후 트리거)",
+        "note": "2026-08-31 정비계획 결정·정비구역 지정 단계뿐이고 관리처분계획 전이므로 **현재 제한이 걸리지 않았다.** 관리처분계획 인가 시점을 추적해야 한다."
+      },
+      "landTransactionPermit": true,
+      "source": "세션 89 MOLIT 실거래 분석 + 성남시 고시 원문 (번지 대조로 구역 내외 판정)",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "medianPriceSource": "relayed",
+      "regionKey": "성남시 수정구",
+      "osm": {
+        "ids": [
+          "way/240819376"
+        ],
+        "areaM2": 30427,
+        "buildings": 6,
+        "startDate": "1998",
+        "confidence": "high",
+        "note": "⚠️ **인접 푸르지오(way/240819359)와 폴리곤이 겹친다** — 최단거리가 0.0m 로 나온다. 겹침은 데이터 오류이지 \"같은 위치\" 가 아니다."
+      }
+    },
+    {
+      "id": "suji-pungsan-84",
+      "complex": "수지풍산",
+      "dong": "상현동",
+      "sigungu": "용인시 수지구",
+      "areaSqm": 84,
+      "medianPrice": 750000000,
+      "sampleSize": 9,
+      "fiveYearChange": 0.27,
+      "fromPeak": null,
+      "commuteMinutes": 22,
+      "appreciationPattern": "unknown",
+      "redevelopment": {
+        "status": "costExposed",
+        "kind": "remodeling",
+        "contributionForNewBuyer": [
+          258000000,
+          500000000
+        ],
+        "contributionSource": "용인시 리모델링 분담금 공개치 — 초입마을 2억 7,337만원, 보원 2억 5,800만원. 이 단지 확정값은 미공개이고 **후발 단지일수록 공사비 상승분이 반영돼 높아지는 이력**이 있다(현대성우8단지 1.7억→2.75억, 수지현대 1.6억→3.22억).",
+        "statusConfidence": "confirmed",
+        "statusConfidenceNote": "용인시 2026-08-14 보도자료 — 리모델링 조합 13곳 진척 4단계 의 4단계 분류에서 ④그룹(조합설립)으로 확인됐다 — 13곳 중 가장 이른 단계다.",
+        "note": "리모델링 진척 ④그룹(조합설립)으로 13곳 중 가장 이르다. 따라서 **2027년 실거주가 가능하다** — 이주가 아직 멀다. 대신 분담금이 확정되지 않았고 상향 이력이 있다. 수평증축이라 세대 증가폭이 작다(13곳 전부 수평·별동증축, 수직증축 0곳)."
+      },
+      "transferRestriction": {
+        "status": "none",
+        "transactionAllowed": true,
+        "membershipTransfers": "yes",
+        "note": "리모델링은 주택법 사업이고 도정법 제39조 제2항의 대상이 아니다."
+      },
+      "landTransactionPermit": true,
+      "source": "용인시 2026-08-14 보도자료 — 리모델링 조합 13곳 진척 4단계",
+      "verifiability": "estimate",
+      "verifiedAt": "2026-09-08",
+      "medianPriceSource": "relayed",
+      "regionKey": "용인시 수지구",
+      "osm": {
+        "ids": [
+          "way/459706610"
+        ],
+        "areaM2": 15291,
+        "buildings": 4,
+        "startDate": "1997",
+        "confidence": "medium",
+        "note": "⚠️ **name 태그가 없다** — v1(2016-12-15) 이후 한 번도 이름이 붙은 적이 없다. 이름으로 재조회하면 이 단지가 사라진다. 특정 근거는 세대수 역추적이다: 내부 4동 전부 start_date=1997, building:flats 합 438(104+132+102+100)이 외부 출처 \"수지풍산 438세대\" 와 일치하고 상현동에서 438세대는 이 단지뿐이다."
+      }
+    }
+  ],
+  "appreciationPatterns": {
+    "beneficiary": "정비사업 이익 수혜 — 구역 안 물건이거나 신축",
+    "stockPolarized": "재고 내 양극화 — 신축은 오르고 구축은 하락. 지역이 약한 게 아니라 이익이 구역 안·신축에만 귀속된다",
+    "regionWeak": "지역 전체 약세 — 신축까지 하락. 무엇을 사든 지역이 끌어내린다",
+    "structural": "구조적 요인(통근·학군) 상승 — 분담금 청구서가 뒤따르지 않는다",
+    "unknown": "미분류"
+  },
+  "medianPriceMethodology": "**후보 중위가를 전달받은 값이 아니라 원자료에서 직접 측정한다.** 이전에는 전달받은 \"죽전동 전 단지 6.79~8.95억\" 같은 **범위**에서 특정 단지에 값을 배정했는데, 그 결과 현암마을 동성2차가 6.79억으로 기록됐다 — 실측은 9.38억이고 **2.5억 어긋났다.** 예산 판정에 직결되는 값이라 방어 가능한 출처로 교체했다. medianPriceSource 가 `relayed` 인 것은 원자료에 표본이 없어 교체하지 못한 것이다.",
+  "regionKeyNote": "**후보마다 `regionKey` 를 명시한다.** 이전에는 전부 null 이었고, 대출·세금 계산은 사용자가 입력 패널에서 고른 지역 하나만 썼다. 후보는 6개 지역에 걸쳐 있으므로 (성남 분당·중원·수정 / 용인 수지) **선택 지역과 후보 지역이 어긋나면 조정대상지역 여부가 달라 LTV·양도세 거주요건이 틀린다.**",
+  "regionsMissingPolicy": [],
+  "regionsMissingPolicyNote": "해소됨 (2026-09-14). 성남시 수정구는 투기과열지구 + 조정대상지역이며 룰셋 regions 에 등록됐다. 근거는 국토교통부 보도참고자료(2026-06-30, 주택정책과) 첨부 PDF 5쪽 참고2 표를 직접 읽은 것이다: \"추가지정 전(6월말 기준)\" 경기 12곳과 \"추가지정 후(7월 1일 이후)\" 경기 15곳 양쪽에서 투기과열지구·조정대상지역 두 열 모두에 \"성남수정\"이 있고 지정일이 ('25.10.16) 으로 표기된다. 분당구·중원구와 같은 표의 같은 행이다. **다른 구의 값으로 대체한 것이 아니라 원문에서 확인한 값이다.** 다만 성남시가 해제를 요청했다는 언론 보도가 있고 국토교통부 회신은 확인되지 않았다 — 룰셋 regions.성남시 수정구.openIssue 참고.",
+  "osmPitfalls": [
+    "**Nominatim reverse 로 동을 재확인하면 안 된다.** 분당에서 실측 오답률이 높다 — 아이파크분당1(정자동)→금곡동, 이매촌한신(이매동)→서현동, 샛별마을라이프(분당동)→서현동, 느티마을경남·선경(정자동)→**수내동**, 선경태평(태평동)→신흥동. \"reverse 가 수내동이라고 했다\" 는 증거력이 거의 없다. **검증 단계에 넣으면 오류를 주입한다.**",
+    "**행정동 경계 데이터 소스가 결정적이다.** `southkorea/southkorea-maps`(KOSTAT 2013, 정확도 69.5%)를 쓰면 **수지삼성4차가 동천동으로 오판**된다 — 광주시 벽산블루밍 오조인과 정확히 같은 유형이다. `vuski/admdongkor ver20241001`(99.8%)을 쓸 것.",
+    "**OSM 에는 성남시 동(洞) 행정경계가 없다.** admin_level 8/9/10 relation 을 성남 영역에서 조회하면 24건이 나오는데 전부 서울·광주·용인·하남 것이고 성남시 것은 0건이다. 성남 단지의 동 포함 검증은 OSM 내부에서 불가능하다.",
+    "**폴리곤이 겹치면 최단거리가 0.0m 로 나온다.** 단대 진로(way/240819376)와 인접 푸르지오(way/240819359)가 OSM 에서 겹쳐 있다. **0m 인 쌍을 별도로 감지해 로그해야 한다** — 겹침은 데이터 오류이지 \"같은 위치\" 가 아니다.",
+    "**bbox 로 조인하면 안 된다.** 양지마을 1단지와 6단지의 bbox 가 겹친다(lat 37.37662~37.37719 / lon 127.11596~127.11771) — bbox 기반 매칭으로는 구분할 수 없다.",
+    "**형제 단지가 매우 가까우면 오조인이 500m 판정에서 탐지되지 않는다.** 수지보원 ↔ 수지삼성2차 폴리곤 최단거리 **2m**, 양지마을 1단지 ↔ 2단지 10.5m, ↔ 6단지 16.5m. 거리로는 잘못 붙었는지 알 수 없으므로 **번지·세대수로 구분을 고정**해야 한다."
+  ],
+  "osmLicense": "OSM ODbL — 사적 이용·파생물 생성에 제약이 없고 배포 시 출처표시와 share-alike 만 지키면 된다. V-World 의 NC·ND·이용약관 제19조 문제가 여기에는 없다.",
+  "osmSource": "세션 45 (에이전트 16, 툴호출 510회). Overpass 미러 https://maps.mail.ru/osm/tools/overpass/api/interpreter (overpass-api.de 메인은 Dispatcher timeout). **way/relation ID 로 geometry 를 직접 받는다** — 이름으로 재조회하면 name 태그가 없는 단지가 사라진다.",
+  "osmIdMappingNote": "**후보 id 를 추측해서 매핑했다가 9/16 이 안 붙었다.** 이름·동으로 조인하려는 유혹이 바로 이 저장소가 반복해서 잡아온 오조인의 원인이므로, 실제 `id` 를 나열해 명시적으로 재매핑했다. 이 파일의 `osmPitfalls` 에 적은 것과 같은 실수를 내가 했다."
+}
