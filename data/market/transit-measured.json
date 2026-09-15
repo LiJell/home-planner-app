@@ -20,290 +20,320 @@
    "transitMinutes": 4,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 17,
    "from": "서현",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "정자",
    "transitMinutes": 5,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 40,
    "from": "정자",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "미금",
    "transitMinutes": 8,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 110,
    "from": "미금",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "오리",
    "transitMinutes": 9,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 20,
    "from": "오리",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "야탑",
    "transitMinutes": 9,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 9,
    "from": "야탑",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "모란",
    "transitMinutes": 12,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 94,
    "from": "모란",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "죽전",
    "transitMinutes": 13,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 7,
    "from": "죽전",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "판교",
    "transitMinutes": 13,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 75,
    "from": "판교",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "동천",
    "transitMinutes": 15,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 38,
    "from": "동천",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "삼동",
    "transitMinutes": 16,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 16,
    "from": "삼동",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "수지구청",
    "transitMinutes": 17,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 21,
    "from": "수지구청",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "수진",
    "transitMinutes": 18,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 38,
    "from": "수진",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "성복",
    "transitMinutes": 19,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 12,
    "from": "성복",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "신흥",
    "transitMinutes": 19,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 19,
    "from": "신흥",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "신갈",
    "transitMinutes": 20,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 9,
    "from": "신갈",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "기흥",
    "transitMinutes": 23,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 47,
    "from": "기흥",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "상갈",
    "transitMinutes": 25,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 23,
    "from": "상갈",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "광교중앙",
    "transitMinutes": 25,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 11,
    "from": "광교중앙(아주대)",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "청명",
    "transitMinutes": 28,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 76,
    "from": "청명",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "영통",
    "transitMinutes": 30,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 26,
    "from": "영통",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "매탄권선",
    "transitMinutes": 35,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 1,
+   "transfers": 0,
    "walkMeters": 47,
    "from": "매탄권선",
-   "to": "수내"
+   "to": "수내",
+   "segments": 1
   },
   {
    "station": "어정",
    "transitMinutes": 37,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 8,
    "from": "어정",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "하남시청",
    "transitMinutes": 59,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 3,
+   "transfers": 2,
    "walkMeters": 47,
    "from": "하남시청(덕풍.신장)",
-   "to": "수내"
+   "to": "수내",
+   "segments": 3
   },
   {
    "station": "인덕원",
    "transitMinutes": 60,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 4,
+   "transfers": 3,
    "walkMeters": 33,
    "from": "인덕원",
-   "to": "수내"
+   "to": "수내",
+   "segments": 4
   },
   {
    "station": "평촌",
    "transitMinutes": 62,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 4,
+   "transfers": 3,
    "walkMeters": 12,
    "from": "평촌",
-   "to": "수내"
+   "to": "수내",
+   "segments": 4
   },
   {
    "station": "의왕",
    "transitMinutes": 62,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 70,
    "from": "의왕",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "범계",
    "transitMinutes": 64,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 4,
+   "transfers": 3,
    "walkMeters": 22,
    "from": "범계",
-   "to": "수내"
+   "to": "수내",
+   "segments": 4
   },
   {
    "station": "군포",
    "transitMinutes": 65,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 54,
    "from": "군포",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   },
   {
    "station": "금정",
    "transitMinutes": 68,
    "pathType": 1,
    "isSubwayPath": true,
-   "transfers": 2,
+   "transfers": 1,
    "walkMeters": 16,
    "from": "금정",
-   "to": "수내"
+   "to": "수내",
+   "segments": 2
   }
- ]
+ ],
+ "_correction": "transfers 를 구간 수에서 환승 횟수로 정정했다. ODsay 의 subwayTransitCount 는 탑승 구간 수라 직통 경로도 1 로 온다."
 }
