@@ -1,0 +1,300 @@
+{
+ "_doc": "transit.py 그래프에서 빠진(nonCommuterStationsExcluded) 역이 commute-*.json 단지의 nearestStation 으로 뽑혀 대중교통 소요시간을 못 내는 케이스를 역 단위로 센 것. 간선은 추측으로 만들지 않았다 — affectedComplexes > 0 인 역만 ODsay 실측으로 메우는 게 대상이다.",
+ "excludedStationCount": 34,
+ "perFile": {
+  "sunae": {
+   "totalComplexes": 1723,
+   "affectedComplexes": 10,
+   "byStation": {
+    "하남검단산": 10
+   }
+  },
+  "yongsan": {
+   "totalComplexes": 1727,
+   "affectedComplexes": 10,
+   "byStation": {
+    "하남검단산": 10
+   }
+  }
+ },
+ "stations": [
+  {
+   "station": "하남검단산",
+   "lat": 37.539704,
+   "lon": 127.223533,
+   "affectedComplexes": 10,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": [
+    "하남시 창우동 꿈동산신안",
+    "하남시 창우동 부영",
+    "하남시 창우동 은행한신",
+    "하남시 신장동 동일하이빌",
+    "하남시 신장동 백송한신"
+   ]
+  },
+  {
+   "station": "가남",
+   "lat": 37.19743,
+   "lon": 127.535489,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "공주",
+   "lat": 36.330868,
+   "lon": 127.096192,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "광주송정",
+   "lat": 35.136299,
+   "lon": 126.789398,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "구포",
+   "lat": 35.205057,
+   "lon": 128.997045,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "김제",
+   "lat": 35.792144,
+   "lon": 126.903112,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "남부터미널",
+   "lat": 37.484943,
+   "lon": 127.016345,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "대전",
+   "lat": 36.33055,
+   "lon": 127.436025,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "도라산",
+   "lat": 37.898389,
+   "lon": 126.709164,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "동대구",
+   "lat": 35.879952,
+   "lon": 128.630024,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "밀양",
+   "lat": 35.474068,
+   "lon": 128.772907,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "박물관",
+   "lat": 37.470363,
+   "lon": 126.597459,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "봉동",
+   "lat": 37.946483,
+   "lon": 126.622591,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (관광/비통근 서비스) — 원래 통근망 밖, 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "서대전",
+   "lat": 36.321403,
+   "lon": 127.403537,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "서화성",
+   "lat": 37.248782,
+   "lon": 126.786866,
+   "affectedComplexes": 0,
+   "reason": "데이터 stub (관계에 역 1개뿐) — OSM 원본 불완전",
+   "sampleComplexes": []
+  },
+  {
+   "station": "선착장",
+   "lat": 37.79576,
+   "lon": 127.52661,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (관광/비통근 서비스) — 원래 통근망 밖, 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "송추",
+   "lat": 37.72076,
+   "lon": 126.979456,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (교외선, INTERCITY 정규식 '무궁화' 오분류) — 보류 중",
+   "sampleComplexes": []
+  },
+  {
+   "station": "시청.용인대",
+   "lat": 37.239327,
+   "lon": 127.17886,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "양평레일바이크 종점",
+   "lat": 37.470649,
+   "lon": 127.561551,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (관광/비통근 서비스) — 원래 통근망 밖, 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "운정중앙",
+   "lat": 37.716146,
+   "lon": 126.728286,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "원릉",
+   "lat": 37.66267,
+   "lon": 126.839988,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (교외선, INTERCITY 정규식 '무궁화' 오분류) — 보류 중",
+   "sampleComplexes": []
+  },
+  {
+   "station": "월미공원",
+   "lat": 37.476353,
+   "lon": 126.606108,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (관광/비통근 서비스) — 원래 통근망 밖, 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "월미문화의거리",
+   "lat": 37.477347,
+   "lon": 126.599203,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (관광/비통근 서비스) — 원래 통근망 밖, 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "익산",
+   "lat": 35.939213,
+   "lon": 126.945437,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "일영",
+   "lat": 37.700608,
+   "lon": 126.929005,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (교외선, INTERCITY 정규식 '무궁화' 오분류) — 보류 중",
+   "sampleComplexes": []
+  },
+  {
+   "station": "장흥",
+   "lat": 37.718699,
+   "lon": 126.941589,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (교외선, INTERCITY 정규식 '무궁화' 오분류) — 보류 중",
+   "sampleComplexes": []
+  },
+  {
+   "station": "전주",
+   "lat": 35.850006,
+   "lon": 127.162347,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "정읍",
+   "lat": 35.574267,
+   "lon": 126.840724,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "중앙(2)",
+   "lat": 37.789701,
+   "lon": 127.526125,
+   "affectedComplexes": 0,
+   "reason": "동명이역 분리로 생긴 고립 노드 (경춘선 중앙역, 단독 시퀀스 불가) — 정상",
+   "sampleComplexes": []
+  },
+  {
+   "station": "천안아산",
+   "lat": 36.792491,
+   "lon": 127.105089,
+   "affectedComplexes": 0,
+   "reason": "간선 제외 (KTX/SRT 장거리 경유지, is_commuter=False) — 정상 제외",
+   "sampleComplexes": []
+  },
+  {
+   "station": "총신대입구(이수)",
+   "lat": 37.48678,
+   "lon": 126.982237,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "판문",
+   "lat": 37.928462,
+   "lon": 126.644047,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "향남",
+   "lat": 37.122899,
+   "lon": 126.912781,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  },
+  {
+   "station": "화성시청",
+   "lat": 37.189689,
+   "lon": 126.820614,
+   "affectedComplexes": 0,
+   "reason": "OSM stop 멤버 없음 (실존 역, 데이터 누락) — ODsay 로 메울 수 있음",
+   "sampleComplexes": []
+  }
+ ]
+}
