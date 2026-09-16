@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-16",
+ "asOf": "2026-09-17",
  "_doc": "접근역에서 용산역까지의 대중교통 소요시간. ODsay 경로검색 결과다. OSM 노선 그래프 추정(transit-yongsan.json)보다 시각표·배차를 알고 계산한 값이지만 둘 다 «예측» 이지 관측이 아니다. 화면은 «경로검색 / 자체추정» 으로 구분해서 보여줘야 한다.",
  "anchor": "용산역",
  "slug": "yongsan",
@@ -8,12 +8,343 @@
  "quotaNote": "Basic 무료 플랜은 일 30회다. 역 단위로 나눠 받는다.",
  "_progress": {
   "targetStations": 67,
-  "collected": 0,
-  "remaining": 67,
-  "lastRun": "2026-09-16 23:32",
+  "collected": 30,
+  "remaining": 37,
+  "lastRun": "2026-09-17 00:01",
   "stoppedBecause": "일일 한도 소진",
-  "callsUsed": 0,
-  "callsUsedTotal": 0
+  "callsUsed": 30,
+  "callsUsedTotal": 30
  },
- "stations": []
+ "stations": [
+  {
+   "station": "인덕원",
+   "transitMinutes": 32,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 0,
+   "segments": 1,
+   "walkMeters": 340,
+   "from": "인덕원",
+   "to": "신용산"
+  },
+  {
+   "station": "평촌",
+   "transitMinutes": 34,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 0,
+   "segments": 1,
+   "walkMeters": 300,
+   "from": "평촌",
+   "to": "신용산"
+  },
+  {
+   "station": "안양",
+   "transitMinutes": 35,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 0,
+   "segments": 1,
+   "walkMeters": 85,
+   "from": "안양",
+   "to": "용산"
+  },
+  {
+   "station": "범계",
+   "transitMinutes": 36,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 0,
+   "segments": 1,
+   "walkMeters": 310,
+   "from": "범계",
+   "to": "신용산"
+  },
+  {
+   "station": "금정",
+   "transitMinutes": 39,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 0,
+   "segments": 1,
+   "walkMeters": 305,
+   "from": "금정",
+   "to": "신용산"
+  },
+  {
+   "station": "군포",
+   "transitMinutes": 42,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 1,
+   "segments": 2,
+   "walkMeters": 303,
+   "from": "군포",
+   "to": "신용산"
+  },
+  {
+   "station": "의왕",
+   "transitMinutes": 45,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 1,
+   "segments": 2,
+   "walkMeters": 304,
+   "from": "의왕",
+   "to": "신용산"
+  },
+  {
+   "station": "판교",
+   "transitMinutes": 45,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 101,
+   "from": "판교",
+   "to": "용산"
+  },
+  {
+   "station": "정자",
+   "transitMinutes": 48,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 159,
+   "from": "정자",
+   "to": "용산"
+  },
+  {
+   "station": "미금",
+   "transitMinutes": 50,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 143,
+   "from": "미금",
+   "to": "용산"
+  },
+  {
+   "station": "동천",
+   "transitMinutes": 52,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 42,
+   "from": "동천",
+   "to": "용산"
+  },
+  {
+   "station": "수지구청",
+   "transitMinutes": 54,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 44,
+   "from": "수지구청",
+   "to": "용산"
+  },
+  {
+   "station": "남한산성입구",
+   "transitMinutes": 54,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 27,
+   "from": "남한산성입구",
+   "to": "용산"
+  },
+  {
+   "station": "성복",
+   "transitMinutes": 56,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 37,
+   "from": "성복",
+   "to": "용산"
+  },
+  {
+   "station": "모란",
+   "transitMinutes": 56,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 130,
+   "from": "모란",
+   "to": "용산"
+  },
+  {
+   "station": "서현",
+   "transitMinutes": 56,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 37,
+   "from": "서현",
+   "to": "용산"
+  },
+  {
+   "station": "신흥",
+   "transitMinutes": 57,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 37,
+   "from": "신흥",
+   "to": "용산"
+  },
+  {
+   "station": "오리",
+   "transitMinutes": 58,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 49,
+   "from": "오리",
+   "to": "용산"
+  },
+  {
+   "station": "야탑",
+   "transitMinutes": 58,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 31,
+   "from": "야탑",
+   "to": "용산"
+  },
+  {
+   "station": "상현",
+   "transitMinutes": 59,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 71,
+   "from": "상현",
+   "to": "용산"
+  },
+  {
+   "station": "하남시청",
+   "transitMinutes": 61,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 1,
+   "segments": 2,
+   "walkMeters": 92,
+   "from": "하남시청(덕풍.신장)",
+   "to": "용산"
+  },
+  {
+   "station": "죽전",
+   "transitMinutes": 61,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 27,
+   "from": "죽전",
+   "to": "용산"
+  },
+  {
+   "station": "경기광주",
+   "transitMinutes": 62,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 30,
+   "from": "경기광주",
+   "to": "용산"
+  },
+  {
+   "station": "구성",
+   "transitMinutes": 64,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 118,
+   "from": "구성",
+   "to": "용산"
+  },
+  {
+   "station": "기흥",
+   "transitMinutes": 71,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 67,
+   "from": "기흥",
+   "to": "용산"
+  },
+  {
+   "station": "상갈",
+   "transitMinutes": 74,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 43,
+   "from": "상갈",
+   "to": "용산"
+  },
+  {
+   "station": "망포",
+   "transitMinutes": 75,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 333,
+   "from": "망포",
+   "to": "신용산"
+  },
+  {
+   "station": "영통",
+   "transitMinutes": 77,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 2,
+   "segments": 3,
+   "walkMeters": 313,
+   "from": "영통",
+   "to": "신용산"
+  },
+  {
+   "station": "청명",
+   "transitMinutes": 77,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 3,
+   "segments": 4,
+   "walkMeters": 99,
+   "from": "청명",
+   "to": "용산"
+  },
+  {
+   "station": "어정",
+   "transitMinutes": 85,
+   "pathType": 1,
+   "isSubwayPath": true,
+   "transfers": 4,
+   "segments": 5,
+   "walkMeters": 26,
+   "from": "어정",
+   "to": "용산"
+  }
+ ]
 }
