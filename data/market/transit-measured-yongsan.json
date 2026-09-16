@@ -1,0 +1,19 @@
+{
+ "asOf": "2026-09-16",
+ "_doc": "접근역에서 용산역까지의 대중교통 소요시간. ODsay 경로검색 결과다. OSM 노선 그래프 추정(transit-yongsan.json)보다 시각표·배차를 알고 계산한 값이지만 둘 다 «예측» 이지 관측이 아니다. 화면은 «경로검색 / 자체추정» 으로 구분해서 보여줘야 한다.",
+ "anchor": "용산역",
+ "slug": "yongsan",
+ "measured": true,
+ "source": "ODsay LAB searchPubTransPathT",
+ "quotaNote": "Basic 무료 플랜은 일 30회다. 역 단위로 나눠 받는다.",
+ "_progress": {
+  "targetStations": 67,
+  "collected": 0,
+  "remaining": 67,
+  "lastRun": "2026-09-16 23:32",
+  "stoppedBecause": "일일 한도 소진",
+  "callsUsed": 0,
+  "callsUsedTotal": 0
+ },
+ "stations": []
+}
