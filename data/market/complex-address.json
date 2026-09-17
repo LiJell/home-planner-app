@@ -1,8 +1,8 @@
 {
- "asOf": "2026-09-15",
+ "asOf": "2026-09-17",
  "source": "국토교통부 실거래가 공개시스템 RTMS OpenAPI (1613000)",
  "verifiability": "verified",
- "verifiedAt": "2026-09-15",
+ "verifiedAt": "2026-09-17",
  "collectedRange": {
   "from": "201601",
   "to": "202606"
