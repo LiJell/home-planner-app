@@ -229,8 +229,8 @@
       "dong": "야탑동",
       "sigungu": "성남시 분당구",
       "areaSqm": 59.9,
-      "medianPrice": 787000000,
-      "sampleSize": 1,
+      "medianPrice": 655000000,
+      "sampleSize": 3,
       "redevelopment": {
         "status": "none",
         "contributionForNewBuyer": null,
@@ -245,7 +245,7 @@
       },
       "landTransactionPermit": false,
       "appreciationPattern": "unknown",
-      "medianPriceSource": "relayed",
+      "medianPriceSource": "measuredFromRawTransactions",
       "regionKey": "성남시 분당구",
       "osm": {
         "ids": [
@@ -271,7 +271,9 @@
         "basis": "6구역·S3구역 고시문의 획지 조서 지번 목록에 이 단지의 번지가 없다. 6구역 기정 유형은 「연립」이고 이 단지는 아파트다.",
         "verifiability": "manual",
         "verifiedAt": "2026-09-14"
-      }
+      },
+      "medianPriceNote": "원자료(MOLIT RTMS 월별 실거래)에서 직접 측정했다. 필터: 계약해제 제외, 직거래 제외, 202606 이후 계약 제외(신고기한 30일로 과소집계). **창이 다른 measured 후보들과 다르다**: 이 단지는 이 파일의 기준 창(2026-03~06)에 거래가 0건이라 광역 요약(complexes.json)과 같은 2026H1 창을 썼다. aptSeq 41135-130, 59㎡ 밴드, n=3 (6.50 / 6.55 / 6.80억).",
+      "medianPriceCorrection": "**정정 (2026-09-18).** 이전 값 787,000,000원(n=1, relayed)은 방어할 수 없었다. 이 단지의 최근 12개월 실거래가 5.75~6.80억인데 그 값은 **최고가보다 1.07억 위**다. 야탑동 어느 단지·어느 밴드·어느 창에서도 중위가 787,000,000원이 재현되지 않는다(전수 스윕). 예산 필터가 쓰는 값이라 1.32억 과대평가가 그대로 판정에 들어가고 있었다. 참고로 최근 12개월 중위는 6.12억(n=10)이다 - 2026H1 n=3 은 얇으니 실거래 조사에서 다시 확인해야 한다."
     },
     {
       "source": "세션 89 MOLIT 실거래 분석 (계약해제·직거래 제외). 정비사업 정보는 용인시·성남시 고시 원문.",
