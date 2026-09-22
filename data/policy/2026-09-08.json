@@ -774,9 +774,24 @@
     "holdingTax.propertyTax.localOrdinanceReduction",
     "infrastructure.yonginSeongnamExpresswayRisk.route",
     "infrastructure.gyeongbuUndergroundMidwayInterchange",
-    "prepaymentFee.rateSchedule"
+    "prepaymentFee.rateSchedule",
+    "taxReform2026.comprehensiveTax.basicDeduction.residentJointUnconfirmed",
+    "taxReform2026.comprehensiveTax.rates.progressiveDeductionDerived",
+    "taxReform2026.capitalGainsTax.unconfirmedTrack",
+    "taxReform2026.comprehensiveTax.taxableThreshold"
   ],
   "openQuestions": [
+    {
+      "id": "taxReform2026Enacted",
+      "label": "2026년 세제개편안이 국회를 통과해 시행되는지",
+      "kind": "L2",
+      "cases": [
+        true,
+        false
+      ],
+      "conservative": false,
+      "note": "2026-09-01 국무회의 의결 정부안이 2026-09-03 국회에 제출됐고 정기국회 예산부수법안으로 12월 초 처리가 전망된다. 조문은 아직 공포되지 않았다(법제처 DRF 확인, 2026-09-22). **보수적 값이 입력에 따라 뒤집히는 드문 항목이다.** 이 가구의 기준 시나리오(보유 10년·거주 10년, 공시 6.3억)에서는 개편안이 양도소득 기본공제를 250만원에서 2,500만원으로 올려 세금을 줄이므로 미통과(false)가 비용 비관 쪽이다. 그러나 **거주기간이 보유기간보다 짧으면 방향이 뒤집힌다** — '29년 이후 공제가 거주분 단독(연 8%)이 되어 거주 2년이면 공제율이 현행 48%에서 16%로 떨어진다. 그래서 어느 쪽도 항상 보수적이지 않고, 두 세계를 나란히 계산해 화면에 함께 낸다. 종부세는 이 가구 공시가격에서 양쪽 다 0원이라 차이를 만들지 않는다."
+    },
     {
       "id": "policyDsrExempt",
       "label": "정책모기지(디딤돌·보금자리론)가 DSR 산정 대상인지",
@@ -1648,6 +1663,346 @@
       "verifiability": "manual",
       "verifiedAt": "2026-09-08"
     }
+  },
+  "taxReform2026": {
+    "_doc": "2026년 세제개편안. **법률이 아니다 — 국회 심사 중이다.** 이 블록의 값은 2026-09-01 국무회의에서 의결되어 2026-09-03 국회에 제출된 **정부안**이고, 2026-08-03 발표된 당초안과 네 항목이 다르다(revisedFromInitial). 조문 공포 전이므로 등급이 전부 proposed 이고, 현행법 값을 덮어쓰지 않는다 — 별도 블록으로 두고 assumptions.taxReform2026Enacted 로 두 세계를 다 계산한다.",
+    "status": "국회 심사 중 (공포 전)",
+    "decidedAt": "2026-09-01",
+    "submittedToAssembly": "2026-09-03",
+    "expectedDecision": "정기국회 예산부수법안으로 2026년 12월 초 처리 전망. 심사 과정에서 추가 수정 가능.",
+    "source": "https://mofe.go.kr/nw/nes/detailNesDtaView.do?searchBbsId1=MOSFBBS_000000000028&searchNttId1=MOSF_000000000079193&menuNo=4010100",
+    "sourceName": "재정경제부 보도자료 「2026년 세제개편안」 정부안 확정 (2026-09-01, 조세정책과)",
+    "detailSource": "https://mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=6",
+    "detailSourceName": "2026년 세제개편안 상세본 250쪽 (2026-08-03). 조문 대비표의 출처. **당초안이므로 revisedFromInitial 네 항목은 이 문서와 다르다.**",
+    "verifiability": "proposed",
+    "verifiedAt": "2026-09-22",
+    "notEnactedEvidence": "법제처 DRF 조회(2026-09-22): 종합부동산세법 시행령 최신 공포본 2026-02-27 제36132호, 소득세법 시행령 2026-05-22 공포·2026-07-01 시행. **개정 조문이 아직 존재하지 않는다.** 미시행 공포본도 없다.",
+    "revisedFromInitial": [
+      {
+        "item": "1세대1주택 기본공제(비거주)",
+        "initial": "12억 → 9억",
+        "final": 1200000000,
+        "note": "**현행 유지로 되돌렸다.** 8-3 상세본 61쪽 표의 9억을 쓰면 틀린다."
+      },
+      {
+        "item": "종부세 세부담 상한",
+        "initial": "150% → 200%",
+        "final": 1.5,
+        "note": "**인상 철회.** 8-3 상세본 65쪽의 200%를 쓰면 틀린다."
+      },
+      {
+        "item": "부부공동명의 1주택(비거주) 인별 기본공제",
+        "initial": "4억 + (5억 × 거주주택 공시가/합계)",
+        "final": 600000000,
+        "note": "각 6억으로 상향해 부부 합산 12억 — 단독명의 비거주와 같아진다."
+      },
+      {
+        "item": "ISA 계약기간·납입한도·일몰",
+        "initial": "계약 5년·연 2천만원·'29.12.31 일몰",
+        "final": "현행 유지",
+        "note": "이 도구의 계산에는 쓰이지 않는다. 같은 국무회의에서 함께 되돌려진 항목이라 기록만 한다."
+      }
+    ],
+    "comprehensiveTax": {
+      "_doc": "종합부동산세. 적용시기는 '27.1.1. 이후 **납세의무가 성립하는 분**부터다. 과세기준일이 6월 1일이므로 2027년분부터 걸린다.",
+      "effectiveFromYear": 2027,
+      "statute": "종합부동산세법 제7조①·제8조①·제9조①②⑤⑧⑨·제10조·제13조·제15조, 시행령 제2조의4",
+      "taxableThreshold": {
+        "singleHome": 1400000000,
+        "other": 900000000,
+        "note": "과세대상 조정(제7조①). 1세대1주택자는 공시 14억(시가 약 20억) 초과부터 납세의무자가 된다. 그 외는 9억 초과로 현행과 같다.",
+        "_doc": "**기본공제(제8조①)와 다른 축으로 갈린다.** 과세대상은 `1세대1주택자인가`(14억 / 그 외 9억)이고 기본공제는 `거주하는가`(14억 / 12억)다. 상세본이 (2) 과세대상 조정(§7①)과 (3) 기본공제금액 조정(§8①)을 **별도 항목으로** 제시하므로 같은 값을 되풀이한 것이 아니다.",
+        "interpretationRisk": "**두 조문을 조합한 결론까지는 원문이 말해주지 않는다.** 비거주 1주택자는 과세대상 14억 / 기본공제 12억이 되어, 공시 12~14억 구간에서 '공제는 있는데 납세의무자가 아닌' 상태가 된다. 그 조합이 입법 의도인지는 조문 공포 전에 확정할 수 없다. 같은 자료를 '14억은 거주 기본공제를 과세대상 문장으로 되풀이한 것'으로 읽으면 게이트가 없고, 그 경우 12~14억 비거주 구간이 반대로 과소 산정된다.",
+        "directionIfWrong": "**게이트를 적용하는 쪽이 납세자에게 유리하다.** 지금 코드는 그쪽을 골랐다 — 조문 원문이 별도 항목으로 규정하기 때문이지만, 이 저장소가 '유리한 쪽을 기본값으로 쓰지 않는다'고 적어둔 것과 방향이 반대라는 사실을 숨기지 않는다. 게이트가 틀렸다면 비거주 1주택 공시 12~14억 구간의 종부세가 과소 산정된다.",
+        "discontinuity": "과세대상 기준과 기본공제가 다른 값이라 **기준선에서 세액이 점프한다.** 비거주 1주택 기준 공시 14억은 0원, 14억+1원은 약 70만원이다(현행은 기준과 공제가 같아 연속이다). 계단 자체는 조문 구조에서 나오는 것이고 계산 오류가 아니지만, 경계 근처 공시가격이면 화면이 그 사실을 말해야 한다."
+      },
+      "basicDeduction": {
+        "singleHomeResident": 1400000000,
+        "singleHomeNonResident": 1200000000,
+        "generalBase": 400000000,
+        "generalResidenceLinked": 500000000,
+        "generalFormula": "4억원 + (5억원 × 거주주택 공시가격 ÷ 주택 공시가격 합계액)",
+        "jointSingleHomeNonResidentPerPerson": 600000000,
+        "residentJointUnconfirmed": "**거주 1주택을 부부 공동명의로 보유할 때의 인별 공제액은 확인하지 못했다.** 9-1 수정사항이 밝힌 것은 비거주 공동명의 인별 6억뿐이고, 거주 공동명의가 제10조의2 특례(1인을 1세대1주택자로 보아 14억)를 그대로 타는지 인별 산식으로 가는지는 조문 없이 결정할 수 없다. 이 가구는 공시 6.3억이라 어느 쪽이든 0원이지만, 고가 후보에서는 갈린다."
+      },
+      "fairMarketRatio": {
+        "_doc": "법 시행령 범위 자체가 60~100% 에서 60~70% 로 좁혀지고, 그 안에서 단계적으로 올린다. **각주의 '1세대 1주택자는 제외'가 결정적이다** — 조정대상지역 주택이어도 1세대1주택자면 70%에서 멈춘다.",
+        "singleHomeOrGeneral": [
+          {
+            "fromYear": 2027,
+            "ratio": 0.7
+          }
+        ],
+        "threeHomesOrAdjustmentArea": [
+          {
+            "fromYear": 2027,
+            "ratio": 0.7
+          },
+          {
+            "fromYear": 2028,
+            "ratio": 0.8
+          }
+        ],
+        "threeHomesTrackModeled": false,
+        "whyThreeHomesNotModeled": "**단독명의 1세대1주택자는 이 트랙을 타지 않는다.** 각주가 '3주택 이상 보유자 및 조정대상지역 주택 보유자(1세대 1주택자는 제외)'이고, 분당이 조정대상지역이라 80%를 적용하고 싶어지는데 **괄호가 1세대1주택자를 빼고 있어 70%에서 멈춘다.** 지워두면 다음 사람이 같은 각주를 다시 놓친다.",
+        "unresolvedJointCase": "**공동명의 미신청은 확정할 수 없다.** 미신청이면 각 배우자는 1세대1주택자가 아니고(그래서 제10조의2 특례가 따로 있다) 분당은 조정대상지역이므로, 각주의 괄호 예외에서 빠져 80% 트랙에 해당할 소지가 있다. 부부 1주택 공동명의가 이 트랙의 정책 대상인지는 조문 없이 정할 수 없어, 현재 코드는 단독·공동 모두 70%(singleHomeOrGeneral)를 쓴다. **적용하면 공동명의 종부세가 올라가므로 지금 값은 공동명의 쪽이 낙관적일 수 있다** — 2028년분부터 갈린다. 조문이 공포되면 이 항목부터 확인해야 한다.",
+        "excludesSingleHomeFromAdjustmentTrack": true
+      },
+      "rates": {
+        "_doc": "'27년은 주택 수 차등이 남고 6~12억 구간만 1.0% → 1.3% 로 오른다. '28년부터 주택 수 기준이 폐지되고 주택가액 기준으로 일원화된다.",
+        "_scheduleDoc": "**시행 연도를 데이터에 둔다.** 전에는 키 이름('2027_...'·'2028_...')과 코드의 `year >= 2028` 두 군데에 연도가 박혀 있어, 국회 심사에서 시행 시점이 밀리면 키 이름·코드·effectiveFromYear 세 곳을 맞춰야 했고 어긋나도 예외가 나지 않았다. schedule 로 두면 scheduleAt 이 조회하고 validateRuleset 의 오름차순 검사가 걸린다.",
+        "schedule": [
+          {
+            "fromYear": 2027,
+            "label": "주택 수 차등 유지, 6~12억 구간만 1.0% → 1.3%",
+            "brackets": [
+              {
+                "upTo": 300000000,
+                "rate": 0.005,
+                "progressiveDeduction": 0
+              },
+              {
+                "upTo": 600000000,
+                "rate": 0.007,
+                "progressiveDeduction": 600000
+              },
+              {
+                "upTo": 1200000000,
+                "rate": 0.013,
+                "progressiveDeduction": 4200000
+              },
+              {
+                "upTo": 2500000000,
+                "rate": 0.015,
+                "progressiveDeduction": 6600000
+              },
+              {
+                "upTo": 5000000000,
+                "rate": 0.02,
+                "progressiveDeduction": 19100000
+              },
+              {
+                "upTo": 9400000000,
+                "rate": 0.027,
+                "progressiveDeduction": 54100000
+              },
+              {
+                "upTo": null,
+                "rate": 0.035,
+                "progressiveDeduction": 129300000
+              }
+            ]
+          },
+          {
+            "fromYear": 2028,
+            "label": "주택 수 기준 폐지, 주택가액 기준으로 일원화",
+            "brackets": [
+              {
+                "upTo": 300000000,
+                "rate": 0.005,
+                "progressiveDeduction": 0
+              },
+              {
+                "upTo": 600000000,
+                "rate": 0.007,
+                "progressiveDeduction": 600000
+              },
+              {
+                "upTo": 1200000000,
+                "rate": 0.013,
+                "progressiveDeduction": 4200000
+              },
+              {
+                "upTo": 2500000000,
+                "rate": 0.02,
+                "progressiveDeduction": 12600000
+              },
+              {
+                "upTo": 5000000000,
+                "rate": 0.03,
+                "progressiveDeduction": 37600000
+              },
+              {
+                "upTo": 9400000000,
+                "rate": 0.04,
+                "progressiveDeduction": 87600000
+              },
+              {
+                "upTo": null,
+                "rate": 0.05,
+                "progressiveDeduction": 181600000
+              }
+            ]
+          }
+        ],
+        "progressiveDeductionDerived": "**개편안은 세율만 고시하고 누진공제액을 주지 않는다.** 위 progressiveDeduction 은 구간 경계에서 세액이 연속이 되도록 우리가 역산한 값이다(누적 세액 방식과 동일해지는 값). 조문이 공포되면 별표와 대조해야 한다."
+      },
+      "taxCredit": {
+        "_doc": "1세대1주택 세액공제. 보유공제가 거주공제로 전환되고 **금액 한도가 신설된다.**",
+        "modeled": false,
+        "whyNotModeled": "**계산에 반영하지 않았다. 종부세가 실제보다 크게 나온다(보수적 방향).** 현행 룰셋(holdingTax.comprehensiveTax)에도 세액공제 데이터가 없어서, 개편안 쪽만 넣으면 두 세계의 비교가 불공정해진다 — 개편안만 세액공제를 받아 유리해 보이게 된다. 양쪽을 같이 넣으려면 현행 종부세법 제9조⑤~⑨ 조사와 연령·보유·거주 인자를 종부세 계산에 통과시키는 작업이 함께 필요하고, 그건 세제개편 적용과 별개의 변경이다. 이 가구의 공시가격(6.3억)에서는 종부세가 양쪽 0원이라 차이가 없지만, **고가 후보와 매수 상한(ceiling) 탐색에서는 종부세가 과대 산정된다.**",
+        "ageRates": [
+          {
+            "fromAge": 60,
+            "rate": 0.2
+          },
+          {
+            "fromAge": 65,
+            "rate": 0.3
+          },
+          {
+            "fromAge": 70,
+            "rate": 0.4
+          }
+        ],
+        "2027": {
+          "mode": "보유공제(거주공제의 1/2)와 거주공제 중 높은 공제율",
+          "holding": [
+            {
+              "y": 5,
+              "r": 0.1
+            },
+            {
+              "y": 10,
+              "r": 0.2
+            },
+            {
+              "y": 15,
+              "r": 0.25
+            }
+          ],
+          "residence": [
+            {
+              "y": 5,
+              "r": 0.2
+            },
+            {
+              "y": 10,
+              "r": 0.4
+            },
+            {
+              "y": 15,
+              "r": 0.5
+            }
+          ],
+          "amountCap": 8000000
+        },
+        "2028": {
+          "mode": "거주공제만",
+          "residence": [
+            {
+              "y": 5,
+              "r": 0.2
+            },
+            {
+              "y": 10,
+              "r": 0.4
+            },
+            {
+              "y": 15,
+              "r": 0.5
+            }
+          ],
+          "amountCap": 6000000
+        },
+        "combinedRateCap": 0.8
+      },
+      "burdenCap": {
+        "value": 1.5,
+        "note": "**현행 유지다.** 8-3 당초안의 200% 인상은 9-1 국무회의에서 철회됐다.",
+        "modeled": false,
+        "whyNotModeled": "**이 도구의 계산 구조에서는 구조적으로 발동하지 않는다.** 세부담 상한은 직전연도 총보유세의 150%를 넘는 부분을 깎는 장치인데, 이 도구는 공시가격을 보유 기간 내내 고정으로 두므로 연도별 세액이 거의 변하지 않아 전년 대비 1.5배에 닿을 일이 없다. 구현해도 항상 미발동인 죽은 코드가 된다. **공시가격 상승을 모델링하게 되면 그때 같이 넣어야 한다** — 그 시점에는 발동한다."
+      }
+    },
+    "capitalGainsTax": {
+      "_doc": "양도소득세. 적용시기는 '28.1.1. 이후 **양도하는 분**부터다. '27년은 1년 유예로 현행과 같다. 장기보유특별공제가 주택은 「장기거주 소득공제」, 주택 외는 「장기보유 소득공제」로 이원화된다(제95조②·③).",
+      "effectiveFromYear": 2028,
+      "statute": "소득세법 제95조②③⑥, 제103조",
+      "renamedTo": "장기거주 소득공제",
+      "singleHomeSchedule": [
+        {
+          "fromYear": 2028,
+          "residencePerYear": 0.06,
+          "residenceMax": 0.6,
+          "holdingPerYear": 0.02,
+          "holdingMax": 0.2,
+          "combinedMax": 0.8
+        },
+        {
+          "fromYear": 2029,
+          "residencePerYear": 0.08,
+          "residenceMax": 0.8,
+          "holdingPerYear": 0,
+          "holdingMax": 0,
+          "combinedMax": 0.8
+        }
+      ],
+      "baseRequirement": "보유 3년 이상 + 거주 2년 이상 (기본요건은 현행과 같다)",
+      "deductionCap": [
+        {
+          "fromYear": 2028,
+          "perPersonYear": 2000000000,
+          "perProperty": 2000000000
+        },
+        {
+          "fromYear": 2029,
+          "perPersonYear": 1000000000,
+          "perProperty": 1000000000
+        }
+      ],
+      "deductionCapNote": "인별 연간 한도와 양도 물건별 한도를 **각각** 적용한다(제95조⑥ 신설). 공동소유·분할양도는 지분 비율로 안분해 한도를 적용한다.",
+      "basicDeductionLongResidence": {
+        "amount": 25000000,
+        "currentAmount": 2500000,
+        "minResidenceYears": 10,
+        "salePriceCap": 3000000000,
+        "note": "10년 이상 거주 + 양도가액 30억원 이하일 때 양도소득 기본공제가 250만원에서 2,500만원으로 오른다. **인별 공제이므로 공동명의면 두 배다**(제103조① 구조는 그대로)."
+      },
+      "residenceCreditForAbsence": {
+        "_doc": "비거주 기간을 거주기간으로 인정하는 사유. 거주공제로 전환되면서 신설된다.",
+        "modeled": false,
+        "whyNotModeled": "**계산에 반영하지 않았다. 양도세가 실제보다 크게 나온다(보수적 방향).** 적용하면 거주기간이 늘어 공제율이 오르는데, 인정 여부가 부득이한 사유의 개별 사실관계(전근 발령, 진단서, 재학증명)에 달려 있어 입력으로 받을 수 있는 값이 아니다. 근거 없이 거주기간을 늘리면 도구가 없는 확실성을 만든다. 다만 **재건축 공사기간의 1/2 인정은 분당 선도지구 시나리오에 직접 걸리므로**, 선도지구 데이터가 연결되면 그때 함께 다뤄야 한다.",
+        "relocationMaxYears": 3,
+        "relocationReasons": [
+          "취학",
+          "직장변경·전근",
+          "질병(1년 이상 치료·요양)",
+          "학교폭력 전학",
+          "해외체류",
+          "부모봉양(60세 이상 직계존속 동거봉양)"
+        ],
+        "relocationRequirement": "1년 이상 계속 거주 중인 주택에서 부득이한 사유로 다른 시·군 주거이전",
+        "reconstructionHalfOfConstruction": true,
+        "reconstructionNote": "재개발·재건축 신축주택은 **공사기간의 1/2**을 거주기간으로 인정한다(관리처분계획 인가일 현재 1년 이상 거주 중인 주택). 분당 선도지구 시나리오에 직접 걸린다.",
+        "effectiveCapitalGains": "'28.1.1. 이후 양도분",
+        "effectiveComprehensive": "'27.1.1. 이후 납세의무 성립분"
+      },
+      "nonResidentExcluded": "비거주 주택은 공제에서 배제된다. 거주하지 않으면 '29년 이후 공제율이 0 이다.",
+      "unconfirmedTrack": "**'28년 이후 '1세대1주택인데 거주요건 미충족' 케이스가 어느 줄인지 개편안 표에 없다.** 표가 '1세대1주택자' / '다주택자(비조정)' 두 줄뿐이다. 현행 표1이 적용되던 이 조합의 처리는 조문 공포 전 확정할 수 없다."
+    },
+    "temporaryTwoHouse": {
+      "_doc": "조정대상지역 내 일시적 2주택 특례기간 단축. **이것만 법률이 아니라 시행령이고, 다른 항목보다 훨씬 빨리 시행된다.**",
+      "fromYears": 3,
+      "toYears": 2,
+      "effectiveDate": "2026-10-01",
+      "status": "입법예고 종료(2026-08-07 ~ 2026-09-10), **공포 전**",
+      "notice": "재정경제부 공고 제2026-227호",
+      "statute": "종합부동산세법 시행령 제4조의2①, 소득세법 시행령",
+      "appliesWhen": "조정대상지역 1주택 보유 중 양도 전에 조정대상지역의 다른 주택을 취득한 경우",
+      "carveOut": "조정대상지역 공고일 **이전** 취득했거나 매매계약+계약금 지급을 증명하면 3년이 유지된다",
+      "capitalGainsTiming": "신규주택을 2026-08-04 이후 조정대상지역에서 취득한 경우, 종전주택을 2026-10-01 이후 양도할 때 2년 기한이 적용된다",
+      "comprehensiveTiming": "2027-06-01 납세의무 성립분부터",
+      "verifiability": "proposed",
+      "notEnactedEvidence": "법제처 DRF 조회(2026-09-22) 기준 종합부동산세법 시행령 최신 공포본은 2026-02-27 제36132호다. 이 개정은 아직 공포되지 않았다."
+    },
+    "notModeled": [
+      "다주택자 장기거주 소득공제 개편 ('28 거주2%/보유1%, '29~ 거주2%) — 이 도구는 1세대1주택만 계산한다",
+      "고령 1주택자 수도권→지방 이주 양도세 감면 (최대 50%, 5억 한도) — 이 가구의 연령대가 아니다",
+      "다주택자 조정대상지역 양도세 중과 한시 완화",
+      "지방 세컨드홈 1세대1주택 특례 확대",
+      "종부세 납부유예 요건 완화 — 납부 시점 문제이고 세액을 바꾸지 않는다",
+      "비사업용 토지·종합합산 토지 관련 개정"
+    ]
   },
   "capitalGainsTax": {
     "_doc": "양도소득세. 1세대1주택 비과세 한도(12억)를 넘는 부분에만 과세되고, **그 초과분이 생기면 항상 명의 구조에 반응한다** — 기본공제 250만원이 인별이고 과세표준이 지분별로 쪼개져 누진세율이 분산된다.",
