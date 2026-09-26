@@ -538,17 +538,18 @@
     "bogeumjari_firstTime": {
       "label": "생애최초 보금자리론",
       "kind": "policy",
-      "source": "https://www.hf.go.kr/ko/sub01/sub01_01_02.do / 금리 sub01_01_04.do",
-      "verifiedAt": "2026-09-08",
+      "source": "https://www.hf.go.kr/ko/sub01/sub01_01_02.do (상품안내·대출요건) / https://www.hf.go.kr/ko/sub01/sub01_01_01.do (소개·상품요건, 담보주택 평가 방법) / 금리 sub01_01_04.do",
+      "verifiedAt": "2026-09-26",
       "verifiability": "manual",
       "eligibility": {
         "incomeCap": 70000000,
         "incomeBasis": "coupleOrSelfIfUnmarried",
-        "appraisedValueCap": 900000000,
+        "appraisedValueCap": 600000000,
+        "appraisedValueCapBasis": "priceOrAppraisedValue",
         "areaSqmCap": null,
         "requiresNoHouseHouseholder": false,
         "requiresFirstTime": true,
-        "note": "세대주 요건이 문서 전체에 없다. 단독세대주 제한도 없다. 소득은 '부부(미혼인 경우 본인) 기준'이라 미혼 단독 심사가 가능하다."
+        "note": "세대주 요건이 문서 전체에 없다. 단독세대주 제한도 없다. 소득은 '부부(미혼인 경우 본인) 기준'이라 미혼 단독 심사가 가능하다. 주택가격 상한은 6억이고 생애최초 상품도 같다. 상품안내 «대출요건 6억원 이하 공부상 주택», 소개·상품요건 «대출승인일 현재 담보주택이 6억원을 초과하는 주택은 취급 불가», 담보주택의 평가 방법 안내 «구입용도의 경우 시세정보, 감정평가액, 매매가액(낙찰가액, 분양계약서상 실매매액 등 매수인이 실제 지급한 금액) 중 어느 하나라도 6억원을 초과하는 주택은 취급 불가» (2026-09-26 원문 HTML 직접 읽음). 그래서 기준(appraisedValueCapBasis)은 평가액만이 아니라 매매가·평가액 중 큰 값이다. 생애최초 보금자리론 절에는 별도 가격 요건이 없고 한도(최대 LTV 80%, 4.2억 한도 내, 수도권·규제지역 70%)만 다르다. 9억은 전세사기피해자 보금자리론에만 적힌다(«9억원 이하 공부상 주택 및 주거목적 오피스텔»). 종전 값 9억은 2026-09-08 초기 룰셋부터 있었고 근거 기록이 없다(conflicts.bogeumjari-house-price-cap)."
       },
       "productCap": 420000000,
       "ltvMetroOrRegulated": 0.7,
@@ -1609,6 +1610,23 @@
       "impact": "서울 재개발 구역의 작은 토지 매물이 분양대상인지를 가른다. 지금 후보 16곳에는 서울 재개발이 없어 계산에 쓰이지 않는다.",
       "resolution": "옛 조례(서울특별시조례 제4167호) 제24조 원문과 해당 구역이 경과조치 대상인지를 확인해야 한다. 그 전까지 이 기준으로 분양자격을 가정하지 않는다.",
       "status": "open"
+    },
+    {
+      "id": "bogeumjari-house-price-cap",
+      "path": "products.bogeumjari_firstTime.eligibility.appraisedValueCap",
+      "note": "생애최초 보금자리론의 주택가격 상한이 룰셋(9억)과 한국주택금융공사 상품 안내(6억)에서 달랐다.",
+      "ours": {
+        "value": 600000000,
+        "source": "https://www.hf.go.kr/ko/sub01/sub01_01_02.do 대출요건 «6억원 이하 공부상 주택» + https://www.hf.go.kr/ko/sub01/sub01_01_01.do 상품요건 «대출승인일 현재 담보주택이 6억원을 초과하는 주택은 취급 불가», «구입용도의 경우 시세정보, 감정평가액, 매매가액(…) 중 어느 하나라도 6억원을 초과하는 주택은 취급 불가» (2026-09-26 원문 HTML 직접 읽음)"
+      },
+      "other": {
+        "value": 900000000,
+        "source": "2026-09-08 초기 룰셋(e5716d5)의 값. 근거 기록이 없다. 전세사기피해자 보금자리론(9억)이나 신생아 특례(9억)의 상한이 섞였을 가능성이 있다. jarvis raw/external/2026-09-26-real-estate-corrections.md 4절 25행·5절이 지적"
+      },
+      "impact": "6억 초과 매물에서 보금자리론 두 시나리오(bogeumjari-solo, bogeumjari-couple)가 자격 통과로 계산됐다. 기준도 평가액만 보고 있어 매매가 6.3억·평가액 미입력(×0.95 = 5.985억)인 매물이 통과했다. 수도권 LTV 70% 에서 6억 × 0.7 = 4.2억이라 방공제가 붙는 한 상품한도 4.2억에는 닿지 않고 LTV 가 먼저 건다.",
+      "resolution": "hf.go.kr 원문이 6억이고 생애최초 절에 별도 가격 요건이 없다. 9억은 전세사기피해자 보금자리론에만 적힌다. 룰셋을 6억으로 고치고 기준을 매매가·평가액 중 큰 값으로 바꿨다(appraisedValueCapBasis: priceOrAppraisedValue). 디딤돌·신생아의 기준은 이번에 확인하지 않아 종전(평가액)대로 둔다.",
+      "status": "resolved",
+      "resolvedAt": "2026-09-26"
     }
   ],
   "transferRestriction": {
