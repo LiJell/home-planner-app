@@ -11,13 +11,17 @@
       ],
       "isMetro": true,
       "priorityRepaymentTier": "overconcentration",
-      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
       "verifiedAt": "2026-09-08",
       "verifiability": "manual",
       "adjustmentTargetAreaSince": "2025-10-16",
       "adjustmentTargetAreaSource": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp?lcmspage=1&id=95092167 (국토교통부 보도참고자료 2026-06-30, 참고2 규제지역 현황표에 \"성남분당(25.10.16)\" 명시)",
       "adjustmentTargetAreaNote": "**양도세 1세대1주택 비과세의 거주 2년 요건이 붙는 근거다**(소득세법 시행령 제154조①). 2026-07-01 이후 2026-09-08 까지 국토부 보도자료(주택토지 174건)·참고해명자료(108건) 제목 전수 확인 결과 해제·변경 발표가 없어 현재 유효로 판단한다.",
-      "adjustmentTargetAreaVerifiability": "manual"
+      "adjustmentTargetAreaVerifiability": "manual",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "note": "2026-09-26 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 수지구와 같은 근거이고 같은 날이다. 2026-07-01 이후 해제 여부는 확인하지 않았다."
     },
     "용인시 수지구": {
       "designation": [
@@ -26,9 +30,15 @@
       ],
       "isMetro": true,
       "priorityRepaymentTier": "overconcentration",
-      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
       "verifiedAt": "2026-09-08",
-      "verifiability": "manual"
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26",
+      "note": "참고2 표 \"추가지정 전(6월말 기준)\" 과 \"추가지정 후(7월 1일 이후)\" 의 투기과열지구·조정대상지역 두 열 모두에 \"용인수지\" 가 있고 지정일이 ('25.10.16) 이다. 2026-09-26 이 표와 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 2026-07-01 이후 해제 여부는 확인하지 않았다.",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 2026-06-30 5쪽 참고2, 2026-09-26 확인)"
     },
     "성남시 중원구": {
       "designation": [
@@ -37,9 +47,16 @@
       ],
       "isMetro": true,
       "priorityRepaymentTier": "overconcentration",
-      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
       "verifiedAt": "2026-09-08",
-      "verifiability": "manual"
+      "verifiability": "manual",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "designationUnverifiedReason": "지정 자체는 공고 원문에 있다. 그런데 성남시가 2025-12-05 수정구·중원구의 규제지역 해제를 국토교통부에 요청했고 그 결과가 관측되지 않았다(conflicts 의 seongnam-sujeong-jungwon-release-request). 허가 기간과 같은 이유로 designation 을 unverified 에 두어 화면이 배지를 달게 한다. 해제 고시가 확인되면 designation 을 비우고, 유지가 확인되면 이 경로를 unverified 에서 뺀다.",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 수정구와 같은 해제 요청이 걸려 있다(openIssue).",
+      "openIssue": "성남시가 2025-10-16 통계 산정기간을 근거로 수정구·중원구 해제를 국토교통부에 요청했다는 언론 보도가 있으나 국토교통부의 회신 문서를 찾지 못했다. 위 2026-06-30 국토부 1차 자료에서는 두 구 모두 지정 상태이므로 그 시점까지 반영되지 않았다. 2026-07-01 이후 해제 발표는 확인되지 않았다.",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 2026-06-30 5쪽 참고2, 2026-09-14/2026-09-26 확인)"
     },
     "수원시 영통구": {
       "designation": [
@@ -48,9 +65,12 @@
       ],
       "isMetro": true,
       "priorityRepaymentTier": "overconcentration",
-      "source": "국토교통부 공고 제2026-882호·제2026-883호 (2026-07-01)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
       "verifiedAt": "2026-09-08",
-      "verifiability": "manual"
+      "verifiability": "manual",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)"
     },
     "수원시 권선구": {
       "designation": [],
@@ -77,14 +97,186 @@
       ],
       "isMetro": true,
       "priorityRepaymentTier": "overconcentration",
-      "source": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf",
-      "sourceName": "국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" (2026-06-30, 주택정책과)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
       "verifiedAt": "2026-09-14",
       "verifiability": "manual",
       "adjustmentTargetAreaSince": "2025-10-16",
-      "note": "참고2 표를 직접 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳의 투기과열지구·조정대상지역 양쪽에 \"성남수정\"이 있고 지정일이 ('25.10.16) 으로 표기된다. \"추가지정 후(7월 1일 이후)\" 경기 15곳 표에도 성남수정이 그대로 남고 화성동탄·용인기흥·구리 3곳만 굵게 추가된다. 분당구·중원구와 같은 표의 같은 행이다. 과밀억제권역 구분은 성남시 단위라 분당구·중원구와 같은 tier 를 쓴다.",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 참고2 표를 직접 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳의 투기과열지구·조정대상지역 양쪽에 \"성남수정\"이 있고 지정일이 ('25.10.16) 으로 표기된다. \"추가지정 후(7월 1일 이후)\" 경기 15곳 표에도 성남수정이 그대로 남고 화성동탄·용인기흥·구리 3곳만 굵게 추가된다. 분당구·중원구와 같은 표의 같은 행이다. 과밀억제권역 구분은 성남시 단위라 분당구·중원구와 같은 tier 를 쓴다.",
       "openIssue": "성남시가 2025-10-16 통계 산정기간을 근거로 수정구·중원구 해제를 국토교통부에 요청했다는 언론 보도가 있으나 국토교통부의 회신 문서를 찾지 못했다. 위 2026-06-30 국토부 1차 자료에서는 두 구 모두 지정 상태이므로 그 시점까지 반영되지 않았다. 2026-07-01 이후 해제 발표는 확인되지 않았다.",
-      "sourceNote": "첨부 PDF 직링크다. **이 URL 로 실제로 내려받아 5쪽 참고2 표를 읽었다.** 게시판 페이지 경로(USR/NEWS/m_71 인지 m_72 인지)는 확인하지 못했다 — 두 경로 모두 307 로 응답하고 본문을 주지 않는다. 분당구 항목은 같은 id 를 m_72 로 인용하고 있는데 어느 쪽이 맞는지 미확인이므로 게시판 경로 대신 검증된 파일 URL 을 정본으로 둔다."
+      "sourceNote": "첨부 PDF 직링크다. **이 URL 로 실제로 내려받아 5쪽 참고2 표를 읽었다.** 게시판 페이지 경로(USR/NEWS/m_71 인지 m_72 인지)는 확인하지 못했다 — 두 경로 모두 307 로 응답하고 본문을 주지 않는다. 분당구 항목은 같은 id 를 m_72 로 인용하고 있는데 어느 쪽이 맞는지 미확인이므로 게시판 경로 대신 검증된 파일 URL 을 정본으로 둔다.",
+      "designationUnverifiedReason": "지정 자체는 공고 원문에 있다. 그런데 성남시가 2025-12-05 수정구·중원구의 규제지역 해제를 국토교통부에 요청했고 그 결과가 관측되지 않았다(conflicts 의 seongnam-sujeong-jungwon-release-request). 허가 기간과 같은 이유로 designation 을 unverified 에 두어 화면이 배지를 달게 한다. 해제 고시가 확인되면 designation 을 비우고, 유지가 확인되면 이 경로를 unverified 에서 뺀다.",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 2026-06-30 5쪽 참고2, 2026-09-14/2026-09-26 확인)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "서울 서초구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "seoul",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "note": "2023-01 서울 전역 해제 때 강남·서초·송파·용산 4곳만 남겼고, 2025-10-15 대책이 이 4곳을 '지정 유지'로 두고 나머지 21개 자치구를 새로 지정했다(제2025-1225호 현황표 «현 행» 유지). 2026-09-26 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 2026-07-01 이후 해제 발표는 확인하지 않았다.",
+      "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)",
+      "corroboration": "https://www.korea.kr/news/policyNewsView.do?newsId=148950973 (대한민국 정책브리핑, 2025-10-15 '서울 전역·경기 12곳 투기과열지구·토지거래허가구역 지정'); https://www.fntimes.com/html/view.php?ud=2023010317122626425e6e69892f_18 (2023-01 해제 대상 제외) (2026-09-25 조사. 공고 원문을 읽기 전의 근거였고, 지금은 보강 자료다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 서울 «현 행» 열이 \"강남구, 서초구, 송파구, 용산구, 성동구, 마포구, 강동구, 영등포구, 양천구, 동작구, 광진구, 중구, 종로구, 서대문구, 강서구, 노원구, 성북구, 구로구, 동대문구, 관악구, 은평구, 중랑구, 금천구, 강북구, 도봉구\" 이고 «조 정('26.7.1.)» 열이 \"좌동\" 이다. 두 공고의 표가 글자 그대로 같고 지정기간은 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 국토교통부공고 제2025-1225호 「투기과열지구 지정」(2025-10-16) 첨부 PDF 현황표는 서울 «현 행» 을 \"강남구, 서초구, 송파구, 용산구\" → «조 정(’25.10.16.)» \"좌동\" 으로 적는다. 즉 2025-10-15 대책에서 이 구는 신규 지정이 아니라 현행 유지다(2023-01 서울 해제 때 남은 4곳). 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 상태는 제2026-882호 현황표(현행 열)에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "서울 강남구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "seoul",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "note": "2023-01 서울 전역 해제 때 강남·서초·송파·용산 4곳만 남겼고, 2025-10-15 대책이 이 4곳을 '지정 유지'로 두고 나머지 21개 자치구를 새로 지정했다(제2025-1225호 현황표 «현 행» 유지). 2026-09-26 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 2026-07-01 이후 해제 발표는 확인하지 않았다.",
+      "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)",
+      "corroboration": "https://www.korea.kr/news/policyNewsView.do?newsId=148950973 (대한민국 정책브리핑, 2025-10-15 '서울 전역·경기 12곳 투기과열지구·토지거래허가구역 지정'); https://www.fntimes.com/html/view.php?ud=2023010317122626425e6e69892f_18 (2023-01 해제 대상 제외) (2026-09-25 조사. 공고 원문을 읽기 전의 근거였고, 지금은 보강 자료다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 서울 «현 행» 열이 \"강남구, 서초구, 송파구, 용산구, 성동구, 마포구, 강동구, 영등포구, 양천구, 동작구, 광진구, 중구, 종로구, 서대문구, 강서구, 노원구, 성북구, 구로구, 동대문구, 관악구, 은평구, 중랑구, 금천구, 강북구, 도봉구\" 이고 «조 정('26.7.1.)» 열이 \"좌동\" 이다. 두 공고의 표가 글자 그대로 같고 지정기간은 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 국토교통부공고 제2025-1225호 「투기과열지구 지정」(2025-10-16) 첨부 PDF 현황표는 서울 «현 행» 을 \"강남구, 서초구, 송파구, 용산구\" → «조 정(’25.10.16.)» \"좌동\" 으로 적는다. 즉 2025-10-15 대책에서 이 구는 신규 지정이 아니라 현행 유지다(2023-01 서울 해제 때 남은 4곳). 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 상태는 제2026-882호 현황표(현행 열)에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "서울 송파구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "seoul",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "note": "2023-01 서울 전역 해제 때 강남·서초·송파·용산 4곳만 남겼고, 2025-10-15 대책이 이 4곳을 '지정 유지'로 두고 나머지 21개 자치구를 새로 지정했다(제2025-1225호 현황표 «현 행» 유지). 2026-09-26 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 2026-07-01 이후 해제 발표는 확인하지 않았다.",
+      "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)",
+      "corroboration": "https://www.korea.kr/news/policyNewsView.do?newsId=148950973 (대한민국 정책브리핑, 2025-10-15 '서울 전역·경기 12곳 투기과열지구·토지거래허가구역 지정'); https://www.fntimes.com/html/view.php?ud=2023010317122626425e6e69892f_18 (2023-01 해제 대상 제외) (2026-09-25 조사. 공고 원문을 읽기 전의 근거였고, 지금은 보강 자료다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 서울 «현 행» 열이 \"강남구, 서초구, 송파구, 용산구, 성동구, 마포구, 강동구, 영등포구, 양천구, 동작구, 광진구, 중구, 종로구, 서대문구, 강서구, 노원구, 성북구, 구로구, 동대문구, 관악구, 은평구, 중랑구, 금천구, 강북구, 도봉구\" 이고 «조 정('26.7.1.)» 열이 \"좌동\" 이다. 두 공고의 표가 글자 그대로 같고 지정기간은 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 국토교통부공고 제2025-1225호 「투기과열지구 지정」(2025-10-16) 첨부 PDF 현황표는 서울 «현 행» 을 \"강남구, 서초구, 송파구, 용산구\" → «조 정(’25.10.16.)» \"좌동\" 으로 적는다. 즉 2025-10-15 대책에서 이 구는 신규 지정이 아니라 현행 유지다(2023-01 서울 해제 때 남은 4곳). 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 상태는 제2026-882호 현황표(현행 열)에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "서울 강동구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "seoul",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "note": "2023-01 해제 뒤 비규제였다가 2025-10-15 대책으로 투기과열지구·조정대상지역에 새로 지정됐다(제2025-1225호 신규 지정). 강남·서초·송파와 지정 트랙이 다르다(서울시 고시가 아니라 국토부 대책). 지정 효력일은 conflicts 의 gangdong-designation-effective-date 로 2025-10-16 확정. 2026-09-26 지정 공고 원문(designationConfirmedBy)을 직접 읽고 designation 을 미확인에서 뺐다. 2026-07-01 이후 해제 발표는 확인하지 않았다.",
+      "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)",
+      "corroboration": "https://www.korea.kr/news/policyNewsView.do?newsId=148950973 (대한민국 정책브리핑, 2025-10-15); https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf (국토교통부 공고 제2025-1219호 PDF); https://www.khan.co.kr/article/202510151656001 (경향신문 Q&A) (2026-09-25 조사. 공고 원문을 읽기 전의 근거였고, 지금은 보강 자료다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 서울 «현 행» 열이 \"강남구, 서초구, 송파구, 용산구, 성동구, 마포구, 강동구, 영등포구, 양천구, 동작구, 광진구, 중구, 종로구, 서대문구, 강서구, 노원구, 성북구, 구로구, 동대문구, 관악구, 은평구, 중랑구, 금천구, 강북구, 도봉구\" 이고 «조 정('26.7.1.)» 열이 \"좌동\" 이다. 두 공고의 표가 글자 그대로 같고 지정기간은 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 국토교통부공고 제2025-1225호 「투기과열지구 지정」(2025-10-16) 첨부 PDF 1항 대상지역가 \"서울 성동구, 마포구, 강동구, 영등포구, 양천구, 동작구, 광진구, 중구, 종로구, 서대문구, 강서구, 노원구, 성북구, 구로구, 동대문구, 관악구, 은평구, 중랑구, 금천구, 강북구, 도봉구 및 경기도 …\" 이고 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\", 현황표 서울 «신규 지정» 열에 강동구가 있다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 상태는 제2026-882호 현황표(현행 열)에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "하남시": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "isMetroSource": "수도권정비계획법 제2조제1호 + 같은 법 시행령 제2조 \"「수도권정비계획법」(이하 \"법\"이라 한다) 제2조제1호에서 \"대통령령으로 정하는 그 주변 지역\"이란 인천광역시와 경기도를 말한다.\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277967&type=XML, 대통령령 제35811호 2025-10-01 시행, 2026-09-26 확인)",
+      "priorityRepaymentTierSource": "주택임대차보호법 시행령 제10조제1항제2호·제11조제2호 \"「수도권정비계획법」에 따른 과밀억제권역(서울특별시는 제외한다), 세종특별자치시, 용인시, 화성시 및 김포시: 4천800만원\" / \"… 1억4천500만원\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287183&type=XML, 대통령령 제36423호 2026-07-01 시행, 2026-09-26 확인); 수도권정비계획법 시행령 별표 1 과밀억제권역 \"6. 하남시 … 10. 안양시 … 13. 과천시 14. 의왕시\" (MST=277967, 2026-09-26 확인)",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 보도참고자료 5쪽 참고2 표를 2026-09-26 직접 받아 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳과 \"추가지정 후(7월 1일 이후)\" 경기 15곳 표의 투기과열지구·조정대상지역 두 열 모두에 \"하남\" 이 있고 지정일이 ('25.10.16) 으로 표기된다. 2026-07-01 이후 해제 발표는 이 저장소가 확인하지 않았다(분당구 항목의 해제 여부 전수 확인은 2026-09-08 까지다).",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" 2026-06-30 주택정책과, 5쪽 참고2 표. 공고 원문을 읽기 전에 이 표로 먼저 확인했다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "의왕시": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "isMetroSource": "수도권정비계획법 제2조제1호 + 같은 법 시행령 제2조 \"「수도권정비계획법」(이하 \"법\"이라 한다) 제2조제1호에서 \"대통령령으로 정하는 그 주변 지역\"이란 인천광역시와 경기도를 말한다.\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277967&type=XML, 대통령령 제35811호 2025-10-01 시행, 2026-09-26 확인)",
+      "priorityRepaymentTierSource": "주택임대차보호법 시행령 제10조제1항제2호·제11조제2호 \"「수도권정비계획법」에 따른 과밀억제권역(서울특별시는 제외한다), 세종특별자치시, 용인시, 화성시 및 김포시: 4천800만원\" / \"… 1억4천500만원\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287183&type=XML, 대통령령 제36423호 2026-07-01 시행, 2026-09-26 확인); 수도권정비계획법 시행령 별표 1 과밀억제권역 \"6. 하남시 … 10. 안양시 … 13. 과천시 14. 의왕시\" (MST=277967, 2026-09-26 확인)",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 보도참고자료 5쪽 참고2 표를 2026-09-26 직접 받아 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳과 \"추가지정 후(7월 1일 이후)\" 경기 15곳 표의 투기과열지구·조정대상지역 두 열 모두에 \"의왕\" 이 있고 지정일이 ('25.10.16) 으로 표기된다. 2026-07-01 이후 해제 발표는 이 저장소가 확인하지 않았다(분당구 항목의 해제 여부 전수 확인은 2026-09-08 까지다).",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" 2026-06-30 주택정책과, 5쪽 참고2 표. 공고 원문을 읽기 전에 이 표로 먼저 확인했다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "과천시": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "isMetroSource": "수도권정비계획법 제2조제1호 + 같은 법 시행령 제2조 \"「수도권정비계획법」(이하 \"법\"이라 한다) 제2조제1호에서 \"대통령령으로 정하는 그 주변 지역\"이란 인천광역시와 경기도를 말한다.\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277967&type=XML, 대통령령 제35811호 2025-10-01 시행, 2026-09-26 확인)",
+      "priorityRepaymentTierSource": "주택임대차보호법 시행령 제10조제1항제2호·제11조제2호 \"「수도권정비계획법」에 따른 과밀억제권역(서울특별시는 제외한다), 세종특별자치시, 용인시, 화성시 및 김포시: 4천800만원\" / \"… 1억4천500만원\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287183&type=XML, 대통령령 제36423호 2026-07-01 시행, 2026-09-26 확인); 수도권정비계획법 시행령 별표 1 과밀억제권역 \"6. 하남시 … 10. 안양시 … 13. 과천시 14. 의왕시\" (MST=277967, 2026-09-26 확인)",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 보도참고자료 5쪽 참고2 표를 2026-09-26 직접 받아 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳과 \"추가지정 후(7월 1일 이후)\" 경기 15곳 표의 투기과열지구·조정대상지역 두 열 모두에 \"과천\" 이 있고 지정일이 ('25.10.16) 으로 표기된다. 2026-07-01 이후 해제 발표는 이 저장소가 확인하지 않았다(분당구 항목의 해제 여부 전수 확인은 2026-09-08 까지다).",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" 2026-06-30 주택정책과, 5쪽 참고2 표. 공고 원문을 읽기 전에 이 표로 먼저 확인했다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "안양시 동안구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000265028&type=XML (국토교통부공고 제2025-1225호 「투기과열지구 지정」 2025-10-16 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503535)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)·제2025-1225호 (2025-10-16)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2025-10-16",
+      "isMetroSource": "수도권정비계획법 제2조제1호 + 같은 법 시행령 제2조 \"「수도권정비계획법」(이하 \"법\"이라 한다) 제2조제1호에서 \"대통령령으로 정하는 그 주변 지역\"이란 인천광역시와 경기도를 말한다.\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277967&type=XML, 대통령령 제35811호 2025-10-01 시행, 2026-09-26 확인)",
+      "priorityRepaymentTierSource": "주택임대차보호법 시행령 제10조제1항제2호·제11조제2호 \"「수도권정비계획법」에 따른 과밀억제권역(서울특별시는 제외한다), 세종특별자치시, 용인시, 화성시 및 김포시: 4천800만원\" / \"… 1억4천500만원\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287183&type=XML, 대통령령 제36423호 2026-07-01 시행, 2026-09-26 확인); 수도권정비계획법 시행령 별표 1 과밀억제권역 \"6. 하남시 … 10. 안양시 … 13. 과천시 14. 의왕시\" (MST=277967, 2026-09-26 확인)",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 보도참고자료 5쪽 참고2 표를 2026-09-26 직접 받아 읽었다. \"추가지정 전(6월말 기준)\" 경기 12곳과 \"추가지정 후(7월 1일 이후)\" 경기 15곳 표의 투기과열지구·조정대상지역 두 열 모두에 \"안양동안\" 이 있고 지정일이 ('25.10.16) 으로 표기된다. 2026-07-01 이후 해제 발표는 이 저장소가 확인하지 않았다(분당구 항목의 해제 여부 전수 확인은 2026-09-08 까지다). 과밀억제권역은 구가 아니라 안양시 단위로 적혀 있어 동안구도 그 안이다.",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" 2026-06-30 주택정책과, 5쪽 참고2 표. 공고 원문을 읽기 전에 이 표로 먼저 확인했다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 2025-10-16 지정분은 국토교통부공고 제2025-1225호 「투기과열지구 지정」 첨부 PDF 1항 대상지역 \"경기도 수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\", 2항 \"지정기간 : 2025. 10. 16. ∼ 지정 해제시까지\" 로 같은 날 읽었다. 2025-10 조정대상지역 지정 공고 원문은 law.go.kr 검색에 없어 읽지 못했고, 조정대상지역 지정일 2025-10-16 은 제2026-882호 현황표(현행 열)와 국토교통부 보도참고자료 2026-06-30 참고2 표의 ('25.10.16) 표기에 근거한다.",
+      "designationConfirmedAt": "2026-09-26"
+    },
+    "용인시 기흥구": {
+      "designation": [
+        "투기과열지구",
+        "조정대상지역"
+      ],
+      "isMetro": true,
+      "priorityRepaymentTier": "overconcentration",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281590&type=XML (국토교통부공고 제2026-883호 「투기과열지구 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503271); https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000281588&type=XML (국토교통부공고 제2026-882호 「조정대상지역 지정」 2026-07-01 발령·시행, 첨부 PDF http://law.go.kr/flDownload.do?flSeq=166503295)",
+      "sourceName": "국토교통부공고 제2026-883호·제2026-882호 (2026-07-01)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "manual",
+      "adjustmentTargetAreaSince": "2026-07-01",
+      "isMetroSource": "수도권정비계획법 제2조제1호 + 같은 법 시행령 제2조 \"「수도권정비계획법」(이하 \"법\"이라 한다) 제2조제1호에서 \"대통령령으로 정하는 그 주변 지역\"이란 인천광역시와 경기도를 말한다.\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=277967&type=XML, 대통령령 제35811호 2025-10-01 시행, 2026-09-26 확인)",
+      "priorityRepaymentTierSource": "주택임대차보호법 시행령 제10조제1항제2호·제11조제2호 \"「수도권정비계획법」에 따른 과밀억제권역(서울특별시는 제외한다), 세종특별자치시, 용인시, 화성시 및 김포시: 4천800만원\" / \"… 1억4천500만원\" (https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=287183&type=XML, 대통령령 제36423호 2026-07-01 시행, 2026-09-26 확인). 기흥구의 동(신갈동·구갈동·상갈동·보라동·영덕동·동백동·마북동·보정동·중동 등)은 수도권정비계획법 시행령 별표 1 에서 과밀억제권역이 아니라 성장관리권역이다. 그래도 등급은 과밀억제권역과 같다 - 위 조문이 과밀억제권역과 별도로 «용인시» 를 적기 때문이다.",
+      "note": "지정 공고 원문(designationConfirmedBy)으로 확인했다. 보도참고자료 5쪽 참고2 표를 2026-09-26 직접 받아 읽었다. \"추가지정 후(7월 1일 이후)\" 경기 15곳 표의 두 열 모두에 \"용인기흥\" 이 굵게 추가돼 있고, 1쪽이 \"투기과열지구와 조정대상지역을 추가 지정하였다.(7월 1일부터 지정효력 발생)\" 이라고 적는다. 토지거래허가 효력(7월 5일)과 다르다.",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" 2026-06-30 주택정책과, 5쪽 참고2 표. 공고 원문을 읽기 전에 이 표로 먼저 확인했다)",
+      "designationConfirmedBy": "국토교통부공고 제2026-883호(투기과열지구)·제2026-882호(조정대상지역) 첨부 PDF 「지정 현황」 표를 2026-09-26 law.go.kr 에서 직접 받아 읽었다. 경기 «현 행» 열이 \"수원장안, 수원팔달, 수원영통, 성남수정, 성남중원, 성남분당, 안양동안, 과천, 용인수지, 광명, 하남, 의왕\" 이고 «조 정('26.7.1.)» 열이 \"좌동\", «신규 지정» 이 \"화성동탄, 용인기흥, 구리\" 다. 두 공고의 표가 글자 그대로 같다. 지정기간은 둘 다 \"2026. 7. 1. ∼ 지정 해제시까지\" 다. 기흥은 두 공고 1항 \"대상지역 : 경기도 화성시 동탄구, 용인시 기흥구, 구리시\" 의 신규 지정이다.",
+      "designationConfirmedAt": "2026-09-26"
     }
   },
   "priorityRepayment": {
@@ -179,7 +371,21 @@
     "_doc": "별표6은 '70%(규제지역 50%) 이내'라는 상한 규정이므로 감독원장 행정지도 40%는 위반이 아니다(제29조의2② ±10%p). 계산에는 effective 를 쓰고 notice 를 함께 표시한다.",
     "source": "은행업감독규정 별표6 제2호 가목·바목 / 금융위 2025-10-15 행정지도 / FSC 87517 FAQ",
     "verifiedAt": "2026-09-08",
-    "verifiability": "guidance"
+    "verifiability": "guidance",
+    "existingHomeowner": {
+      "_doc": "수도권·규제지역에서 유주택 세대의 추가 주택구입 목적 주담대. bankLtv 의 LTV 표는 무주택자(처분조건부 1주택자 포함) 기준이라 이 규칙을 통과한 사람에게만 적용된다.",
+      "appliesTo": [
+        "metro",
+        "regulated"
+      ],
+      "additionalPurchaseLtv": 0,
+      "disposalConditionalMonths": 6,
+      "quote": "수도권·규제지역 내에서 2주택 이상 보유자가 추가 주택을 구입하거나, 1주택자가 기존 주택을 처분하지 않고 추가 주택을 구입하는 경우에는 추가 주택구입 목적 주담대를 금지(LTV=0%)하여 실거주 목적 등이 아닌 추가 주택구입 수요를 차단한다. 1주택자가 기존 주택을 6개월 이내에 처분할 경우(처분 조건부 1주택자)에는 무주택자와 동일하게 비규제지역 LTV 70%, 규제지역 LTV 50%를 적용한다.",
+      "quoteNote": "인용의 규제지역 50% 는 2025-06-27 당시 값이고 10.15 대책이 40% 로 낮췄다. FAQ 2-1 [1] \"무주택자(처분조건부 1주택자 포함)가 규제지역 내 주담대 취급 시 강화된 LTV(70→40%)가 적용\", FAQ 표 주1 \"무주택자(처분조건부 1주택자 포함) 기준\". 처분조건부 1주택자는 무주택자와 같이 취급되므로 코드는 bankLtv.regulated.effective / nonRegulated 를 그대로 쓴다. 6.27 보도자료 표의 «현행» 열이 «규제지역 LTV 30%» 였고 옛 bank_general note 의 30% 는 그 값이다(2025-06-28 부터 0%).",
+      "source": "https://www.fsc.go.kr/no010101/84824 (금융위원회 보도자료 2025-06-27 「긴급 가계부채 점검회의 개최, 수도권 중심의 가계부채 관리 강화 방안」 (2) 은행권 자율관리조치를 全 금융권으로 확대 시행, 2026-09-26 직접 읽음); https://www.fsc.go.kr/po020201/85518 (금융위원회 주요정책문답 「10.15 주택시장 안정화 대책」 관련 FAQ 2-1 [1], 2026-09-26 직접 읽음); https://www.fsc.go.kr/po020201/85466 (같은 FAQ 표 주1, 2026-09-26 직접 읽음)",
+      "verifiedAt": "2026-09-26",
+      "verifiability": "guidance"
+    }
   },
   "creditLimitTiers": {
     "_doc": "여신한도 차등화. 주택 시가 기준. 수도권·규제지역에 적용. 행정지도로 먼저 시행되고 감독규정 개정은 후속이라 별표6 전문 검색에서는 찾을 수 없다.",
@@ -198,8 +404,24 @@
       }
     ],
     "source": "금융위 2025-10-15 (조치사항 '행정지도 → 감독규정 개정', 시행 10.16)",
-    "verifiedAt": "2026-09-08",
-    "verifiability": "guidance"
+    "sourceNote": "구간 값은 금융위원회 보도자료 별첨 「대출수요 관리 강화 방안」(https://www.fsc.go.kr/no010101/85432, 배포 2025-10-14) 문장 \"수도권·규제지역의 ➊시가 15억원 이하 주택의 주담대 한도는 현행과 동일한 6억원, ➋시가 15억원 초과～25억원 이하 주택은 4억원, ➌시가 25억원 초과 주택은 2억원으로 대출한도를 차등 적용한다\" 와 같다(이 문장은 2026-09-26 조사 문서가 PDF 에서 추출한 인용이고, 구간 값 자체는 같은 날 아래 FAQ 표에서 직접 다시 읽었다). 같은 별첨은 \"이주비대출은 현행과 동일하게 주택가격에 관계없이 최대한도 6억원 적용\" 이라고 적는데, 이 도구는 이주비대출을 계산하지 않는다.",
+    "verifiedAt": "2026-09-26",
+    "verifiability": "guidance",
+    "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q1)",
+    "appliesToFirstTimeBuyer": {
+      "value": true,
+      "quote": "생애최초 구매자4) | LTV | 70% | (좌동) | DTI3) | 60%(아파트 恨) | 최대한도 | 6억원 | 15억이하6·15~25억4·25억초과2억원2) / 주2) 주택가격(시가) 구간별 차등 적용 / 주4) 세대 구성원 모두가 과거에 주택을 소유한 사실이 없는 자",
+      "source": "https://www.fsc.go.kr/po020201/85466 (금융위원회 「10.15 주택시장 안정화 대책」 관련 FAQ, 2025-10-17, 금융정책과) 4번 문답 표",
+      "verifiability": "guidance",
+      "verifiedAt": "2026-09-26",
+      "note": "표의 생애최초 구매자 행이 LTV 는 70%(좌동)로 유지하면서 최대한도 칸에는 일반 차주와 같은 구간 상한을 적는다. **우대는 LTV 에만 있고 금액 상한은 공통이다.** 2026-09-26 페이지를 직접 받아 표를 읽었다. 행정지도라 조문이 없어 guidance 다. 생애최초 인정 예외(과거 소유 이력의 불가피한 사정)를 금융위가 FAQ 로 명확화할 예정이라는 2026-09-20~21 보도가 있으나, 그것은 누가 생애최초인지의 판정 기준이고 이 구간 상한을 바꾸지 않는다."
+    },
+    "regulationAmendment": {
+      "status": "미확인",
+      "note": "금융위가 조치사항을 '행정지도 → 감독규정 개정' 으로 발표했으나 은행업감독규정 별표6 개정 고시를 이 저장소가 읽지 않았다. 개정 여부는 구간 값이 아니라 근거의 형식(행정지도인가 고시인가)을 바꾼다.",
+      "verifiability": "guidance",
+      "verifiedAt": null
+    }
   },
   "dsrConversion": {
     "_doc": "시행세칙 별표18 표3 (개정 2024-03-07). 원금 산정 방식. 마이너스통장은 주1)에 따라 한도금액 전액을 대출총액으로 본다.",
@@ -416,7 +638,7 @@
       "verifiedAt": "2026-09-08",
       "verifiability": "guidance",
       "eligibility": {
-        "note": "무주택(처분조건부 1주택 포함). 유주택 추가구입은 규제지역 30%."
+        "note": "LTV 표는 무주택자(처분조건부 1주택자 포함) 기준이다. 수도권·규제지역에서 유주택 세대의 추가 주택구입 목적 주담대는 금지(LTV 0%)이고, 1주택자가 기존 주택을 6개월 이내 처분하는 조건(처분조건부)이면 무주택자와 같다(bankLtv.existingHomeowner). 2주택 이상 세대는 처분조건부로도 열리지 않는다."
       },
       "productCap": null,
       "ltvRegulatedEffective": 0.4,
@@ -746,7 +968,7 @@
   "unverified": [
     "dsrConversion.gracePeriodBranchNote",
     "stressDsr.floorRateAdd",
-    "creditLimitTiers",
+    "creditLimitTiers.regulationAmendment",
     "bankLtv.regulated.effective",
     "dti.byDesignation.투기과열지구",
     "products.bank_firstTime.rate",
@@ -756,13 +978,10 @@
     "products.bogeumjari_firstTime.rate",
     "tax.incidentalDefaults",
     "appraisalRatio",
-    "regions.성남시 분당구.designation",
-    "regions.용인시 수지구.designation",
     "rateAdjustments.didimdol",
     "rateAdjustments.newborn_special",
     "incomeCaps",
     "transferRestriction.cashSettlement",
-    "landTransactionPermit.areas.용인시 수지구",
     "capitalGainsTax.jointOwnershipMethod",
     "stressDsr.applicationRatio",
     "publicPriceRatio",
@@ -778,7 +997,24 @@
     "taxReform2026.comprehensiveTax.basicDeduction.residentJointUnconfirmed",
     "taxReform2026.comprehensiveTax.rates.progressiveDeductionDerived",
     "taxReform2026.capitalGainsTax.unconfirmedTrack",
-    "taxReform2026.comprehensiveTax.taxableThreshold"
+    "taxReform2026.comprehensiveTax.taxableThreshold",
+    "regions.성남시 수정구.designation",
+    "regions.성남시 중원구.designation",
+    "landTransactionPermit.areas.서울 강남구.period",
+    "landTransactionPermit.areas.서울 서초구.period",
+    "landTransactionPermit.areas.서울 송파구.period",
+    "landTransactionPermit.areas.서울 강남구.residenceObligation",
+    "landTransactionPermit.areas.서울 서초구.residenceObligation",
+    "landTransactionPermit.areas.서울 송파구.residenceObligation",
+    "landTransactionPermit.areas.서울 강동구.residenceObligation",
+    "landTransactionPermit.areas.서울 강남구.buyerRequirement",
+    "landTransactionPermit.areas.서울 서초구.buyerRequirement",
+    "landTransactionPermit.areas.서울 송파구.buyerRequirement",
+    "landTransactionPermit.areas.서울 강동구.buyerRequirement",
+    "landTransactionPermit.areas.성남시 수정구.period",
+    "landTransactionPermit.areas.성남시 중원구.period",
+    "cashSettlementRisks.specialActScope",
+    "cashSettlementRisks.items.seoulOrdinanceSmallLandHomeless"
   ],
   "openQuestions": [
     {
@@ -1304,6 +1540,75 @@
       "impact": "세제는 방향이 확정(2026 유리)이고 시장은 미확정이다. 확정된 것만 반영하면 2026년 매수가 낫지만, 사용자 회사 이전이 2027년이라 실거주 요건과 충돌할 수 있다.",
       "resolution": "확정된 세제 차이(2,179만원)를 시점 축의 비용으로 명시하고, 시장 방향은 예측하지 않는다.",
       "status": "documented"
+    },
+    {
+      "id": "gangdong-designation-effective-date",
+      "path": "regions.서울 강동구",
+      "note": "강동구 투기과열지구·조정대상지역 지정의 효력일이 출처마다 다르다.",
+      "ours": {
+        "value": "2025-10-16",
+        "source": "같은 2025-10-15 대책으로 지정된 경기 지역의 효력일 ('25.10.16) - 국토교통부 보도참고자료 2026-06-30 참고2 표 (regions.성남시 수정구 의 근거)"
+      },
+      "other": {
+        "value": "2025-10-20",
+        "source": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사) 표 1-2 ('2025-10-15 신규 지정, 2025-10-20 발효'). 2025-10-20 은 토지거래허가 효력일이라 두 효력일을 섞었을 가능성이 있다"
+      },
+      "impact": "없음. 2026 년 이후 매수에는 어느 쪽이든 지정 상태다. 효력일 자체는 계산에 쓰지 않는다.",
+      "resolution": "국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" (2026-06-30, 주택정책과) 5쪽 참고2 \"추가지정 전(6월말 기준)\" 표의 서울 투기과열지구·조정대상지역 두 열이 \"성동·마포·강동·영등포·양천·동작·광진·중·종로·서대문·강서·노원·성북·구로·동대문·관악·은평·중랑·금천·강북·도봉('25.10.16)\" 으로 적는다(2026-09-26 직접 확인). 우리 값 2025-10-16 이 맞다. 2025-10-20 은 토지거래허가 효력일이다(정책브리핑 Q4 \"지정 공고한 날부터 5일 후인 10월20일부터 발생\").",
+      "status": "resolved",
+      "resolvedAt": "2026-09-26"
+    },
+    {
+      "id": "seongnam-sujeong-jungwon-release-request",
+      "path": "regions.성남시 수정구 / regions.성남시 중원구 / landTransactionPermit.areas.성남시 수정구 / landTransactionPermit.areas.성남시 중원구",
+      "note": "성남시가 수정구·중원구의 조정대상지역·투기과열지구·토지거래허가구역 해제를 국토교통부에 공식 요청했다. 정부 1차 자료는 두 구를 계속 지정 상태로 적는다.",
+      "ours": {
+        "value": "지정 유지 (허가구역 2025-10-20~2026-12-31)",
+        "source": "국토교통부공고 제2025-1219호 (허가구역 지정기간, 2026-09-26 PDF 직접 읽음) + 국토교통부공고 제2026-883호·제2026-882호 첨부 현황표 «현 행» 열에 성남수정·성남중원 존치, «조 정('26.7.1.)» 열 \"좌동\" (2026-09-26 law.go.kr 에서 직접 읽음) + 국토교통부 보도참고자료 2026-06-30 참고2 \"추가지정 후(7월 1일 이후)\" 표에 존치 (2026-09-26 직접 재확인)"
+      },
+      "other": {
+        "value": "해제 요청 (2025-12-05, 성남시장)",
+        "source": "https://www.newsis.com/view/NISX20251205_0003429689 (뉴시스 2025-12-05 \"성남시, 국토부에 요청… '수정구·중원구 규제 지역 해제'\")",
+        "detail": "근거는 지정 당시 6~8월 통계를 썼는데 규정상 지정 직전 3개월(7~9월)을 쓰면 요건 미충족이라는 성남시정연구원 분석(수정구는 조정대상지역 요건만 충족, 중원구는 둘 다 미충족)이다."
+      },
+      "impact": "해제되면 두 구에서 토지거래허가(실거주 의무)가 사라지고, 일반 주담대 LTV 가 40% 에서 70% 로, 양도세 비과세 거주 2년 요건이 빠진다. 생애최초 트랙의 LTV 70% 는 수도권이라 그대로다.",
+      "resolution": "2026-09-26 까지 검색 범위에서 해제 고시를 찾지 못했다. **부재 관측이라 유지를 증명하지 않는다.** 국토교통부 고시(molit.go.kr), 성남시청 공고, 토지이음(eum.go.kr) 에서 실시간으로 확인해야 한다.",
+      "status": "open",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+      "badges": "regions.성남시 수정구.designation, regions.성남시 중원구.designation, landTransactionPermit.areas.성남시 수정구.period, landTransactionPermit.areas.성남시 중원구.period 를 unverified 에 두어 화면이 배지를 단다. 열린 충돌 자체는 미확정 이산 케이스 절에 나온다."
+    },
+    {
+      "id": "giheung-designation-effective-date",
+      "path": "regions.용인시 기흥구.adjustmentTargetAreaSince",
+      "note": "용인시 기흥구 투기과열지구·조정대상지역 지정 효력일이 자료마다 다르다.",
+      "ours": {
+        "value": "2026-07-01",
+        "source": "국토교통부 보도참고자료 \"투기과열지구 및 조정대상지역 추가 지정\" (2026-06-30, 주택정책과) 1쪽 \"(7월 1일부터 지정효력 발생)\" (2026-09-26 직접 확인)"
+      },
+      "other": {
+        "value": "2026-07-05",
+        "source": "jarvis raw/external/2026-09-26-housing-open-questions.md Q2 \"2026-07-05 경기도 지정에 따라 용인시 기흥구 전역이 조정대상지역·투기과열지구로 신규 지정\" (경기일보 2026-07-02 등 언론 경유)"
+      },
+      "impact": "2026-07-01~07-04 사이 계약만 가른다. 2026-09 이후 매수에는 어느 쪽이든 지정 상태다.",
+      "resolution": "2026-07-05 는 경기도가 지정한 토지거래허가구역의 효력일이다(같은 자료 각주 \"공고한 날(6월 30일)부터 5일 후(7월 5일)에 효력 발생\"). 투기과열지구·조정대상지역은 국토교통부 지정이고 7-01 이다. 조사 문서가 두 효력일을 섞었다.",
+      "status": "resolved",
+      "resolvedAt": "2026-09-26"
+    },
+    {
+      "id": "seoul-small-land-homeless-rule",
+      "path": "cashSettlementRisks.items.seoulOrdinanceSmallLandHomeless",
+      "note": "서울 재개발 30~90제곱미터 토지의 분양자격 조건이 2차 자료와 현행 조례 원문에서 다르다.",
+      "ours": {
+        "value": "현행 조례 제36조제1항제2호는 90제곱미터 이상만 적는다. 30제곱미터는 부칙 제26조제1항에서 옛 조례 제4167호를 인용할 때만 나온다",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2130189&type=HTML (서울특별시 도시 및 주거환경정비 조례 (서울특별시조례 제10117호, 2026-05-18 시행), 2026-09-26 직접 확인)"
+      },
+      "other": {
+        "value": "30제곱미터 이상 90제곱미터 미만도 세대원 전원 무주택이면 분양자격 인정",
+        "source": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q3, 2026-09-26 조사) d절 (주거환경신문 전연규 법무사 칼럼 등 2차 실무자료)"
+      },
+      "impact": "서울 재개발 구역의 작은 토지 매물이 분양대상인지를 가른다. 지금 후보 16곳에는 서울 재개발이 없어 계산에 쓰이지 않는다.",
+      "resolution": "옛 조례(서울특별시조례 제4167호) 제24조 원문과 해당 구역이 경과조치 대상인지를 확인해야 한다. 그 전까지 이 기준으로 분양자격을 가정하지 않는다.",
+      "status": "open"
     }
   ],
   "transferRestriction": {
@@ -1434,30 +1739,447 @@
       "verifiability": "manual",
       "verifiedAt": "2026-09-08",
       "caveat": "매도청구소송의 시가에 개발이익이 어느 정도 포함되는지는 판례 영역이라 법령 API 로 확인 불가. 따라서 청산액이 권리가액 수준일지 시장가에 근접할지는 **미확정**이다. 손실 규모를 단정하지 말 것."
+    },
+    "pendingAmendment": {
+      "status": "국회 계류 (법사위·본회의 미통과)",
+      "enacted": false,
+      "introducedAt": "2026-03-30",
+      "statusAsOf": "2026-09-18",
+      "bill": "도시 및 주거환경정비법 일부개정법률안 (김재섭 의원 대표발의)",
+      "currentReconstructionTrigger": "조합설립인가 후",
+      "proposedReconstructionTrigger": "관리처분계획인가 후 (재개발과 같은 시점으로 늦춤, 완화)",
+      "proposedExtra": "무주택기간 5년 이상인 사람이 양수한 경우 지위양도 제한 적용 배제",
+      "source": "https://www.hankyung.com/article/2026091843801 (한국경제 2026-09-18, \"법사위나 본회의를 통과하지 못한 상태\"); 위클리한국주택경제신문 arunews.com idxno=61219 (발의 내용, 조사 문서 출처 목록의 표기 그대로이고 URL 전체는 확인하지 않았다)",
+      "verifiability": "guidance",
+      "verifiedAt": null,
+      "note": "**계산에 쓰지 않는다.** appliesTo 의 트리거는 현행법 그대로다. 의안 원문과 국회 의안정보시스템의 처리 단계는 이 저장소가 읽지 않았고 언론 보도만 있어 verifiedAt 을 비워 둔다. 국토교통부는 정부 차원의 공식 검토가 없다는 입장이다(같은 보도). 반대 방향, 즉 재개발 제한 시점을 관리처분인가에서 조합설립인가로 앞당기는 개정안은 2026-09-26 조사에서 확인되지 않았다. 별개로 조합설립 동의율 완화 등을 담은 다른 개정안이 국토위·법사위를 통과했다는 보도가 있으나 지위양도 제한 시점과 무관하다.",
+      "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q3 e절, 2026-09-26 조사)"
     }
+  },
+  "cashSettlementRisks": {
+    "_doc": "물딱지(분양자격이 없는 매물) 확인 목록. transferRestriction(도정법 제39조, 조합원 지위 양도 제한)과 별개 축이다. 제39조는 조합원이 되는 것을 막고, 이 목록은 조합원이 되더라도 분양대상에서 빠지거나 1주택만 받는 경우를 다룬다. 항목은 매물마다 매도인에게 묻는 것(party: seller)과 매수자 세대가 스스로 확인하는 것(party: buyer)으로 나뉜다. 리모델링은 주택법 사업이라 대상이 아니다.",
+    "appliesToKinds": [
+      "reconstruction",
+      "redevelopment",
+      "specialAct"
+    ],
+    "specialActScope": {
+      "note": "노후계획도시 특별법의 특별정비사업(선도지구)에 도정법 제72조·제76조·제77조가 그대로 적용되는지는 이 저장소가 원문으로 확인하지 않았다. 후보 데이터가 선도지구에 도정법 제39조를 적용하고 있어 같은 목록을 보이되 이 범위를 미확인으로 둔다.",
+      "verifiability": "estimate",
+      "verifiedAt": null
+    },
+    "items": {
+      "rightsBaseDate": {
+        "id": "rightsBaseDate",
+        "label": "권리산정기준일 뒤에 쪼개진 물건",
+        "party": "seller",
+        "appliesToKinds": [
+          "reconstruction",
+          "redevelopment",
+          "specialAct"
+        ],
+        "requirement": "분양받을 권리는 기준일(제16조제2항 전단 정비구역 지정 고시일, 또는 시·도지사가 투기 억제를 위해 기본계획 주민공람 공고일 후 정비구역 지정·고시 전에 따로 정한 날)의 다음 날을 기준으로 산정한다. 그 뒤에 필지 분할, 비집합건물의 집합건물 전환, 같은 사람이 가진 토지와 건물의 분리 소유, 나대지 신축 또는 기존 건물 철거 후 다세대·공동주택 신축으로 소유자 수 증가, 전유부분 분할로 소유자 수 증가가 생긴 물건은 기준일의 권리를 나눠 가질 뿐 따로 분양권을 얻지 못한다.",
+        "statute": "도시 및 주거환경정비법 제77조제1항제1호부터 제5호까지, 제2항",
+        "quote": "정비사업을 통하여 분양받을 건축물이 다음 각 호의 어느 하나에 해당하는 경우에는 제16조제2항 전단에 따른 고시가 있은 날 또는 시ㆍ도지사가 투기를 억제하기 위하여 제6조제1항에 따른 기본계획 수립을 위한 주민공람의 공고일 후 정비구역 지정ㆍ고시 전에 따로 정하는 날(이하 이 조에서 \"기준일\"이라 한다)의 다음 날을 기준으로 건축물을 분양받을 권리를 산정한다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "sourceName": "도시 및 주거환경정비법 (법률 제21447호, 2026-03-05 공포, 2026-07-01 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "sellerQuestion": "이 물건이 권리산정기준일 뒤에 필지 분할, 집합건물 전환, 토지·건물 분리, 신축 다세대, 전유부분 분할로 생긴 것입니까? 이 구역의 권리산정기준일은 언제입니까?",
+        "evidence": "시·도 공보의 권리산정기준일 고시(제77조제2항), 건축물대장(사용승인일·집합건물 전환일), 토지대장(분할 이력), 토지와 건물 등기부등본(소유자 동일 여부와 취득일)"
+      },
+      "reWinningRestriction": {
+        "id": "reWinningRestriction",
+        "label": "재당첨 제한 5년 (매수자 세대의 이력)",
+        "party": "buyer",
+        "appliesToKinds": [
+          "reconstruction",
+          "redevelopment",
+          "specialAct"
+        ],
+        "requiresDesignation": "투기과열지구",
+        "requirement": "투기과열지구 정비사업에서 관리처분계획에 따른 분양대상자(조합원 분양분과 일반분양분)와 그 세대에 속한 사람은 분양대상자 선정일(조합원 분양분은 최초 관리처분계획 인가일)부터 5년 안에 투기과열지구에서 분양신청을 할 수 없다. 상속·결혼·이혼으로 조합원 자격을 얻은 경우는 예외다. **매도인이 아니라 매수자 세대의 과거 이력에 걸린다.** 걸리면 조합원 지위가 넘어와도 분양신청을 못 해 현금청산으로 간다.",
+        "statute": "도시 및 주거환경정비법 제72조제6항",
+        "quote": "제3항부터 제5항까지의 규정에도 불구하고 투기과열지구의 정비사업에서 제74조에 따른 관리처분계획에 따라 같은 조 제1항제2호 또는 제1항제4호가목의 분양대상자 및 그 세대에 속한 자는 분양대상자 선정일(조합원 분양분의 분양대상자는 최초 관리처분계획 인가일을 말한다)부터 5년 이내에는 투기과열지구에서 제3항부터 제5항까지의 규정에 따른 분양신청을 할 수 없다. 다만, 상속, 결혼, 이혼으로 조합원 자격을 취득한 경우에는 분양신청을 할 수 있다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "sourceName": "도시 및 주거환경정비법 (법률 제21447호, 2026-03-05 공포, 2026-07-01 시행)",
+        "corroboration": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 2026-06-30 참고1 투기과열지구 열 \"정비사업 분양(조합원/일반) 재당첨 제한 5년\", 2026-09-26 확인)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "buyerQuestion": "매수자 본인이나 같은 세대원이 최근 5년 안에 투기과열지구 정비사업에서 분양대상자로 선정된 적이 있습니까? (조합원 분양은 최초 관리처분계획 인가일, 일반분양은 선정일부터 셉니다)",
+        "evidence": "세대원 전원의 과거 조합원 분양계약서와 해당 구역 관리처분계획 인가 고시, 청약 당첨 이력 조회 결과, 주민등록등본(세대 구성)"
+      },
+      "oneHousePerHousehold": {
+        "id": "oneHousePerHousehold",
+        "label": "한 세대가 여러 물건을 가지면 원칙 1주택 공급 (예외: 2주택, 이른바 1+1)",
+        "party": "buyer",
+        "appliesToKinds": [
+          "reconstruction",
+          "redevelopment",
+          "specialAct"
+        ],
+        "requirement": "1세대 또는 1명이 하나 이상의 주택 또는 토지를 소유한 경우 1주택을 공급하는 것이 원칙이다. 매수자 세대가 같은 정비구역에 이미 다른 주택·토지를 갖고 있으면 이 물건을 더 사도 원칙적으로 분양은 1주택이다. 예외가 있다. 제7호라목은 종전 자산의 가격 범위 또는 종전 주택의 주거전용면적 범위 안에서 2주택(이른바 1+1)을 공급할 수 있게 하고, 그중 1주택은 주거전용면적 60제곱미터 이하여야 하며 이전고시일 다음 날부터 3년이 지나기 전에는 전매(상속 제외)하거나 알선할 수 없다. 이 예외를 관리처분계획이 채택하는지, 종전 자산의 가격·면적이 그 범위에 드는지는 조합에 확인해야 한다. 제7호나목1)·마목의 예외(과밀억제권역 밖 재건축은 소유 주택 수만큼, 과밀억제권역 재건축은 3주택까지)는 투기과열지구·조정대상지역에서 최초 사업시행계획인가를 신청하는 재건축에는 적용되지 않는다.",
+        "statute": "도시 및 주거환경정비법 제76조제1항제6호, 제7호나목1)·라목·마목",
+        "quote": "1세대 또는 1명이 하나 이상의 주택 또는 토지를 소유한 경우 1주택을 공급하고, 같은 세대에 속하지 아니하는 2명 이상이 1주택 또는 1토지를 공유한 경우에는 1주택만 공급한다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "sourceName": "도시 및 주거환경정비법 (법률 제21447호, 2026-03-05 공포, 2026-07-01 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "buyerQuestion": "매수자 세대(세대원 포함)가 이 정비구역 안에 이미 다른 주택이나 토지를 갖고 있습니까? 2주택(1+1) 공급을 기대한다면, 관리처분계획이 제7호라목 예외를 채택했는지와 종전 자산의 가격·주거전용면적이 그 범위에 드는지를 조합에 확인했습니까?",
+        "evidence": "세대원 전원의 등기부등본 또는 부동산 소유 현황, 주민등록등본(세대 구성)",
+        "exceptionQuote": "라. 제74조제1항제5호에 따른 가격의 범위 또는 종전 주택의 주거전용면적의 범위에서 2주택을 공급할 수 있고, 이 중 1주택은 주거전용면적을 60제곱미터 이하로 한다. 다만, 60제곱미터 이하로 공급받은 1주택은 제86조제2항에 따른 이전고시일 다음 날부터 3년이 지나기 전에는 주택을 전매(매매ㆍ증여나 그 밖에 권리의 변동을 수반하는 모든 행위를 포함하되 상속의 경우는 제외한다)하거나 전매를 알선할 수 없다."
+      },
+      "coOwnershipAcrossHouseholds": {
+        "id": "coOwnershipAcrossHouseholds",
+        "label": "다른 세대와 공유한 물건",
+        "party": "seller",
+        "appliesToKinds": [
+          "reconstruction",
+          "redevelopment",
+          "specialAct"
+        ],
+        "requirement": "같은 세대에 속하지 않는 2명 이상이 1주택 또는 1토지를 공유하면 1주택만 공급한다. 공유지분 하나를 사면 나머지 공유자와 합쳐 1주택이라 단독으로 분양받지 못한다. 2명 이상이 1토지를 공유한 경우는 시·도조례가 주택공급을 따로 정하면 그에 따른다(제7호가목). 서울 재개발은 조례 제36조제2항제3호가 1주택 또는 1필지의 토지를 여러 명이 소유한 경우 여러 명의 분양신청자를 1명의 분양대상자로 보되, 권리산정기준일 이전부터 공유로 소유한 토지의 지분이 90제곱미터 이상이거나 권리가액이 분양용 최소규모 공동주택 1가구 추산액 이상이면 예외로 한다.",
+        "statute": "도시 및 주거환경정비법 제76조제1항제6호, 제7호가목",
+        "quote": "같은 세대에 속하지 아니하는 2명 이상이 1주택 또는 1토지를 공유한 경우에는 1주택만 공급한다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "sourceName": "도시 및 주거환경정비법 (법률 제21447호, 2026-03-05 공포, 2026-07-01 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "sellerQuestion": "이 물건이 공유지분입니까? 다른 공유자는 누구이고 매도인과 같은 세대입니까?",
+        "evidence": "등기부등본 갑구(공유자와 지분), 공유자의 주민등록등본",
+        "seoulOrdinanceStatute": "서울특별시 도시 및 주거환경정비 조례 제36조제2항제3호",
+        "seoulOrdinanceQuote": "3. 1주택 또는 1필지의 토지를 여러 명이 소유하고 있는 경우. 다만, 권리산정기준일 이전부터 공유로 소유한 토지의 지분이 제1항제2호 또는 권리가액이 제1항제3호에 해당하는 경우는 예외로 한다.",
+        "seoulOrdinanceSource": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2130189&type=XML (서울특별시조례 제10117호, 2026-05-18 시행, 2026-09-26 원문 대조)"
+      },
+      "multiOwnerAfterApproval": {
+        "id": "multiOwnerAfterApproval",
+        "label": "조합설립인가 후 한 사람의 물건이 여러 명에게 나뉘어 팔린 경우 대표 1명만 조합원",
+        "party": "seller",
+        "appliesToKinds": [
+          "reconstruction",
+          "redevelopment",
+          "specialAct"
+        ],
+        "requirement": "조합설립인가(사업시행자 지정을 조합설립인가로 의제하는 경우 그 지정) 후 1명의 토지등소유자로부터 토지 또는 건축물의 소유권이나 지상권을 양수하여 여러 명이 소유하게 되면 그 여러 명을 대표하는 1명만 조합원으로 본다. 매도인이 이 구역에 여러 물건을 갖고 있다가 인가 후 그중 하나를 파는 경우가 여기 걸린다. 매수자는 매도인(또는 다른 양수인)과 조합원 지위를 나눠 갖게 되고, 제76조제1항제6호에 따라 그 묶음에 1주택만 공급된다. 제39조제2항의 투기과열지구 양도 제한과 별개로, 투기과열지구가 아니어도 걸린다. 과밀억제권역 밖의 조정대상지역·투기과열지구에서 지정 전에 양수해 여러 명이 된 경우에는 양도인과 양수인에게 각각 1주택을 공급할 수 있다(제76조제1항제7호다목).",
+        "statute": "도시 및 주거환경정비법 제39조제1항제3호, 제76조제1항제6호·제7호다목",
+        "quote": "3. 조합설립인가(조합설립인가 전에 제26조제1항 또는 제27조제1항제3호에 따라 토지주택공사등 또는 신탁업자를 사업시행자로 지정한 경우에는 사업시행자의 지정을 말한다. 이하 이 조에서 같다) 후 1명의 토지등소유자로부터 토지 또는 건축물의 소유권이나 지상권을 양수하여 여러 명이 소유하게 된 때",
+        "quoteNote": "제39조제1항 본문 \"다음 각 호의 어느 하나에 해당하는 때에는 그 여러 명을 대표하는 1명을 조합원으로 본다\" 의 제3호다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=284065&type=HTML&efYd=20260701",
+        "sourceName": "도시 및 주거환경정비법 (법률 제21447호, 2026-03-05 공포, 2026-07-01 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "sellerQuestion": "매도인이 이 정비구역 안에 여러 물건을 갖고 있습니까? 이 물건이 조합설립인가(또는 사업시행자 지정) 후에 한 사람에게서 나뉘어 팔리는 것입니까? 같은 매도인에게서 다른 물건을 산 사람이 있습니까?",
+        "evidence": "이 물건과 매도인 명의의 구역 내 다른 물건의 등기부등본 전수(취득일과 조합설립인가일·사업시행자 지정일 대조), 조합원 명부(대표 조합원 지정 여부), 조합설립인가서 또는 사업시행자 지정 고시"
+      },
+      "seoulOrdinanceLandArea": {
+        "id": "seoulOrdinanceLandArea",
+        "label": "서울 재개발 분양대상: 주택, 토지 90제곱미터 이상, 또는 권리가액 기준",
+        "party": "seller",
+        "appliesToKinds": [
+          "redevelopment"
+        ],
+        "regionPrefix": "서울",
+        "requirement": "서울 재개발사업의 분양대상자는 관리처분계획기준일(분양신청기간 종료일) 현재 종전 주택 소유자, 종전 토지 총면적 90제곱미터 이상 소유자, 권리가액이 분양용 최소규모 공동주택 1가구 추산액 이상인 자 중 하나다. 권리가액 기준은 분양신청자가 같은 세대면 세대원 전원의 가액을 합해 산정할 수 있다(제1항제3호 단서). 권리산정기준일 뒤에 분할·공유로 취득한 토지 등은 면적과 권리가액 산정에서 빠진다(제36조제3항). 토지만 가진 물건이 이 셋에 모두 못 미치면 분양대상이 아니다.",
+        "statute": "서울특별시 도시 및 주거환경정비 조례 제36조제1항제1호부터 제3호까지(제3호 단서 포함), 제3항",
+        "quote": "영 제63조제1항제3호에 따라 재개발사업으로 건립되는 공동주택의 분양대상자는 관리처분계획기준일 현재 다음 각 호의 어느 하나에 해당하는 토지등소유자로 한다. 1. 종전의 건축물 중 주택(주거용으로 사용하고 있는 특정무허가건축물 중 조합의 정관등에서 정한 건축물을 포함한다)을 소유한 자 2. 분양신청자가 소유하고 있는 종전토지의 총면적이 90제곱미터 이상인 자 3. 분양신청자가 소유하고 있는 권리가액이 분양용 최소규모 공동주택 1가구의 추산액 이상인 자. 다만, 분양신청자가 동일한 세대인 경우의 권리가액은 세대원 전원의 가액을 합하여 산정할 수 있다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2130189&type=HTML",
+        "sourceName": "서울특별시 도시 및 주거환경정비 조례 (서울특별시조례 제10117호, 2026-05-18 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "sellerQuestion": "토지만 있는 물건이면 종전 토지 총면적이 90제곱미터 이상입니까? 권리산정기준일 뒤에 분할하거나 공유로 취득한 부분이 섞여 있지 않습니까?",
+        "evidence": "토지대장과 토지 등기부등본(면적과 취득일), 조합의 권리가액 추산 자료"
+      },
+      "seoulOrdinanceSmallLandHomeless": {
+        "id": "seoulOrdinanceSmallLandHomeless",
+        "label": "서울 재개발 토지 30~90제곱미터 + 세대원 전원 무주택 (현행 조례 원문에서 찾지 못함)",
+        "party": "buyer",
+        "appliesToKinds": [
+          "redevelopment"
+        ],
+        "regionPrefix": "서울",
+        "requirement": "실무 2차 자료는 30제곱미터 이상 90제곱미터 미만 토지도 세대원 전원이 무주택이면(사업시행인가 고시일부터 공사완료 고시일까지) 분양자격을 인정한다고 적는다. 그러나 2026-09-26 읽은 현행 조례 제36조에는 이 조항이 없다. 부칙 제26조제1항이 옛 조례(서울특별시조례 제4167호) 제24조제1항제2호 단서의 30제곱미터를 언급하므로 경과조치 대상 구역에만 남은 규정일 수 있다. 옛 조례 원문은 대조하지 않았다. **이 기준으로 분양자격을 가정하지 말 것.**",
+        "statute": "서울특별시 도시 및 주거환경정비 조례 부칙 제26조제1항 (옛 조례 제4167호 제24조제1항제2호 단서 인용)",
+        "quote": "제36조제1항제2호의 개정규정에도 불구하고 서울특별시조례 제4167호 서울특별시도시및주거환경정비조례 시행 당시 종전의 「도시재개발법」 제4조에 따라 재개발구역으로 지정된 정비구역(정비계획이 수립되지 않은 정비구역은 제외한다)의 경우 구역지정고시일을 서울특별시조례 제4167호 서울특별시도시및주거환경정비조례 시행일로 보며 서울특별시조례 제4167호 서울특별시도시및주거환경정비조례 제24조제1항제2호 단서의 30제곱미터를 20제곱미터로 본다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2130189&type=HTML; jarvis raw/external/2026-09-26-housing-open-questions.md (Q3, 2026-09-26 조사) (2차 실무자료: 주거환경신문 전연규 법무사 칼럼 경유)",
+        "sourceName": "서울특별시 도시 및 주거환경정비 조례 (서울특별시조례 제10117호, 2026-05-18 시행)",
+        "verifiability": "estimate",
+        "verifiedAt": null,
+        "buyerQuestion": "토지만 있는 물건이 30제곱미터 이상 90제곱미터 미만이면, 이 구역이 옛 조례의 경과조치 대상인지 조합이나 구청에 확인했습니까? 매수자 세대원 전원이 무주택입니까?",
+        "evidence": "조합 또는 구청의 분양자격 기준 회신(서면), 세대원 전원의 무주택 증빙"
+      },
+      "specificUnlicensedBuilding": {
+        "id": "specificUnlicensedBuilding",
+        "label": "무허가건축물: 특정무허가건축물만 주택으로 인정",
+        "party": "seller",
+        "appliesToKinds": [
+          "redevelopment"
+        ],
+        "regionPrefix": "서울",
+        "requirement": "종전 주택에는 주거용으로 쓰는 특정무허가건축물 중 조합 정관등에서 정한 건축물이 포함된다. 특정무허가건축물은 1989년 1월 24일 당시의 무허가건축물등이고(조례 제2조제1호), 그 밖의 무허가건축물(신발생무허가건축물, 제2조제2호)은 제36조제1항제1호가 포함하지 않는다. 조사 문서의 \"1981년 제2차 항공사진\" 기준은 현행 조례 정의와 다르다.",
+        "statute": "서울특별시 도시 및 주거환경정비 조례 제36조제1항제1호, 제2조제1호·제2호",
+        "quote": "\"특정무허가건축물\"이란 건설교통부령 제344호 공익사업을위한 토지등의취득및보상에관한법률시행규칙 부칙 제5조에서 \"1989년 1월 24일 당시의 무허가건축물등\"을 말한다.",
+        "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=ordin&MST=2130189&type=HTML",
+        "sourceName": "서울특별시 도시 및 주거환경정비 조례 (서울특별시조례 제10117호, 2026-05-18 시행)",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "sellerQuestion": "이 건물이 무허가건축물입니까? 그렇다면 1989년 1월 24일 당시부터 있던 특정무허가건축물이고, 주거용으로 쓰이며, 조합 정관이 인정하는 건축물입니까?",
+        "evidence": "구청의 무허가건축물 확인 자료(건립 시점), 조합 정관의 해당 조항, 거주 사실(주민등록)"
+      }
+    },
+    "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q3, 2026-09-26 조사)"
   },
   "landTransactionPermit": {
     "_doc": "토지거래허가구역. 정비사업 전매제한과 **별개 축**이다. 재건축·리모델링·미추진 모두 동일하게 적용된다.",
     "effect": "관할 구청장 사전 허가 + 실거주 의무. 규제지역이면 금액과 무관하게 자금조달계획서 제출.",
+    "source": "국토교통부 공고",
+    "verifiability": "guidance",
+    "verifiedAt": "2026-09-08",
+    "areaThreshold": {
+      "_doc": "허가를 받아야 하는 면적. 법정 기준면적과 공고가 택한 값은 다르다. 아파트에서는 대지지분으로 본다.",
+      "statute": "부동산 거래신고 등에 관한 법률 시행령 제9조제1항제1호가목, 같은 항 단서",
+      "quote": "제9조제1항: 법 제11조제2항제1호에서 \"대통령령으로 정하는 용도별 면적\"이란 다음 각 호의 구분에 따른 면적을 말한다. 다만, 국토교통부장관 또는 시ㆍ도지사가 허가구역을 지정할 당시 해당 지역에서의 거래실태 등을 고려하여 다음 각 호의 면적으로 하는 것이 타당하지 않다고 인정하여 해당 기준면적의 10퍼센트 이상 300퍼센트 이하의 범위에서 따로 정하여 공고한 경우에는 그에 따른다. 1. 도시지역: 가. 주거지역: 60제곱미터 나. 상업지역: 150제곱미터 다. 공업지역: 150제곱미터 라. 녹지지역: 200제곱미터 마. 용도지역의 지정이 없는 구역: 60제곱미터 2. 도시지역 외의 지역: 250제곱미터(농지 500제곱미터, 임야 1천제곱미터)",
+      "source": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=286397&type=XML (대통령령 제36365호, 2026-05-29 공포·시행, 2026-09-26 직접 읽음)",
+      "notice1219Quote": "4. 토지거래계약에 관한 허가를 받아야 하는 면적: 도시지역 주거지역 6㎡ 초과, 상업지역 15㎡ 초과, 공업지역 15㎡ 초과, 녹지지역 20㎡ 초과, 용도지역이 지정이 없는 구역 6㎡ 초과 / 도시지역 외의 지역 농지 50㎡ 초과, 임야 100㎡ 초과, 농지 및 임야 이외의 토지 25㎡ 초과 / ※ 「부동산 거래신고 등에 관한 법률」 시행령 제9조제1항에 따라 기준면적 10%~300% 범위 지정 가능",
+      "notice1219Source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf (국토교통부공고 제2025-1219호 2쪽 4항, 2026-09-26 직접 읽음)",
+      "note": "공고의 6㎡ 는 법정 기준면적이 아니라 법정 기준면적 60㎡ 의 10% 하한을 공고가 택한 값이다. 용인 기흥구(경기도 공고)도 언론 보도상 같은 값을 쓰지만 그 공고 원문은 읽지 않았다.",
+      "verifiability": "manual",
+      "verifiedAt": "2026-09-26"
+    },
     "areas": {
       "용인시 수지구": {
-        "scope": "아파트",
-        "period": "미확인",
-        "verifiability": "estimate",
-        "verifiedAt": "2026-09-08",
-        "note": "국토부가 2025년 10월 수지구를 토지거래허가구역으로 지정하고 용인시가 실거주 의무 포함 매뉴얼을 운영한다는 것까지만 확인됐다. **기간은 미확인** — 분당 기준 기간을 그대로 적용한 전달값이 있었으나 근거가 없어 하향했다."
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4). 2026-09-08 에는 기간을 확인하지 못해 estimate 로 두었다(분당 기준 기간을 옮긴 전달값을 근거 없음으로 하향). 공고 제2025-1219호 경기 12곳에 «용인 수지» 가 있어 기간을 공고 값으로 채웠다.",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
       },
       "용인시 기흥구": {
         "scope": "아파트(주거지역 대지지분 6㎡ 초과)",
         "period": "2026-07-05~2027-12-31",
+        "designatedBy": "경기도 (시·도 도시계획위원회 심의, 2026-06-30 공고)",
+        "quote": "경기도는 시·도 도시계획위원회를 거쳐 화성시 동탄구, 용인시 기흥구, 구리시를 2026년 7월 5일*부터 2027년 12월 31일까지 토지거래허가구역으로 지정할 계획이라고 밝혔다. * 「부동산 거래신고 등에 관한 법률」에 따라 토지거래허가구역의 지정을 공고한 날(6월 30일)부터 5일 후(7월 5일)에 효력 발생",
+        "source": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260630%28%EB%B3%B4%EB%8F%84%EC%B0%B8%EA%B3%A0%29+%ED%88%AC%EA%B8%B0%EA%B3%BC%EC%97%B4%EC%A7%80%EA%B5%AC+%EB%B0%8F+%EC%A1%B0%EC%A0%95%EB%8C%80%EC%83%81%EC%A7%80%EC%97%AD+%EC%B6%94%EA%B0%80+%EC%A7%80%EC%A0%95%28%EC%A3%BC%ED%83%9D%EC%A0%95%EC%B1%85%EA%B3%BC%29.pdf (국토교통부 보도참고자료 2026-06-30, 1쪽); https://www.kyeonggi.com/article/20260702580216 (경기일보 2026-07-02, 허가대상 아파트 한정·대지지분 6㎡ 초과)",
+        "sourceNote": "기간은 국토교통부 보도참고자료 1쪽 문장을 2026-09-26 직접 받아 읽었다. 허가대상을 아파트로 한정하고 기준면적을 주거지역 대지지분 6㎡ 초과로 두는 것은 그 자료에 없다. 기준면적의 근거는 법령과 같은 트랙의 공고다(thresholdBasis): 시행령 제9조제1항의 60㎡ 와 10% 하한, 공고 1219호 4항 표. 경기도 공고 원문은 읽지 못해 언론 보도가 남아 있으므로 항목 전체는 guidance 로 둔다.",
         "verifiability": "guidance",
-        "verifiedAt": "2026-09-08",
-        "note": "2026-06-30 규제지역 지정. 죽전역·보정역 통근 대안이 기흥구에 걸치므로 함께 봐야 한다."
+        "verifiedAt": "2026-09-26",
+        "note": "2025-10-15 국토교통부 공고의 경기 12곳에는 없고(용인은 수지구만) 2026-06-30 따로 지정됐다. 투기과열지구·조정대상지역 지정 효력은 2026-07-01 이고 토지거래허가 효력은 2026-07-05 다(같은 보도참고자료). 죽전역·보정역 통근 대안이 기흥구에 걸치므로 함께 봐야 한다.",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)",
+        "thresholdBasis": "부동산 거래신고 등에 관한 법률 시행령 제9조제1항제1호가목이 도시지역 주거지역의 기준면적을 60제곱미터로 두고, 같은 항 단서가 지정권자가 해당 기준면적의 10% 이상 300% 이하 범위에서 따로 정해 공고할 수 있게 한다. 6㎡ 는 그 10% 하한이고, 국토교통부공고 제2025-1219호 4항 표가 주거지역 «6㎡ 초과» 로 같은 값을 쓴다(landTransactionPermit.areaThreshold, 둘 다 2026-09-26 직접 읽음). 아파트 거래에서 이 면적은 대지지분이다. 경기도 공고(2026-06-30) 원문은 읽지 못했고, 기흥이 같은 6㎡ 를 쓴다는 것은 언론 보도(«기준면적(주거지역 6㎡ 등)»)다."
+      },
+      "성남시 분당구": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "성남시 수정구": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4). 성남시가 2025-12-05 국토교통부에 수정구·중원구의 규제지역·토지거래허가구역 해제를 요청했다. 2026-09-26 까지 해제 고시는 관측되지 않았는데, 그것은 해제 보도를 찾지 못했다는 부재 관측이라 유지의 증명이 아니다. conflicts 의 seongnam-sujeong-jungwon-release-request 참고.",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "성남시 중원구": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4). 성남시가 2025-12-05 국토교통부에 수정구·중원구의 규제지역·토지거래허가구역 해제를 요청했다. 2026-09-26 까지 해제 고시는 관측되지 않았는데, 그것은 해제 보도를 찾지 못했다는 부재 관측이라 유지의 증명이 아니다. conflicts 의 seongnam-sujeong-jungwon-release-request 참고.",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "수원시 영통구": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "과천시": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "의왕시": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "하남시": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "안양시 동안구": {
+        "scope": "아파트, 연립주택, 다세대주택 (연립·다세대는 건축물대장상 공고 '붙임2' 표에 나열된 지번이 표기된 주택에 한함)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (국토교통부공고 제2025-1219호, 2025-10-15, 부동산 거래신고 등에 관한 법률 제10조)",
+        "quote": "경기도(12개 시·군·구): 광명, 과천, 의왕, 하남, 수원 장안, 수원 팔달, 수원 영통, 성남 분당, 성남 수정, 성남 중원, 용인 수지, 안양 동안 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지 / 3. 허가대상 용도: 아파트, 연립주택, 다세대주택 ※ 「건축법 시행령」 별표 1에 따른 아파트, 연립주택, 다세대주택 ※ 연립주택 및 다세대주택은 건축물대장상 '붙임2'표에 나열된 지번이 표기된 주택에 한함",
+        "source": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "sourceNote": "공고 원문 문장(quote)은 이 저장소가 2026-09-26 위 첫 URL(«…제2025-1219호(토지거래허가구역 지정 공고문).pdf», 4쪽)로 공고 PDF 를 직접 받아 읽은 것이다: 1항 대상지역 표(서울 25개 구 605.2㎢, 경기 12개 시·군·구 501.0㎢), 2항 지정기간, 3항 허가대상 용도, 4항 기준면적 표, 붙임2 아파트·연립 혼재 단지 16곳. 서대문구청(sdmBoardSeq=305997)과 강동구청 게시판이 같은 공고문을 다시 올렸다. 지역 목록과 효력 시작일은 정책브리핑 본문 \"경기 12개 지역은 과천시, 광명시, 성남시 분당·수정·중원구, 수원시 영통·장안·팔달구, 안양시 동안구, 용인시 수지구, 의왕시, 하남시다. 토지거래허가구역도 투기과열지구와 동일한 지역에 있는 아파트와 동일 단지 내 아파트가 1개 동 이상 포함된 연립·다세대주택을 대상으로 신규 지정한다\" 와 \"이번 토지거래허가구역 지정 효력은 '부동산거래신고법' 제10조에 따라 지정 공고한 날부터 5일 후인 10월20일부터 발생한다\" 로 2026-09-26 직접 다시 읽었다. 종료일 2026-12-31 은 공고 인용에만 있다.",
+        "verifiability": "manual",
+        "verifiedAt": "2026-09-26",
+        "note": "실거주 의무 기간과 매수자 요건은 이 공고 인용에 없어 기록하지 않았다(서울 4개 구 항목의 값은 언론 보도이고 이 지역으로 옮기지 않는다). 2025-10-19 까지 계약분은 허가·실거주 의무가 없다(정책브리핑 Q4).",
+        "researchRef": "jarvis raw/external/2026-09-26-housing-open-questions.md (Q2, 2026-09-26 조사)"
+      },
+      "서울 강남구": {
+        "scope": "아파트 (구 전체)",
+        "period": "2025-10-01~2026-12-31",
+        "designatedBy": "서울특별시 (2025-09-17 재지정 발표, 1년 3개월)",
+        "residenceObligation": {
+          "moveInWithinMonths": 4,
+          "residenceYears": 2,
+          "leaseRequiresDeferral": true,
+          "leaseDeferral": "세입자가 있는 주택은 임대차 잔여기간 + 갱신 1회(최대 2년)까지 실거주 의무를 유예받을 수 있고, 그 유예 신청기한이 2027-12-31 까지 연장됐다(2026-09-17 발표). 유예는 입주 시점을 미룰 뿐 실거주 의무를 없애지 않으며, 매수자 자격(무주택)도 완화하지 않는다.",
+          "leaseDeferralSource": "https://m.news.nate.com/view/20260917n26139",
+          "source": "https://www.hankyung.com/article/2025111160581 (허가 후 4개월 내 입주, 2년 실거주)",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "buyerRequirement": {
+          "mustBeHomeless": true,
+          "note": "2026-05-12 부터 계속 무주택을 유지한 사람으로 한정한다는 보도다. 대출의 '생애최초'(과거 소유 이력 없음)와 정의가 같은지는 원문 대사를 못 했다.",
+          "source": "https://m.news.nate.com/view/20260917n14726",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "source": "https://www.asiae.co.kr/article/2025091715292951954; https://kbthink.com/realestate/issue/hosing-251002.html",
+        "verifiability": "estimate",
+        "verifiedAt": "2026-09-25",
+        "note": "서울시 고시 원문이 아니라 언론 보도로 확인한 기간이다. 2026-12-31 만료 뒤 연장 여부는 미정이다. 2025-02 잠실·삼성·대치·청담 해제 → 2025-03 재지정 이력이 있다(해제가 가격 급등으로 곧바로 뒤집혔다).",
+        "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)"
+      },
+      "서울 서초구": {
+        "scope": "아파트 (구 전체)",
+        "period": "2025-10-01~2026-12-31",
+        "designatedBy": "서울특별시 (2025-09-17 재지정 발표, 1년 3개월)",
+        "residenceObligation": {
+          "moveInWithinMonths": 4,
+          "residenceYears": 2,
+          "leaseRequiresDeferral": true,
+          "leaseDeferral": "세입자가 있는 주택은 임대차 잔여기간 + 갱신 1회(최대 2년)까지 실거주 의무를 유예받을 수 있고, 그 유예 신청기한이 2027-12-31 까지 연장됐다(2026-09-17 발표). 유예는 입주 시점을 미룰 뿐 실거주 의무를 없애지 않으며, 매수자 자격(무주택)도 완화하지 않는다.",
+          "leaseDeferralSource": "https://m.news.nate.com/view/20260917n26139",
+          "source": "https://www.hankyung.com/article/2025111160581 (허가 후 4개월 내 입주, 2년 실거주)",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "buyerRequirement": {
+          "mustBeHomeless": true,
+          "note": "2026-05-12 부터 계속 무주택을 유지한 사람으로 한정한다는 보도다. 대출의 '생애최초'(과거 소유 이력 없음)와 정의가 같은지는 원문 대사를 못 했다.",
+          "source": "https://m.news.nate.com/view/20260917n14726",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "source": "https://www.asiae.co.kr/article/2025091715292951954; https://kbthink.com/realestate/issue/hosing-251002.html",
+        "verifiability": "estimate",
+        "verifiedAt": "2026-09-25",
+        "note": "서울시 고시 원문이 아니라 언론 보도로 확인한 기간이다. 2026-12-31 만료 뒤 연장 여부는 미정이다. 2025-02 잠실·삼성·대치·청담 해제 → 2025-03 재지정 이력이 있다(해제가 가격 급등으로 곧바로 뒤집혔다).",
+        "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)"
+      },
+      "서울 송파구": {
+        "scope": "아파트 (구 전체)",
+        "period": "2025-10-01~2026-12-31",
+        "designatedBy": "서울특별시 (2025-09-17 재지정 발표, 1년 3개월)",
+        "residenceObligation": {
+          "moveInWithinMonths": 4,
+          "residenceYears": 2,
+          "leaseRequiresDeferral": true,
+          "leaseDeferral": "세입자가 있는 주택은 임대차 잔여기간 + 갱신 1회(최대 2년)까지 실거주 의무를 유예받을 수 있고, 그 유예 신청기한이 2027-12-31 까지 연장됐다(2026-09-17 발표). 유예는 입주 시점을 미룰 뿐 실거주 의무를 없애지 않으며, 매수자 자격(무주택)도 완화하지 않는다.",
+          "leaseDeferralSource": "https://m.news.nate.com/view/20260917n26139",
+          "source": "https://www.hankyung.com/article/2025111160581 (허가 후 4개월 내 입주, 2년 실거주)",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "buyerRequirement": {
+          "mustBeHomeless": true,
+          "note": "2026-05-12 부터 계속 무주택을 유지한 사람으로 한정한다는 보도다. 대출의 '생애최초'(과거 소유 이력 없음)와 정의가 같은지는 원문 대사를 못 했다.",
+          "source": "https://m.news.nate.com/view/20260917n14726",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "source": "https://www.asiae.co.kr/article/2025091715292951954; https://kbthink.com/realestate/issue/hosing-251002.html",
+        "verifiability": "estimate",
+        "verifiedAt": "2026-09-25",
+        "note": "서울시 고시 원문이 아니라 언론 보도로 확인한 기간이다. 2026-12-31 만료 뒤 연장 여부는 미정이다. 2025-02 잠실·삼성·대치·청담 해제 → 2025-03 재지정 이력이 있다(해제가 가격 급등으로 곧바로 뒤집혔다).",
+        "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)"
+      },
+      "서울 강동구": {
+        "scope": "아파트 (+ 동일 단지 내 연립·다세대 1개동 이상 포함 시)",
+        "period": "2025-10-20~2026-12-31",
+        "designatedBy": "국토교통부 (2025-10-15 대책, 공고 제2025-1219호. 투기과열지구와 같은 범위로 확대)",
+        "residenceObligation": {
+          "moveInWithinMonths": 4,
+          "residenceYears": 2,
+          "leaseRequiresDeferral": true,
+          "leaseDeferral": "세입자가 있는 주택은 임대차 잔여기간 + 갱신 1회(최대 2년)까지 실거주 의무를 유예받을 수 있고, 그 유예 신청기한이 2027-12-31 까지 연장됐다(2026-09-17 발표). 유예는 입주 시점을 미룰 뿐 실거주 의무를 없애지 않으며, 매수자 자격(무주택)도 완화하지 않는다.",
+          "leaseDeferralSource": "https://m.news.nate.com/view/20260917n26139",
+          "source": "https://www.hankyung.com/article/2025111160581 (허가 후 4개월 내 입주, 2년 실거주)",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "buyerRequirement": {
+          "mustBeHomeless": true,
+          "note": "2026-05-12 부터 계속 무주택을 유지한 사람으로 한정한다는 보도다. 대출의 '생애최초'(과거 소유 이력 없음)와 정의가 같은지는 원문 대사를 못 했다.",
+          "source": "https://m.news.nate.com/view/20260917n14726",
+          "verifiability": "estimate",
+          "verifiedAt": "2026-09-25"
+        },
+        "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148950973; https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf; https://www.khan.co.kr/article/202510151656001; https://www.sdm.go.kr/news/notice/notice.do?mode=view&sdmBoardSeq=305997 (서대문구청 «토지거래허가구역 지정 공고(국토교통부공고 제2025-1219호)» 게시); https://gangdong.go.kr/web/newportal/bbs/b_068/151789?baCategory1=U0072 (강동구청 게시)",
+        "verifiability": "guidance",
+        "verifiedAt": "2026-09-25",
+        "note": "효력은 2025-10-20(공고일+5일)부터이고 2025-10-19 까지 계약분은 허가·실거주 의무에서 빠진다. 만료일 2026-12-31 은 공고 제2025-1219호 2항에서 채웠다(2026-09-26). 강남3구의 서울시 고시 트랙과 만료일은 같지만 근거 문서가 다르다.",
+        "researchRef": "jarvis raw/external/2026-09-25-seoul-housing-rules.md (2026-09-25 조사)",
+        "periodQuote": "서울특별시(25개 구): 강남, 강동, … 중랑 / 아파트, 연립주택, 다세대주택 / 2. 허가구역 지정기간: 2025년 10월 20일부터 2026년 12월 31일까지",
+        "periodSource": "https://files-scs.pstatic.net/2025/10/16/UbpaVekQS2/%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80%EA%B3%B5%EA%B3%A0%EC%A0%9C2025-1219%ED%98%B8(%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EA%B5%AC%EC%97%AD%20%EC%A7%80%EC%A0%95%20%EA%B3%B5%EA%B3%A0%EB%AC%B8).pdf (국토교통부공고 제2025-1219호 1·2항, 2026-09-26 이 저장소가 PDF 를 직접 받아 읽음)",
+        "periodVerifiability": "manual",
+        "periodVerifiedAt": "2026-09-26"
       }
-    },
-    "source": "국토교통부 공고",
-    "verifiability": "guidance",
-    "verifiedAt": "2026-09-08"
+    }
   },
   "holdingTax": {
     "_doc": "보유세. **재산세는 물건 단위라 명의와 무관하다**(지방세법 제113조③: 공유주택은 합산 과세표준에 세율을 1회 적용하고, 제107조①1호는 그 총세액을 지분대로 나눠 누가 낼지만 정한다). 종부세는 인별 과세라 공시가 12~18억 구간에서 명의에 반응한다.",
